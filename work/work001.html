@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="euc-kr" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>인트라넷</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    <link rel='stylesheet' type='text/css' href='../css/reset.css'>
+    <link rel='stylesheet' type='text/css' href='../css/layout.css'>
+    <link rel='stylesheet' type='text/css' href='../css/common.css'>
+    <link rel='stylesheet' type='text/css' href='../css/main.css'>
+    <link rel='stylesheet' type='text/css' href='../css/task.css'>
+</head>
+<body>
+
+<!-- wrap -->
+<div id="wrap">
+    <!-- header -->
+    <header id="header">
+		<div class="nav_container">
+			<img src="../images/@header.gif" alt="">
+		</div>
+    </header>
+    <!-- //header -->
+
+    <section id="container">
+
+		<aside id="side-left">
+			<div class="input-search">
+				<span class="input-text"><input type="text" value="Search"></span>
+				<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+			</div>
+			<div class="side-itemWrap">
+				<img src="../images/@side.gif" alt="">
+			</div>
+		</aside>
+        <article id="content">
+            <div class="page-top-content">
+                <div class="page-Location">오피스 &gt; 질문과 답변</div>
+                <h2 class="btn-QnaView"><a href="#none">여행질답 & 맞춤여행</a></h2>
+
+				<div class="pageTitleBox">
+					<h2>출근부</h2>
+				</div>
+
+				<div class="tourQnaWrap">
+					<div class="dateHeader">
+						<span class="date-res">잔여 연차 일수 : 6일 6시간</span>
+						<div>
+							<a href="#none" class="prev"><span>이전</span></a>
+							<span class="date">2015.11.18</span>
+							<a href="#none" class="next"><span>다음</span></a>
+						</div>
+						<span class="date-work"><a href="#none">[ 출근리스트 ]</a></span>
+					</div>
+					<div class="dateContent">
+						<div class="leave-option-wrap">
+							<div class="leave">
+								<h3><img src="../images/tit_work_02.png" alt="휴가유형" /></h3>
+								<ul class="btn-radio-list">
+									<li><input type="radio" name="leave1" id="leave1" checked="checked"><label for="leave1">연차</label></li>
+									<li><input type="radio" name="leave1" id="leave2"><label for="leave2">반차</label></li>
+									<li><input type="radio" name="leave1" id="leave3"><label for="leave3">시간연차</label></li>
+									<li><input type="radio" name="leave1" id="leave4"><label for="leave4">교육</label></li>
+									<li><input type="radio" name="leave1" id="leave5"><label for="leave5">출장</label></li>
+									<li><input type="radio" name="leave1" id="leave6"><label for="leave6">외근</label></li>
+									<li><input type="radio" name="leave1" id="leave7"><label for="leave7">당대휴무</label></li>
+									<li><input type="radio" name="leave1" id="leave8"><label for="leave8">휴가</label></li>
+									<li><input type="radio" name="leave1" id="leave9"><label for="leave9">휴직</label></li>
+								</ul>
+							</div>
+							<div class="reason">
+								<h3><img src="../images/tit_work_03.png" alt="일정/사유" /></h3>
+
+								<div class="option-layer option-set1">
+									<ul class="start">
+										<li>시작일 : <span class="startDate">시작일을 클릭 해주세요.</span></li>
+										<li>종료일 : <span class="EndDate">종료일을 클릭해주세요.</span></li>
+									</ul>
+									<div class="write-form">
+										<textarea name=""  cols="25" rows="5">
+여름휴가
+										</textarea>
+									</div>
+								</div>
+
+								<div class="option-layer option-set2"> <!-- 반차 -->
+									<ul class="start">
+										<li>사용일 : <span class="startDate">사용일을 클릭해주세요.</span></li>
+									</ul>
+									<div class="radio-form">
+										<input type="radio" name="aa" id="am"><label for="am">오전</label>
+										<input type="radio" name="aa" id="pm"><label for="pm">오후</label>
+									</div>
+									<div class="write-form">
+										<textarea name=""  cols="25" rows="5">
+여름휴가
+										</textarea>
+									</div>
+								</div>
+
+								<div class="option-layer option-set3"> <!-- 시간연차 -->
+									<ul class="start">
+										<li>시작일 : <span class="startDate">사용일을 클릭해주세요..</span></li>
+									</ul>
+									<select name="" title="시간선택">
+										<option value="">07:00</option>
+									</select> 부터
+									<span class="btn-set">
+										<button class="btn btn-xs-ty2">1시간</button>
+										<button class="btn btn-xs-ty2">2시간</button>
+										<button class="btn btn-xs-ty2">3시간</button>
+									</span>
+								</div>
+
+								<div class="option-layer option-set4"> <!-- 시간연차 -->
+
+									<span class="selectbox-set">
+										<select name="" title="시간선택">
+											<option value="">07:00</option>
+										</select> ~
+										<select name="" title="시간선택">
+											<option value="">07:00</option>
+										</select>
+									</span>
+									<div class="radio-form">
+										<input type="radio" name="" id="etc1"><label for="etc1">외부교육</label>
+										<input type="radio" name="" id="etc2"><label for="etc2">예비군(민방위)</label>
+									</div>
+									<div class="write-form">
+									<textarea name=""  cols="25" rows="5">
+장소 및 목적
+									</textarea>
+									</div>
+								</div>
+
+								<div class="option-layer option-set5"> <!-- 출장 -->
+									<ul class="start">
+										<li>시작일 : <span class="startDate">시작일을 클릭 해주세요.</span></li>
+										<li>종료일 : <span class="EndDate">종료일을 클릭해주세요.</span></li>
+									</ul>
+
+									<div class="radio-form">
+										<input type="radio" name="" id="d1"><label for="d1">T/C</label>
+										<input type="radio" name="" id="d2"><label for="d2">국내출장</label>
+										<input type="radio" name="" id="d3"><label for="d3">답사</label>
+										<input type="radio" name="" id="d4"><label for="d4">팸투어</label>
+									</div>
+									<div class="write-form">
+									<textarea name="" cols="25" rows="5">
+사유입력
+									</textarea>
+									</div>
+								</div>
+
+								<div class="option-layer option-set6"> <!-- 외근 -->
+
+									<span class="selectbox-set">
+										<select name="" title="시간선택">
+											<option value="">07:00</option>
+										</select> ~
+										<select name="" title="시간선택">
+											<option value="">07:00</option>
+										</select>
+									</span>
+									<div class="write-form">
+									<textarea name="" cols="25" rows="5">
+장소 및 목적
+									</textarea>
+									</div>
+								</div>
+								<div class="option-layer option-set7"> <!-- 당대휴무 -->
+									<ul class="start">
+										<li>시작일 : <span class="startDate">시작일을 클릭 해주세요.</span></li>
+										<li>종료일 : <span class="EndDate">종료일을 클릭해주세요.</span></li>
+									</ul>
+									<div class="radio-form">
+										<input type="radio" name="" id="e1"><label for="e1">경조</label>
+										<input type="radio" name="" id="e2"><label for="e2">무급</label>
+										<input type="radio" name="" id="e3"><label for="e3">포상</label>
+										<input type="radio" name="" id="e4"><label for="e4">대체</label>
+										<input type="radio" name="" id="e5"><label for="e5">출산</label>
+									</div>
+									<div class="write-form">
+									<textarea name="" cols="25" rows="5">
+사유입력
+									</textarea>
+									</div>
+								</div>
+								<div class="option-layer option-set8"> <!-- 휴가 -->
+									<span class="selectbox-set">
+										<select name="" title="시간선택">
+											<option value="">07:00</option>
+										</select> ~
+										<select name="" title="시간선택">
+											<option value="">07:00</option>
+										</select>
+									</span>
+									<div class="checkbox-form">
+										<span><label for="t1">2015-06-07</label><input type="checkbox" name="" id="t1"></span>
+										<span><label for="t2">2015-06-14</label><input type="checkbox" name="" id="t2"></span>
+										<span><label for="t3">2015-06-21</label><input type="checkbox" name="" id="t3"></span>
+										<span><label for="t4">2015-06-28</label><input type="checkbox" name="" id="t4"></span>
+									</div>
+									<div class="write-form">
+									<textarea name="" cols="25" rows="5">
+사유입력
+									</textarea>
+									</div>
+								</div>
+								<div class="option-layer option-set9"> <!-- 휴직 -->
+									<ul class="start">
+										<li>시작일 : <span class="startDate">시작일을 클릭 해주세요.</span></li>
+									</ul>
+									<div class="radio-form">
+										<input type="radio" name="" id="f1"><label for="f1">육아휴직</label>
+										<input type="radio" name="" id="f2"><label for="f2">무급휴직</label>
+									</div>
+									<div class="write-form">
+									<textarea name="" cols="25" rows="5">
+사유입력
+									</textarea>
+									</div>
+								</div>
+								<div class="btn-sort-ty2">
+									<button class="btn apply-ty2">신청</button>
+									<button class="btn cansel-ty1">취소</button>
+								</div>
+							</div>
+						</div>
+						<div class="calendar">
+							<table class="week" width="100%">
+								<colgroup>
+									<col width="110px" />
+									<col width="112px" />
+									<col width="112px" />
+									<col width="112px" />
+									<col width="112px" />
+									<col width="112px" />
+									<col width="110px" />
+									<col width="74px" />
+								</colgroup>
+								<thead>
+									<tr class="grid-header">
+										<th class="sun" title="일">SUN</th>
+										<th title="월">MON</th>
+										<th title="화">TUE</th>
+										<th title="수">WED</th>
+										<th title="목">THU</th>
+										<th title="금">FRI</th>
+										<th class="sat" title="토 ">SAT</th>
+										<th>추가근무</th>
+									</tr>
+								</thead>
+							</table>
+
+							<div class="month-table">
+								<div class="schedule-container fifth">
+								<!--
+									[D] 테이블의 높이값 지정 / 4주는 forth 5주는 fifth 6주는 sixth
+
+									 각스케쥴 색상정의
+									.schedule-color1{background:#ff8e74;} //오후반차
+									.schedule-color2{background:#ffb83c;} //연차
+									.schedule-color3{background:#dacf0f;} //시간연차
+									.schedule-color4{background:#9bce2e;} //교육
+									.schedule-color5{background:#acb8f4;} //출장
+									.schedule-color6{background:#aaaaaa;} //휴직
+									.schedule-color7{background:#d481c7;} //휴가
+									.schedule-color8{background:#fa5e6a;} //당대휴무
+									.schedule-color9{background:#5acc65;} //외근
+
+									스케줄 설정을위한 드래그시
+									tbl-gird영역에 .drag 클래스를 동적으로 삽입해주어야함 (스타일적용)
+								-->
+									<div class="month-row">
+										<table class="tbl-gird" width="100%">
+											<colgroup>
+												<col width="110px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="110px" />
+												<col width="74px" />
+											<tbody>
+											<tr>
+												<td class="sun">&nbsp;</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td class="drag"></td>
+												<td class="sat">&nbsp;</td>
+												<td class="overtime">4 시간</td>
+											</tr>
+											</tbody>
+										</table>
+										<table class="tbl-schedule">
+											<colgroup>
+												<col width="110px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="110px" />
+												<col width="74px" />
+											</colgroup>
+											<tbody>
+												<tr class="date">
+													<td class="disable sun">11/29</td>
+													<td class="disable">11/30</td>
+													<td>1</td>
+													<td>2</td>
+													<td>3</td>
+													<td>4</td>
+													<td class="sat">5</td>
+												</tr>
+												<tr class="inout-time">
+													<td></td>
+													<td></td>
+													<td>08:30 ~ 06:30</td>
+													<td>08:30 ~ 06:30</td>
+													<td>08:30 ~ 06:30</td>
+													<td></td>
+													<td></td>
+												</tr>
+												<tr class="schedule-list">
+													<td></td>
+													<td>
+														<div class="schedule-color1"><a href="#none">오후반차</a></div>
+													</td>
+													<td></td>
+													<td></td>
+													<td colspan="2">
+														<div class="schedule-color2"><a href="#none">연차</a></div>
+													</td>
+													<td></td>
+													<td class="overtime"></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="month-row">
+										<table class="tbl-gird" width="100%">
+											<colgroup>
+												<col width="110px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="110px" />
+												<col width="74px" />
+											</colgroup>
+											<tbody>
+											<tr>
+												<td class="sun">&nbsp;</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td class="sat">&nbsp;</td>
+												<td class="overtime">0.5 시간</td>
+											</tr>
+											</tbody>
+										</table>
+										<table class="tbl-schedule">
+											<colgroup>
+												<col width="110px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="110px" />
+												<col width="74px" />
+											</colgroup>
+											<tbody>
+											<tr class="date">
+												<td class="sun">6</td>
+												<td>7</td>
+												<td>8</td>
+												<td>9</td>
+												<td>10</td>
+												<td>11</td>
+												<td class="sat">12</td>
+												<td></td>
+											</tr>
+											<tr class="inout-time">
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+											</tr>
+											<tr class="schedule-list">
+												<td></td>
+												<td><div class="schedule-color3"><a href="#none">시간연차</a></div></td>
+												<td colspan="2"><div class="schedule-color4"><a href="#none">교육[외부]</a></div></td>
+												<td colspan="2"><div class="schedule-color5"><a href="#none">출장</a></div></td>
+											</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="month-row">
+										<table class="tbl-gird" width="100%">
+											<colgroup>
+												<col width="110px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="110px" />
+												<col width="74px" />
+											</colgroup>
+											<tbody>
+											<tr>
+												<td class="sun">&nbsp;</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td class="sat">&nbsp;</td>
+												<td class="overtime">0 시간</td>
+											</tr>
+											</tbody>
+										</table>
+										<table class="tbl-schedule">
+											<colgroup>
+												<col width="110px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="110px" />
+												<col width="74px" />
+											</colgroup>
+											<tbody>
+											<tr class="date">
+												<td class="sun">13</td>
+												<td>14</td>
+												<td>15</td>
+												<td>16</td>
+												<td>17</td>
+												<td>18</td>
+												<td class="sat">19</td>
+												<td></td>
+											</tr>
+											<tr class="inout-time">
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+											</tr>
+											<tr class="schedule-list">
+												<td></td>
+												<td><div class="schedule-color6"><a href="#none">휴직</a></div></td>
+												<td><div class="schedule-color7"><a href="#none">휴가</a></div></td>
+												<td><div class="schedule-color8"><a href="#none">당대휴무</a></div></td>
+												<td><div class="schedule-color9"><a href="#none">외근</a></div></td>
+												<td></td>
+											</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="month-row">
+										<table class="tbl-gird" width="100%">
+											<colgroup>
+												<col width="110px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="110px" />
+												<col width="74px" />
+											</colgroup>
+											<tbody>
+											<tr>
+												<td class="sun">&nbsp;</td>
+												<td></td>
+												<td class="drag">드래그 & 선택영역</td>
+												<td class="drag">드래그 & 선택영역</td>
+												<td></td>
+												<td></td>
+												<td class="sat">&nbsp;</td>
+												<td class="overtime">1 시간</td>
+											</tr>
+											</tbody>
+										</table>
+										<table class="tbl-schedule">
+											<colgroup>
+												<col width="110px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="110px" />
+												<col width="74px" />
+											</colgroup>
+											<tbody>
+											<tr class="date">
+												<td class="sun">20</td>
+												<td>21</td>
+												<td>22</td>
+												<td>23</td>
+												<td>24</td>
+												<td>25</td>
+												<td class="sat">26</td>
+												<td></td>
+											</tr>
+											<tr class="schedule-list">
+												<td></td>
+												<td><div class="schedule-color4"><a href="#none">오후반차</a></div></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+											</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="month-row">
+										<table class="tbl-gird" width="100%">
+											<colgroup>
+												<col width="110px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="110px" />
+												<col width="74px" />
+											</colgroup>
+											<tbody>
+											<tr>
+												<td class="sun">&nbsp;</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td class="sat">&nbsp;</td>
+												<td class="overtime">0 시간</td>
+											</tr>
+											</tbody>
+										</table>
+										<table class="tbl-schedule">
+											<colgroup>
+												<col width="110px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="112px" />
+												<col width="110px" />
+												<col width="74px" />
+											</colgroup>
+											<tbody>
+											<tr class="date">
+												<td class="sun">27</td>
+												<td>28</td>
+												<td>29</td>
+												<td>30</td>
+												<td>31</td>
+												<td class="disable">1/1</td>
+												<td class="sat disable">1/2</td>
+												<td></td>
+											</tr>
+											<tr class="inout-time">
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+											</tr>
+											<tr class="schedule-list">
+												<td></td>
+												<td><div class="schedule-color4"><a href="#none">오후반차</a></div></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+											</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+
+					</div>
+
+					<div id="layer-popup" class="layer-popup" style="display:block;">
+						<div class="confirm">
+							<p><strong>2015/11/26 ~ 2015/11/30 (3일간)</strong>연차 사용을 등록하시겠습니까?</p>
+							<div class="btn-sort-ty2">
+								<button class="btn apply-ty2">확인</button>
+								<button class="btn cansel-ty1">취소</button>
+							</div>
+							<a href="#none" class="close"><img src="../images/btn_pop_close.gif" alt="닫기" /></a>
+						</div>
+				</div>
+        </article>
+    </section>
+
+    <!-- footer -->
+	<footer id="footer">
+		<div class="footer-container">
+			<img src="../images/@footer.gif" alt="">
+		</div>
+	</footer>
+    <!-- //footer -->
+</div>
+<!-- //wrap -->
+
+<!-- old IE -->
+<!--[if lt IE 9]>
+<script src="../js/lib/html5shiv.js"></script>
+<![endif]-->
+<!--// old IE -->
+<script src="../js/lib/jquery-1.10.2.min.js"></script>
+<script src="../js/ui.js"></script>
+<script type="text/javascript">
+	$.fn.Rdtab = function(){
+		return this.each(function(){
+			var $obj= $(this)
+					, $radio = $obj.find("input[type='radio']")
+					, $radioLayer = $(".option-layer");
+
+			$radio.eq(0).prop('checked', true);
+			$radioLayer.hide().eq(0).show();
+			$radio.each(function(idx){
+				$(this).change(function(){
+					$radioLayer.hide()
+					if ($radioLayer.eq(idx).is(":hidden")){
+						$radioLayer.eq(idx).show();
+					}
+					return false;
+				});
+			});
+		});
+	}
+	$(".btn-radio-list").Rdtab();
+</script>
+</body>
+</html>

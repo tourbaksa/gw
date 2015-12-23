@@ -43,30 +43,33 @@
             <div class="page-top-content">
                 <div class="page-Location">오피스 &gt; 질문과 답변</div>
                 <h2 class="btn-QnaView"><a href="#none">여행질답 & 맞춤여행</a></h2>
-
-				<div class="taskTitBox">
+				
+				<div class="pageTitleBox">
 					<h2>정보공유</h2>
 				</div>
-
-				<div class="share-comment">
+				
+				<div class="comment-entry-typ1">
 					<span class="photo-img"><img src="/images/@_mdphoto_01.png" alt=""></span>
-					<div class="comt-file">
-						<span class="file">
-							<input type="file" id="file1">
-							<label for="file1">파일등록</label>
-						</span>
-						<span class=""><input type="text"></span>
-						<button class="btn btn-img"><span class="img-btn">게시물검색</span></button>
-						<ul class="tooltip">
-							<li><input type="radio" id="radio1" name="radio"><label for="radio1">게시물 등록</label></li>
-							<li><input type="radio" id="radio2" name="radio"><label for="radio2">게시물 찾기</label></li>
-						</ul>
+					<div class="entry">
+						<div>
+							<span class="file-clip">
+								<input type="file" id="file1">
+								<label for="file1">파일등록</label>
+							</span>
+							<textarea id="" name=""></textarea>
+							<span class="btn-tip">
+								<button class="btn btn-img"><span class="img-btn">게시물검색</span></button>
+								<ul class="tooltip">
+									<li><input type="radio" id="radio1" name="radio"><label for="radio1">게시물 등록</label></li>
+									<li><input type="radio" id="radio2" name="radio"><label for="radio2">게시물 찾기</label></li>
+								</ul></span>
+						</div>
 					</div>
 				</div> 
 
 				<div class="share-day">
 					<p class="bg"><span>오늘</span></p>
-					<ul class="share-data">
+					<ul class="comment-list-typ1">
 						<li>
 							<div>
 								<p class="photo"><img src="/images/@_mdphoto_01.png" alt=""></p>
@@ -95,7 +98,8 @@
 										<span class="folder">
 											<a href="#none">
 												<img src="/images/ico_folder.png" alt="" />
-												<span>wil.wmv<br>23MB</span>
+												<span>
+													<span>wil.wmv</span><br>23MB</span>
 											</a>
 										</span>
 									</dd>
@@ -118,7 +122,7 @@
 						</li>
 					</ul>
 					<p class="bg"><span>2015/11/18</span></p>
-					<ul class="share-data">
+					<ul class="comment-list-typ1">
 						<li>
 							<div class="">
 								<p class="photo"><img src="/images/@_mdphoto_01.png" alt=""></p>
@@ -134,8 +138,47 @@
 					</ul>
 
 				</div>
-				
 
+				<div id="layer-popup" class="layer-popup">
+					<div class="layer-form">
+						<h3>파일추가</h3>	
+						<form id="" method="post" action="/">
+							<fieldset>
+								<legend>파일추가</legend>
+								<div class="tbl-list">
+									<table width="100%" summary="파일추가에 대한 정보를 제공">
+										<colgroup>
+											<col width="15%" />
+											<col width="*" />
+										</colgroup>
+										<caption>파일추가 정보 제공</caption>
+										<tbody>
+											<tr>
+												<th><label for="plus1">파일명</label></th>
+												<td>
+													<input type="text" id="plus1" />
+												</td>
+											</tr>
+											<tr>
+												<th><label for="plus2">내 용</label></th>
+												<td>
+													<textarea id="plus2" name="" rows="10" cols=""></textarea>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</fieldset>
+						</form>
+
+						<div class="btn-sort-ty2">
+							<button class="btn apply-ty2">추가</button>
+							<button class="btn cansel-ty1">확인</button>
+						</div>
+						<a href="#none" class="close"><img src="/images/btn_pop_close.gif" alt="닫기"></a>
+					</div>
+				</div>
+				
             </div>
 
         </article>

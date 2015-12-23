@@ -85,7 +85,7 @@ a{color:#5e727b; text-decoration:none;}
 
 /* form */
 input[type="radio"]{display:none;position:absolute;left:0;top:0;font-size:0;line-height:0;text-indent:-9999em;}
-input[type="radio"] + label{background:url(/images/bg_radio.png) no-repeat 0 0;position:relative;height:14px;line-height:14px;padding-left:20px;}
+input[type="radio"] + label{background:url(/images/bg_radio.png) no-repeat 0 0;position:relative;height:14px;line-height:14px;padding-left:20px;cursor:pointer;}
 input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) no-repeat 0 0;}
 
 .select{border:1px solid #e5e5e5;height:30px;}

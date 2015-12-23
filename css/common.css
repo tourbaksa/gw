@@ -67,10 +67,12 @@ a{color:#5e727b; text-decoration:none;}
 .schedule-color8{background:#fa5e6a;}
 .schedule-color9{background:#5acc65;}
 
-.btn-orange30, .btn-blue30, .btn-gray30, .btn-gray30-ty2{text-align:center;color:#fff;font-size:13px;width:80px;display:inline-block;padding:4px 0;height:30px;box-sizing:border-box;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}
+.btn-gray27,
+.btn-orange30, .btn-blue30, .btn-gray30, .btn-gray30-ty2{text-align:center;color:#fff;font-size:13px;min-width:80px;display:inline-block;padding:4px 8px;height:30px;box-sizing:border-box;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}
 .btn-orange30{background:#ff912b;}
 .btn-blue30{background:#2cbcf2;}
-.btn-gray30{background:#5e727b;}
+.btn-gray27{height:27px;}
+.btn-gray27,.btn-gray30{background:#5e727b;}
 .btn-gray30-ty2{background:#3b4d57;}
 .wid90{width:90px;}
 

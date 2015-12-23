@@ -1,635 +1,640 @@
 <!doctype html>
 <html lang="ko">
 <head>
-    <meta charset="euc-kr" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>인트라넷</title>
-    <!-- old IE -->
-    <!--[if lt IE 9]>
-    <script src="/js/lib/html5shiv.js"></script>
-    <![endif]-->
-    <!--// old IE -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
-    <link rel='stylesheet' type='text/css' href='/css/reset.css'>
-    <link rel='stylesheet' type='text/css' href='/css/layout.css'>
-    <link rel='stylesheet' type='text/css' href='/css/common.css'>
-    <link rel='stylesheet' type='text/css' href='/css/main.css'>
-    <link rel='stylesheet' type='text/css' href='/css/task.css'>
+	<meta charset="euc-kr" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>인트라넷</title>
+	<!-- old IE -->
+	<!--[if lt IE 9]>
+	<script src="/js/lib/html5shiv.js"></script>
+	<![endif]-->
+	<!--// old IE -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+	<link rel='stylesheet' type='text/css' href='/css/reset.css'>
+	<link rel='stylesheet' type='text/css' href='/css/layout.css'>
+	<link rel='stylesheet' type='text/css' href='/css/common.css'>
+	<link rel='stylesheet' type='text/css' href='/css/main.css'>
+	<link rel='stylesheet' type='text/css' href='/css/task.css'>
 </head>
 <body>
 
 <!-- wrap -->
 <div id="wrap">
-    <!-- header -->
-    <header id="header">
-        <div class="nav_container">
-            <img src="/images/@header.gif" alt="">
-        </div>
-    </header>
-    <!-- //header -->
+	<!-- header -->
+	<header id="header">
+		<div class="nav_container">
+			<img src="/images/@header.gif" alt="">
+		</div>
+	</header>
+	<!-- //header -->
 
-    <section id="container">
+	<section id="container">
 
-        <aside id="side-left">
-            <div class="input-search">
-                <span class="input-text"><input type="text" value="Search"></span>
-                <button class="btn search-ty1"><span class="img-btn">검색</span></button>
-            </div>
-            <div class="side-itemWrap">
-                <img src="/images/@side.gif" alt="">
-            </div>
-        </aside>
-        <article id="content">
-            <div class="page-top-content">
-                <div class="page-Location">오피스 &gt; 질문과 답변</div>
-                <h2 class="btn-QnaView"><a href="#none">여행질답 & 맞춤여행</a></h2>
-            </div>
-             <div class="pageTitleBox">
-                    <h2>업무요청</h2>
-                    <div>
-                        <button class="btn more-ty2">+ 신규업무요청</button>
-                        <div class="tag-search">
-                            <ul class="btn-radio-list btn-radio-ty2">
-                                <li>
-                                    <input type="radio" name="leave1" id="leave1" checked="checked"><label for="leave1">제목</label>
-                                </li>
-                                <li>
-                                    <input type="radio" name="leave1" id="leave2"><label for="leave2">태그</label>
-                                </li>
-                            </ul>
-                            <div class="input-search">
-                                <input type="text" value="검색" name="" id="">
-                                <button class="btn search-ty1"><span class="img-btn">검색</span></button>
-                            </div>
-                        </div>
-                        <button class="btn search-ty1"><span class="img-btn">검색</span></button>
-                    </div>
-             </div>
+		<aside id="side-left">
+			<div class="input-search">
+				<span class="input-text"><input type="text" value="Search"></span>
+				<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+			</div>
+			<div class="side-itemWrap">
+				<img src="/images/@side.gif" alt="">
+			</div>
+		</aside>
+		<article id="content">
+			<div class="page-top-content">
+				<div class="page-Location">오피스 &gt; 질문과 답변</div>
+				<h2 class="btn-QnaView"><a href="#none">여행질답 & 맞춤여행</a></h2>
+			</div>
+			 <div class="pageTitleBox">
+					<h2>업무요청</h2>
+					<div>
+						<button class="btn more-ty2">+ 신규업무요청</button>
+						<div class="tag-search">
+							<ul class="btn-radio-list btn-radio-ty2">
+								<li>
+									<input type="radio" name="leave1" id="leave1" checked="checked"><label for="leave1">제목</label>
+								</li>
+								<li>
+									<input type="radio" name="leave1" id="leave2"><label for="leave2">태그</label>
+								</li>
+							</ul>
+							<div class="input-search">
+								<input type="text" value="검색" name="" id="">
+								<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+							</div>
+						</div>
+						<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+					</div>
+			 </div>
 
-            <ul class="tab-ty1 task-five">
-                <li><a href="#qna-cont1" class="on"><span>전체</span></a></li>
-                <li><a href="#qna-cont2"><span>담당</span></a></li>
-                <li><a href="#qna-cont3"><span>요청</span></a></li>
-                <li><a href="#qna-cont4"><span>참조</span></a></li>
-                <li><a href="#qna-cont5"><span>전사 업무현황</span></a></li>
-            </ul>
+			<ul class="tab-ty1 task-five">
+				<li><a href="#qna-cont1" class="on"><span>전체</span></a></li>
+				<li><a href="#qna-cont2"><span>담당</span></a></li>
+				<li><a href="#qna-cont3"><span>요청</span></a></li>
+				<li><a href="#qna-cont4"><span>참조</span></a></li>
+				<li><a href="#qna-cont5"><span>전사 업무현황</span></a></li>
+			</ul>
 
-            <p class="today-list">
-                [ 2015/11/19 현재 ]
-                <span>
-                    <a href="#none"><img src="/images//btn_list.gif" alt="리스트"></a>
-                    <a href="#none"><img src="/images//btn_graph.gif" alt="그래프"></a>
-                </span>
-            </p>
-            <div class="dateHeader">
-                <span class="date-res">잔여 연차 일수 : 6일 6시간</span>
-                <div>
-                    <a href="#none" class="prev"><span>이전</span></a>
-                    <span class="date">2015.11.18</span>
-                    <a href="#none" class="next"><span>다음</span></a>
-                </div>
-                <span class="date-work"><a href="#none">[ 출근리스트 ]</a></span>
-            </div>
+			<p class="today-list">
+				[ 2015/11/19 현재 ]
+				<span>
+					<a href="#none"><img src="/images//btn_list.gif" alt="리스트"></a>
+					<a href="#none"><img src="/images//btn_graph.gif" alt="그래프"></a>
+				</span>
+			</p>
+			<div class="dateHeader">
+				<span class="date-res">잔여 연차 일수 : 6일 6시간</span>
+				<div>
+					<a href="#none" class="prev"><span>이전</span></a>
+					<span class="date">2015.11.18</span>
+					<a href="#none" class="next"><span>다음</span></a>
+				</div>
+				<span class="date-work"><a href="#none">[ 출근리스트 ]</a></span>
+			</div>
 
-            <div>
-                <table class="tbl-task-monthly" width="100%">
-                    <thead>
-                        <tr>
-                           <th rowspan="2">업무리스트</th>
-                           <th rowspan="2">기간</th>
-                           <th colspan="24">7월</th>
-                           <th colspan="6">8월</th>
-                         </tr>
-                        <tr>
-                           <th>8</th>
-                           <th>9</th>
-                           <th>10</th>
-                           <th class="holiday">11</th>
-                           <th class="holiday">12</th>
-                           <th>13</th>
-                           <th>14</th>
-                           <th>15</th>
-                           <th>16</th>
-                           <th>17</th>
-                           <th class="holiday">18</th>
-                           <th class="holiday">19</th>
-                           <th>20</th>
-                           <th>21</th>
-                           <th>22</th>
-                           <th>23</th>
-                           <th>24</th>
-                           <th>25</th>
-                           <th>26</th>
-                           <th>27</th>
-                           <th>28</th>
-                           <th>29</th>
-                           <th>30</th>
-                           <th>31</th>
-                           <th>1</th>
-                           <th>2</th>
-                           <th>3</th>
-                           <th>4</th>
-                           <th>5</th>
-                           <th>6</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th colspan="32">나의 업무 처리 현황</th>
-                        </tr>
-                        <tr>
-                            <td>직원포인트 전환 차감</td>
-                            <td>1/(0)</td>
-                            <td colspan="30">
-                                <table class="tbl-task-grid" width="100%">
-                                    <colgroup>
-                                        <col span="30" style="width:24px" />
-                                    </colgroup>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td class="holiday"></td>
-                                        <td class="holiday"></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td class="holiday"></td>
-                                        <td class="holiday"></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td class="holiday"></td>
-                                        <td class="holiday"></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td class="holiday"></td>
-                                        <td class="holiday"></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                </table>
-                                <table class="tbl-task-row" width="100%">
-                                    <colgroup>
-                                        <col span="30" style="width:24px" />
-                                    </colgroup>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td colspan="3">111</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
+			<div>
+				<table class="tbl-task-monthly" width="100%">
+					<colgroup>
+						<col style="width:250px;">
+						<col style="width:39px;">
+						<col span="30" style="width:24px;">
+					</colgroup>
+					<thead>
+						<tr>
+						   <th rowspan="2">업무리스트</th>
+						   <th rowspan="2">기간</th>
+						   <th colspan="24">7월</th>
+						   <th colspan="6">8월</th>
+						 </tr>
+						<tr>
+							<th>8</th>
+							<th>9</th>
+							<th>10</th>
+							<th class="holiday">11</th>
+							<th class="holiday">12</th>
+							<th>13</th>
+							<th>14</th>
+							<th>15</th>
+							<th>16</th>
+							<th>17</th>
+							<th class="holiday">18</th>
+							<th class="holiday">19</th>
+							<th>20</th>
+							<th>21</th>
+							<th>22</th>
+							<th>23</th>
+							<th>24</th>
+							<th>25</th>
+							<th>26</th>
+							<th>27</th>
+							<th>28</th>
+							<th>29</th>
+							<th>30</th>
+							<th>31</th>
+							<th>1</th>
+							<th>2</th>
+							<th>3</th>
+							<th>4</th>
+							<th>5</th>
+							<th>6</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th colspan="32">나의 업무 처리 현황</th>
+						</tr>
+						<tr>
+							<td>직원포인트 전환 차감</td>
+							<td>1/(0)</td>
+							<td colspan="30">
+								<table class="tbl-task-grid" width="100%">
+									<colgroup>
+										<col span="30" style="width:24px" />
+									</colgroup>
+									<tr>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="holiday"></td>
+										<td class="holiday"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="holiday"></td>
+										<td class="holiday"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="holiday"></td>
+										<td class="holiday"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="holiday"></td>
+										<td class="holiday"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+								</table>
+								<table class="tbl-task-row" width="100%">
+									<colgroup>
+										<col span="30" style="width:24px" />
+									</colgroup>
+									<tr>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td colspan="3">111</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
 
-                                </table>
-
-
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>직원포인트 전환 차감</td>
-                            <td>1/(0)</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>직원포인트 전환 차감</td>
-                            <td>1/(0)</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>직원포인트 전환 차감</td>
-                            <td>1/(0)</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>직원포인트 전환 차감</td>
-                            <td>1/(0)</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>직원포인트 전환 차감</td>
-                            <td>1/(0)</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>직원포인트 전환 차감</td>
-                            <td>1/(0)</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>직원포인트 전환 차감</td>
-                            <td>1/(0)</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="holiday"></td>
-                            <td class="holiday"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+								</table>
 
 
+							</td>
+
+						</tr>
+						<tr>
+							<td>직원포인트 전환 차감</td>
+							<td>1/(0)</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>직원포인트 전환 차감</td>
+							<td>1/(0)</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>직원포인트 전환 차감</td>
+							<td>1/(0)</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>직원포인트 전환 차감</td>
+							<td>1/(0)</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>직원포인트 전환 차감</td>
+							<td>1/(0)</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>직원포인트 전환 차감</td>
+							<td>1/(0)</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>직원포인트 전환 차감</td>
+							<td>1/(0)</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="holiday"></td>
+							<td class="holiday"></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 
 
 
-            <!-- 조회기간설정 -->
-            <div id="layer-popup" class="layer-popup">
-                <div class="layer-date">
-                    <h3>조회 기간 설정</h3>
-                    <ul>
-                        <li>
-                            <h4>시작일 선택</h4>
-                            <div>
-                                <p>
-                                    <button class="btn prev-ty2"><span class="img-btn">이전달</span></button>
-                                    <span>2015.02</span>
-                                    <button class="btn next-ty2"><span class="img-btn">다음달</span></button>
-                                </p>
-                                <table width="100%" summary="조회기간 시작일 선택정보를 제공합니다.">
-                                    <caption>시작일 선택 달력</caption>
-                                    <thead>
-                                    <tr>
-                                        <th scope="col">일</th>
-                                        <th scope="col">월</th>
-                                        <th scope="col">화</th>
-                                        <th scope="col">수</th>
-                                        <th scope="col">목</th>
-                                        <th scope="col">금</th>
-                                        <th scope="col">토</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td><a href="#none">29</a></td>
-                                        <td><a href="#none">30</a></td>
-                                        <td><a href="#none">1</a></td>
-                                        <td><a href="#none">2</a></td>
-                                        <td><a href="#none">3</a></td>
-                                        <td><a href="#none">4</a></td>
-                                        <td><a href="#none">5</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#none">6</a></td>
-                                        <td><a href="#none">7</a></td>
-                                        <td><a href="#none">8</a></td>
-                                        <td><a href="#none">9</a></td>
-                                        <td><a href="#none">10</a></td>
-                                        <td><a href="#none">11</a></td>
-                                        <td><a href="#none">12</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#none">13</a></td>
-                                        <td><a href="#none">14</a></td>
-                                        <td><a href="#none">15</a></td>
-                                        <td><a href="#none">16</a></td>
-                                        <td><a href="#none">17</a></td>
-                                        <td><a href="#none">18</a></td>
-                                        <td><a href="#none">19</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#none">20</a></td>
-                                        <td><a href="#none">21</a></td>
-                                        <td><a href="#none">22</a></td>
-                                        <td><a href="#none">23</a></td>
-                                        <td><a href="#none">24</a></td>
-                                        <td><a href="#none">25</a></td>
-                                        <td><a href="#none">26</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#none">27</a></td>
-                                        <td><a href="#none">28</a></td>
-                                        <td><a href="#none">29</a></td>
-                                        <td><a href="#none">30</a></td>
-                                        <td><a href="#none">31</a></td>
-                                        <td><a href="#none">1</a></td>
-                                        <td><a href="#none">2</a></td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </li>
-                        <li>
-                            <h4>종료일 선택</h4>
-                            <div>
-                                <p>
-                                    <button class="btn prev-ty2"><span class="img-btn">이전달</span></button>
-                                    <span>2015.02</span>
-                                    <button class="btn next-ty2"><span class="img-btn">다음달</span></button>
-                                </p>
-                                <table width="100%" summary="조회기간 시작일 선택정보를 제공합니다.">
-                                    <caption>시작일 선택 달력</caption>
-                                    <thead>
-                                    <tr>
-                                        <th scope="col">일</th>
-                                        <th scope="col">월</th>
-                                        <th scope="col">화</th>
-                                        <th scope="col">수</th>
-                                        <th scope="col">목</th>
-                                        <th scope="col">금</th>
-                                        <th scope="col">토</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td><a href="#none">29</a></td>
-                                        <td><a href="#none">30</a></td>
-                                        <td><a href="#none">1</a></td>
-                                        <td><a href="#none">2</a></td>
-                                        <td><a href="#none">3</a></td>
-                                        <td><a href="#none">4</a></td>
-                                        <td><a href="#none">5</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#none">6</a></td>
-                                        <td><a href="#none">7</a></td>
-                                        <td><a href="#none">8</a></td>
-                                        <td><a href="#none">9</a></td>
-                                        <td><a href="#none">10</a></td>
-                                        <td><a href="#none">11</a></td>
-                                        <td><a href="#none">12</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#none">13</a></td>
-                                        <td><a href="#none">14</a></td>
-                                        <td><a href="#none">15</a></td>
-                                        <td><a href="#none">16</a></td>
-                                        <td><a href="#none">17</a></td>
-                                        <td><a href="#none">18</a></td>
-                                        <td><a href="#none">19</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#none">20</a></td>
-                                        <td><a href="#none">21</a></td>
-                                        <td><a href="#none">22</a></td>
-                                        <td><a href="#none">23</a></td>
-                                        <td><a href="#none">24</a></td>
-                                        <td><a href="#none">25</a></td>
-                                        <td><a href="#none">26</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#none">27</a></td>
-                                        <td><a href="#none">28</a></td>
-                                        <td><a href="#none">29</a></td>
-                                        <td><a href="#none">30</a></td>
-                                        <td><a href="#none">31</a></td>
-                                        <td><a href="#none">1</a></td>
-                                        <td><a href="#none">2</a></td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="btn-sort-ty2">
-                        <button class="btn apply-ty2">확인</button>
-                        <button class="btn cansel-ty1">닫기</button>
-                    </div>
-                    <a href="#none" class="close"><img src="/images/btn_pop_close.gif" alt="닫기"></a>
-                </div>
-            </div>
 
 
-        </article>
-    </section>
+			<!-- 조회기간설정 -->
+			<div id="layer-popup" class="layer-popup">
+				<div class="layer-date">
+					<h3>조회 기간 설정</h3>
+					<ul>
+						<li>
+							<h4>시작일 선택</h4>
+							<div>
+								<p>
+									<button class="btn prev-ty2"><span class="img-btn">이전달</span></button>
+									<span>2015.02</span>
+									<button class="btn next-ty2"><span class="img-btn">다음달</span></button>
+								</p>
+								<table width="100%" summary="조회기간 시작일 선택정보를 제공합니다.">
+									<caption>시작일 선택 달력</caption>
+									<thead>
+									<tr>
+										<th scope="col">일</th>
+										<th scope="col">월</th>
+										<th scope="col">화</th>
+										<th scope="col">수</th>
+										<th scope="col">목</th>
+										<th scope="col">금</th>
+										<th scope="col">토</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr>
+										<td><a href="#none">29</a></td>
+										<td><a href="#none">30</a></td>
+										<td><a href="#none">1</a></td>
+										<td><a href="#none">2</a></td>
+										<td><a href="#none">3</a></td>
+										<td><a href="#none">4</a></td>
+										<td><a href="#none">5</a></td>
+									</tr>
+									<tr>
+										<td><a href="#none">6</a></td>
+										<td><a href="#none">7</a></td>
+										<td><a href="#none">8</a></td>
+										<td><a href="#none">9</a></td>
+										<td><a href="#none">10</a></td>
+										<td><a href="#none">11</a></td>
+										<td><a href="#none">12</a></td>
+									</tr>
+									<tr>
+										<td><a href="#none">13</a></td>
+										<td><a href="#none">14</a></td>
+										<td><a href="#none">15</a></td>
+										<td><a href="#none">16</a></td>
+										<td><a href="#none">17</a></td>
+										<td><a href="#none">18</a></td>
+										<td><a href="#none">19</a></td>
+									</tr>
+									<tr>
+										<td><a href="#none">20</a></td>
+										<td><a href="#none">21</a></td>
+										<td><a href="#none">22</a></td>
+										<td><a href="#none">23</a></td>
+										<td><a href="#none">24</a></td>
+										<td><a href="#none">25</a></td>
+										<td><a href="#none">26</a></td>
+									</tr>
+									<tr>
+										<td><a href="#none">27</a></td>
+										<td><a href="#none">28</a></td>
+										<td><a href="#none">29</a></td>
+										<td><a href="#none">30</a></td>
+										<td><a href="#none">31</a></td>
+										<td><a href="#none">1</a></td>
+										<td><a href="#none">2</a></td>
+									</tr>
+									</tbody>
+								</table>
+							</div>
+						</li>
+						<li>
+							<h4>종료일 선택</h4>
+							<div>
+								<p>
+									<button class="btn prev-ty2"><span class="img-btn">이전달</span></button>
+									<span>2015.02</span>
+									<button class="btn next-ty2"><span class="img-btn">다음달</span></button>
+								</p>
+								<table width="100%" summary="조회기간 시작일 선택정보를 제공합니다.">
+									<caption>시작일 선택 달력</caption>
+									<thead>
+									<tr>
+										<th scope="col">일</th>
+										<th scope="col">월</th>
+										<th scope="col">화</th>
+										<th scope="col">수</th>
+										<th scope="col">목</th>
+										<th scope="col">금</th>
+										<th scope="col">토</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr>
+										<td><a href="#none">29</a></td>
+										<td><a href="#none">30</a></td>
+										<td><a href="#none">1</a></td>
+										<td><a href="#none">2</a></td>
+										<td><a href="#none">3</a></td>
+										<td><a href="#none">4</a></td>
+										<td><a href="#none">5</a></td>
+									</tr>
+									<tr>
+										<td><a href="#none">6</a></td>
+										<td><a href="#none">7</a></td>
+										<td><a href="#none">8</a></td>
+										<td><a href="#none">9</a></td>
+										<td><a href="#none">10</a></td>
+										<td><a href="#none">11</a></td>
+										<td><a href="#none">12</a></td>
+									</tr>
+									<tr>
+										<td><a href="#none">13</a></td>
+										<td><a href="#none">14</a></td>
+										<td><a href="#none">15</a></td>
+										<td><a href="#none">16</a></td>
+										<td><a href="#none">17</a></td>
+										<td><a href="#none">18</a></td>
+										<td><a href="#none">19</a></td>
+									</tr>
+									<tr>
+										<td><a href="#none">20</a></td>
+										<td><a href="#none">21</a></td>
+										<td><a href="#none">22</a></td>
+										<td><a href="#none">23</a></td>
+										<td><a href="#none">24</a></td>
+										<td><a href="#none">25</a></td>
+										<td><a href="#none">26</a></td>
+									</tr>
+									<tr>
+										<td><a href="#none">27</a></td>
+										<td><a href="#none">28</a></td>
+										<td><a href="#none">29</a></td>
+										<td><a href="#none">30</a></td>
+										<td><a href="#none">31</a></td>
+										<td><a href="#none">1</a></td>
+										<td><a href="#none">2</a></td>
+									</tr>
+									</tbody>
+								</table>
+							</div>
+						</li>
+					</ul>
+					<div class="btn-sort-ty2">
+						<button class="btn apply-ty2">확인</button>
+						<button class="btn cansel-ty1">닫기</button>
+					</div>
+					<a href="#none" class="close"><img src="/images/btn_pop_close.gif" alt="닫기"></a>
+				</div>
+			</div>
 
-    <!-- footer -->
-    <footer id="footer">
-        <div class="footer-container">
-            <img src="/images/@footer.gif" alt="">
-        </div>
-    </footer>
-    <!-- //footer -->
+
+		</article>
+	</section>
+
+	<!-- footer -->
+	<footer id="footer">
+		<div class="footer-container">
+			<img src="/images/@footer.gif" alt="">
+		</div>
+	</footer>
+	<!-- //footer -->
 </div>
 <!-- //wrap -->
 

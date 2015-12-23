@@ -352,9 +352,11 @@
 .share-comment .comt-file{float:left;}
 
 /* 업무요청리스트 - 그래프 */
+.tbl-task-monthly thead th{height:19px;background-color:#cddadc; border-left:1px solid #fff; border-right:1px solid #fff;color:#3b4d57;line-height:19px;text-align:center;}
+.tbl-task-monthly thead tr + tr th{border-top:1px solid #fff;}
 .tbl-task-monthly thead th.holiday{color:#ff0000;}
+.tbl-task-monthly tbody th{    padding: 12px 10px 11px;background-color:#f4f4f4;color:#364952; font-size:13px; border:1px solid #e5e5e5;}
 .tbl-task-grid  td.holiday{background-color:#fff2f2;}
-
 
 
 

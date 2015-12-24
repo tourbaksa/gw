@@ -18,6 +18,7 @@
 .btn-sort-ty2{width:100%;position:relative;text-align:center;margin-top:18px;}
 .btn-sort-ty2:after{content:"";display:block;clear:both;}
 .btn-sort-ty2 .fl {float:left;}
+.btn-sort-ty2 .fl > *{float:left;}
 .btn-sort-ty2 .fr {float:right;}
 
 /* btn more */
@@ -185,10 +186,7 @@
 .tbl-typ4 .first td span a{position:absolute;right:17px;top:10px;text-decoration:underline;color:#fd7b03;font-weight:600;}
 .tbl-typ4 .block{display:block;margin-bottom:5px;}
 
-<<<<<<< HEAD
-=======
 .task-board-detail{overflow:hidden;}
->>>>>>> b546803ee77a41afb83f1db32cf972c91d3e6137
 .cont-fl{width:718px;margin-right:20px;float:left;}
 .cont-fr{width:300px;float:right;}
 /* 코멘트 */
@@ -196,8 +194,6 @@
 .com-cont{padding:20px;border:1px solid #7c939e;}
 .com-cont .add label{font-size:0;line-height:0;text-indent:-9999px;position:absolute;left:0;top:0;}
 .com-cont .add textarea{border:1px solid #e5e5e5;width:100%;box-sizing:border-box;padding:5px;line-height:1.5;}
-
-
 
 .dl-list{border:1px solid #e5e5e5;margin-bottom:10px;}
 .dl-list dt{font-weight:600;font-size:13px;border-bottom:1px solid #e5e5e5;background:#edf2f5;padding:12px 0 11px 15px;}
@@ -414,7 +410,6 @@
 .comment-list-typ2 li > div > dl a.color-blue{color:#2cbcf2;}
 .comment-list-typ2 li > div > dl a.color-orange{color:#fd7b03;}
 
-<<<<<<< HEAD
 /* 부서별게시판 */
 .depart-cont{position:relative;}
 .depart-cont:after{content:"";display:block;clear:both;}
@@ -450,26 +445,40 @@
 .classify-line{width:100%;height:1px;margin:20px 0;border:1px solid #7c939e;box-sizing:border-box;}
 
 .de-board{float:left;width:840px;box-sizing:border-box;}
+.de-board > div{position:relative;}
 .de-board h3{margin-bottom:10px;}	
-.de-board .tbl-list tr:hover td{background:#f4f4f4;}
-.de-board .mark{position:absolute;right:0;top:0;}
-.de-board .mark{width: 24px;height: 24px;border:1px solid #e5e5e5;background:url(/images/ico_bookmarks.png) no-repeat center center;}
+.de-board .btn-mark{position:absolute;right:0;top:-7px;width:24px;height:24px;border:1px solid #e5e5e5;border-radius:-2px;-webkit-border-radius:-2px;-moz-border-radius:-2px;}
+.de-board .mark{display:block;position:relative;left:50%;top:50%;margin:-7.5px 0 0 -8.5px;width: 17px;height: 15px;background:url(/images/ico_bookmarks.png) no-repeat 0 0;}
 .de-board .mark.on{background-position:0 -15px;}
+.de-board .mark > span{font-size:0;line-height:0;text-indent:-9999px;}
+.de-board .tbl-list tr:hover td{background:#f4f4f4;}
+.de-board .tbl-list tr.notice:hover td{background:#edf2f5;}
 .de-board .notice td{background:#edf2f5;}
 .de-board .notice td .noti{color:#2cbcf2;}
-.de-board-view{float:right;width:190px;border:1px solid #e5e5e5;box-sizing:border-box;}
-
-
+.de-board .btn-sort-ty2{margin-top:10px;}
+.de-board .tag-search{margin-left:10px;}
+.de-board .input-search{width:178px;height: 28px;border:1px solid #e5e5e5;text-align:left;}
+.de-board .input-search input{margin:0;}
+.de-board .input-search .search-ty1{width:28px;height: 28px;}
+.de-board-view{float:right;position:relative;width:190px;height:470px;padding-bottom:30px;margin-top:49px;box-sizing:border-box;}
+.de-board-view .dl-list{height:468px;margin-bottom:0;background:#fff;}
+.de-board-view .dl-list dt + dd{margin-top:0;border-top:none;}
+.de-board-view .dl-list dd{padding:0 15px;margin-top:10px;}
+.de-board-view .dl-list dd p{padding:12px 0 11px;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;}
+.de-board-view .dl-list dd > ul {padding-left:11px;margin-top:10px;}
+.de-board-view .dl-list dd > ul > li{line-height:21px;}
+.de-board-view .admin{position:absolute;right:10px;bottom:10px;z-index:1;padding-right:20px;background:url(/images/ico_setting_01.png) no-repeat 100% center;}
+.btn-sort-ty2 + .paging-typ2{margin-top:20px;}
  
-=======
 /* 업무로그 */
 .layer-popup .task-log{background-color:#f4f4f4;padding:17px;}
 .layer-popup .task-log .tbl-typ3{margin-top:10px;}
 
+/* 직원설정 */
+.pageTitleBox > h2 > span{font-weight:normal;}
+.pageTitleBox > .employ > input{width: 298px;padding-bottom:1px;margin-right:8px;border:1px solid #e5e5e5;}
+.pageTitleBox > .employ > button{float:right;}
 
-
-
->>>>>>> b546803ee77a41afb83f1db32cf972c91d3e6137
 
 
 

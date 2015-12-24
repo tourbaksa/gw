@@ -3,7 +3,7 @@
 <head>
 	<meta charset="euc-kr" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>인트라넷</title>
+	<title>업무요청 리스트</title>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
 	<link rel='stylesheet' type='text/css' href='/css/reset.css'>
 	<link rel='stylesheet' type='text/css' href='/css/layout.css'>
@@ -44,18 +44,22 @@
 				<div>
 					<button class="btn more-ty2">+ 신규업무요청</button>
 					<div class="tag-search">
-						<span>
-							<a class="btn radio-ty1">제목</a>
-							<a class="btn radio-ty2">태그</a>
-						</span>
+						<ul class="btn-radio-list btn-radio-ty2">
+							<li>
+								<input type="radio" name="leave1" id="leave1" checked="checked"><label for="leave1">제목</label>
+							</li>
+							<li>
+								<input type="radio" name="leave1" id="leave2"><label for="leave2">태그</label>
+							</li>
+						</ul>
 						<div class="input-search">
 							<input type="text" value="검색" name="" id="">
 							<button class="btn search-ty1"><span class="img-btn">검색</span></button>
 						</div>
 					</div>
-					<button class="btn search-ty1"><span class="img-btn">검색</span></button>
 				</div>
 			</div>
+<<<<<<< HEAD
 
 			<div class="tourQnaWrap">
 				<ul class="tab-ty1 task-five">
@@ -460,6 +464,8 @@
 						<option value="">상태</option>
 					</select>
 					<button class="btn btn-view fr">완료항목보기</button>
+=======
+>>>>>>> c46952f39e9cfc4552e1dbe4fbcc63b7f0e678e3
 			<ul class="tab-ty1 task-five">
 				<li><a href="#qna-cont1" class="on"><span>전체</span></a></li>
 				<li><a href="#qna-cont2"><span>담당</span></a></li>

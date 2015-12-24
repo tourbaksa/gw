@@ -18,6 +18,7 @@ button {overflow: hidden; margin: 0; padding: 0; border: 0 none; font-family:Nan
 button::-moz-focus-inner{padding:0; margin:0;}
 a{color:#5e727b; text-decoration:none;}
 
+.width-full{width:99% !important;}
 /* font-color */
 .fc-ty1{color: #fd891d !important;}
 .color-blue{color:#5bc9f2;}
@@ -174,6 +175,16 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 .pageTitleBox .tag-search > span{position:absolute;left:3px;top:3px;z-index:10;}
 .pageTitleBox .tag-search .radio-ty1, .taskTitBox .tag-search .radio-ty2{float:left;}
 .pageTitleBox .tag-search .input-search{float:left;border:1px solid #e5e5e5;width:171px;height:28px;padding-left:107px;}
-.pageTitleBox .tag-search .input-search input[type="text"]{width:75%;height:22px;}
+.pageTitleBox .tag-search .input-search input[type="text"]{width:75%;height:22px;margin:0}
 .pageTitleBox .tag-search .input-search .search-ty1{width:28px;height:28px;}
 .pageTitleBox.title{border:none;}
+
+/* 업무요청 및 담당업무 */
+.taskWrap{padding:19px 0 12px 0;}
+.item-task{position:relative; padding:0 15px;}
+.item-task:first-child{padding-bottom:10px;margin-bottom:15px; border-bottom:1px solid #e5e5e5;}
+.item-task ul{padding:7px 0 0 0; margin:14px 0 0 0;border-top:1px solid #e5e5e5;}
+.item-task ul > li{overflow:hidden; position:relative; height:28px; line-height:28px;}
+.item-task ul > li > span{color:#5e727b; font-size:13px; font-weight:600;}
+.item-task ul > li > a{position:absolute; right:0; color:#364952; font-size:16px; font-weight:bold;}
+.taskWrap .btn.more-ty1{position:absolute; right:15px; top:0;}

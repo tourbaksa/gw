@@ -17,17 +17,6 @@
 .tbl-rate th{color:#819daa;font-style:normal;line-height:29px;border-bottom:1px dashed #eaeaea;text-align:left;}
 .tbl-rate td{padding-right:10px;border-bottom:1px dashed #eaeaea; text-align:right;font-weight:600;}
 
-
-/* 업무요청 및 담당업무 */
-.taskWrap{padding:19px 0 12px 0;}
-.item-task{position:relative; padding:0 15px;}
-.item-task:first-child{padding-bottom:10px;margin-bottom:15px; border-bottom:1px solid #e5e5e5;}
-.item-task ul{padding:7px 0 0 0; margin:14px 0 0 0;border-top:1px solid #e5e5e5;}
-.item-task ul > li{overflow:hidden; position:relative; height:28px; line-height:28px;}
-.item-task ul > li > span{color:#5e727b; font-size:13px; font-weight:600;}
-.item-task ul > li > strong{position:absolute; right:0; color:#364952; font-size:16px; font-weight:bold;}
-.taskWrap .btn.more-ty1{position:absolute; right:15px; top:0;}
-
 /* 자주가는게시판 */
 .innerCategory{padding-bottom:0;}
 .innerCategory .paging-typ1{text-align:right; padding:8px 0 0 0;}

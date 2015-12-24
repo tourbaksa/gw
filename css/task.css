@@ -16,10 +16,12 @@
 /* btn sort */
 .btn-sort-ty1{width:100%;position:relative;text-align:left;margin-top:18px;}
 .btn-sort-ty2{width:100%;position:relative;text-align:center;margin-top:18px;}
+.btn-sort-ty2 *{margin-right:5px;}
 .btn-sort-ty2:after{content:"";display:block;clear:both;}
 .btn-sort-ty2 .fl {float:left;}
 .btn-sort-ty2 .fl > *{float:left;}
 .btn-sort-ty2 .fr {float:right;}
+.btn-sort-ty2 .fr {margin-right:0;}
 
 /* btn more */
 .more-ty2{margin-right:10px;}
@@ -449,6 +451,10 @@
 .de-board h3{margin-bottom:10px;}	
 .de-board .btn-mark{position:absolute;right:0;top:-7px;width:24px;height:24px;border:1px solid #e5e5e5;border-radius:-2px;-webkit-border-radius:-2px;-moz-border-radius:-2px;}
 .de-board .mark{display:block;position:relative;left:50%;top:50%;margin:-7.5px 0 0 -8.5px;width: 17px;height: 15px;background:url(/images/ico_bookmarks.png) no-repeat 0 0;}
+.de-board h3{margin-bottom:10px;}
+.de-board .tbl-list tr:hover td{background:#f4f4f4;}
+.de-board .mark{position:absolute;right:0;top:0;}
+.de-board .mark{width: 24px;height: 24px;border:1px solid #e5e5e5;background:url(/images/ico_bookmarks.png) no-repeat center center;}
 .de-board .mark.on{background-position:0 -15px;}
 .de-board .mark > span{font-size:0;line-height:0;text-indent:-9999px;}
 .de-board .tbl-list tr:hover td{background:#f4f4f4;}
@@ -469,7 +475,8 @@
 .de-board-view .dl-list dd > ul > li{line-height:21px;}
 .de-board-view .admin{position:absolute;right:10px;bottom:10px;z-index:1;padding-right:20px;background:url(/images/ico_setting_01.png) no-repeat 100% center;}
 .btn-sort-ty2 + .paging-typ2{margin-top:20px;}
- 
+.de-board-view{float:right;width:190px;border:1px solid #e5e5e5;box-sizing:border-box;}
+
 /* 업무로그 */
 .layer-popup .task-log{background-color:#f4f4f4;padding:17px;}
 .layer-popup .task-log .tbl-typ3{margin-top:10px;}
@@ -479,8 +486,33 @@
 .pageTitleBox > .employ > input{width: 298px;padding-bottom:1px;margin-right:8px;border:1px solid #e5e5e5;}
 .pageTitleBox > .employ > button{float:right;}
 
+/* 내정보수정 */
+.tbl-memberEdit{}
+.tbl-memberEdit th,
+.tbl-memberEdit td{height:27px;padding:6px 0;border:1px solid #e5e5e5;color:#5e727b;}
+.tbl-memberEdit th{padding-left:29px;background-color:#fff;font-weight:400;text-align:left;}
+.tbl-memberEdit .heading{padding:0 22px;background-color:#f4f4f4;color:#364952;font-size:15px;font-weight:600;vertical-align:middle;}
+.tbl-memberEdit td{padding-left:20px;background-color:#fcfcfc;}
+.tbl-memberEdit td >input[type="text"]{height: 22px;border:1px solid #e5e5e5;font-size: 1em;line-height: 22px;}
+.tbl-memberEdit td .radio-form{display:inline-block;margin-left:14px;}
+.tbl-memberEdit td .btn{margin-left:5px;}
+.tbl-memberEdit td .txt-desc{display:inline-block;margin-left:5px;font-size:12px;color:#94aab4;}
+.user-profile{position:relative;height:95px;padding:25px 0 0 141px;margin:23px 0 23px 9px;}
+.user-profile .img{position:absolute;left:0;top:0;width:120px;height:120px;}
+.user-profile .user-profile-desc{line-height:20px;}
+.user-profile .user-profile-desc > p{margin-bottom:5px;}
 
-
+/* 자주가는 게시판 */
+.favorite-board-stting{margin-top:-30px;}
+.favorite-board-tag{padding:19px;padding-bottom:14px;border:1px solid #e5e5e5;border-top:0;}
+.favorite-board-tag .tag-list{padding:0;font-size:13px;}
+.favorite-board-tag .tag-list .btn{font-weight:400;}
+.favorite-board-insert{margin-top:30px;}
+.favorite-board-insert h3{height:39px;margin:0 0 30px 0;border:1px solid #e5e5e5;background-color:#f4f4f4;color:#364952;font-size:15px;font-weight:600;line-height:39px;text-align:center;}
+.favorite-board-insert .box-typ2{border:0;padding:0 0 30px 0;border-bottom:1px solid #e5e5e5; background:none;}
+.favorite-board-insert .box-class ul li,
+.favorite-board-insert .box-class ul li a{color:#5e727b; font-size:13px;}
+.favorite-board-insert .select-board{width:516px;}
 
 
 

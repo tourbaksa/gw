@@ -42,6 +42,7 @@ button.btn{box-sizing: content-box;}
 .search-ty1{width:32px;height:32px;background:#fff url(/images/btn_search_01.png) no-repeat 50% 50%;}
 .xs-ty1{padding:0 5px; height:18px; color:#8d9ea6; background-color:#fff; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #cad8dc; font-weight:600;}
 .btn-xs-ty2{padding:0 5px; height:18px; color:#5e727b; background-color:#fff; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #94aab4; font-weight:400;}
+.btn-ty1-xs{min-width:27px;padding:0 15px; height:20px; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;background-color:#5e727b;color:#fff;font-size:12px;line-height:20px;}
 .more-ty1{padding:0 6px; height:18px;  color:#819daa; background-color:#fff; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #eaeaea; line-height:17px;font-weight:400;}
 .more-ty2{padding:0 13px; height:30px;  color:#fff; background-color:#ff912b; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;line-height:29px;font-weight:600;}
 .setting-ty1{width:23px;height:23px;background:url(/images/ico_setting_02.png) no-repeat 0 0;}
@@ -55,8 +56,11 @@ button.btn{box-sizing: content-box;}
 .apply-ty2{min-width:50px;height:27px;padding:0 5px;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;background:#ff912b;color:#fff; text-align:center;}
 .cansel-ty1{background:#fff;color:#2f4255;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #b0babd; width:60px;height:27px;text-align:center;}
 
-.btn-txtDel{color: #71b3cb;}
-.btn-txtDel > span{font-size: 0;line-height: 0;text-indent: -9999px;}
+.btn-txtDel-ty2,
+.btn-txtDel{color: #71b3cb;font-size:12px;}
+.btn-txtDel-ty2{color: #8da5af;}
+.btn-txtDel > span,
+.btn-txtDel-ty2 > span{font-size: 0;line-height: 0;text-indent: -9999px;}
 
 /* Ãâ±ÙºÎ ½ºÄÉÁìÅÂ±× */
 .schedule-color1, .schedule-color2, .schedule-color3, .schedule-color4, .schedule-color5, .schedule-color6, .schedule-color7, .schedule-color8, .schedule-color9{display:block;width:100%;height:13px;padding:4px 0 3px;color:#fff;font-size:12px;text-align:center;}
@@ -71,8 +75,10 @@ button.btn{box-sizing: content-box;}
 .schedule-color8{background:#fa5e6a;}
 .schedule-color9{background:#5acc65;}
 
-.btn-gray27,
+
+.btn-gray27,.btn-white30,
 .btn-orange30, .btn-blue30, .btn-gray30, .btn-gray30-ty2{height:30px;min-width:64px;padding:0px 8px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;text-align:center;color:#fff;font-size:13px;line-height:30px;}
+.btn-white30{height:28px;background:#fff;border:1px solid #b0babd;color:#2f4255;line-height:28px;}
 .btn-orange30{background:#ff912b;}
 .btn-blue30{background:#2cbcf2;}
 .btn-gray27{height:27px;}
@@ -95,6 +101,17 @@ input[type="radio"] + label{background:url(/images/bg_radio.png) no-repeat 0 0;p
 input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) no-repeat 0 0;}
 
 .select{border:1px solid #e5e5e5;height:30px;}
+.input-text-ty1 input[type="text"]{height: 22px;border:1px solid #e5e5e5;font-size: 1em;line-height: 22px;}
+.input-text-ty1 .hyphen {display: inline-block;width: 20px;height: 1px;background: url(/images/txt_hyphen.gif) no-repeat 50% 0;text-indent: -9999px;vertical-align: middle;}
+
+/* ÅÂ±× */
+.tag-list {color:#3b4d57;padding:10px 0 3px;word-wrap:break-word;}
+.tag-list > span {display:inline-block; margin:0 14px 5px 0;}
+.tag-list button{margin: 0; padding: 0;display: -moz-inline-stack;display: inline-block;text-decoration: none !important;border: 0;font-size: 12px; font-family: NanumGothic,"³ª´®°íµñ",dotum,arial;white-space: nowrap;vertical-align: middle; overflow: visible;
+    color: #fff;}
+.tag-list > span button.btn{background:none;color:#3b4d57;font-weight:600;}
+.tag-list.btn-type > span button.btn{min-width:30px;height:24px;padding:0 10px;border:1px solid #e7e6e6;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:#fff;color:#5e727b;text-align:center;line-height:24px;}
+.tag-list > span .Del{margin-left:5px;background-color:#fff;color:#71b3cb;font-size:12px;font-weight:400;vertical-align:middle;}
 
 /* box */
 .board-wrap{position:relative;padding:20px 20px 10px; border:1px solid #e5e5e5; border-top:1px solid #a2b4bd;}

@@ -16,9 +16,11 @@
 /* btn sort */
 .btn-sort-ty1{width:100%;position:relative;text-align:left;margin-top:18px;}
 .btn-sort-ty2{width:100%;position:relative;text-align:center;margin-top:18px;}
+.btn-sort-ty2 *{margin-right:5px;}
 .btn-sort-ty2:after{content:"";display:block;clear:both;}
 .btn-sort-ty2 .fl {float:left;}
 .btn-sort-ty2 .fr {float:right;}
+.btn-sort-ty2 .fr {margin-right:0;}
 
 /* btn more */
 .more-ty2{margin-right:10px;}
@@ -111,12 +113,7 @@
 .layer-tag input{border:1px solid #e5e5e5;height:22px;}
 .layer-tag > div > span{position:relative;}
 .layer-tag > div > span a{}
-.tag-list {color:#3b4d57;padding:10px 0 3px;word-wrap:break-all;}
 .tag-wrap .tag-list{width:366px; padding-top:15px; border-bottom:1px solid #e5e5e5;}
-.tag-list a{color:#71b3cb;}
-.tag-list a > span{font-size:0;line-height:0;text-indent:-9999px;}
-.tag-list > span {margin:0 14px 14px 0;display:inline-block;}
-
 #layer-popup2.layer-new-work .close{border:1px solid #b0babd;right:3px;top:4px;}
 #layer-popup2.layer-new-work .layer-alim .close{right:-2px;top:-2px;border:1px solid #7c939e;}
 .layer-new-work{padding-bottom:25px;}
@@ -162,8 +159,6 @@
 .box-typ2 .input-search .input-text{border:1px solid #cad8dc;height:28px;display:block;}
 .box-typ2 .input-search .input-text input{height:22px;margin-top:1px;}
 .box-typ2 .input-search .search-ty1{position:absolute;right:3px;top:1px;width:28px;height:28px;}
-
-
 
 .list-search{border:1px solid #e5e5e5;padding:20px;background:#fff;}
 .list-search .input-search{border:1px solid #e5e5e5;width:268px;}
@@ -239,6 +234,7 @@
 .btn-ty2{min-width:60px;height:27px;padding:0 10px;border:0;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:#5e727b;color:#fff;text-align:center;line-height:27px;}
 .btn-ty3{background:#fff;color:#5e727b;text-align:center;height:20px;line-height:18px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;border:1px solid #5e727b;padding:0 8px;box-sizing:border-box;}
 .btn-ty4{background:#5e727b;color:#fff;text-align:center;height:27px;line-height:27px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;padding:0 8px;box-sizing:border-box;width:60px;}
+.btn-ty5{min-width:30px;height:24px;padding:0 10px;border:1px solid #e7e6e6;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:#fff;color:#5e727b;text-align:center;line-height:24px;}
 
 .total{text-align:right;margin:10px 0;}
 
@@ -416,11 +412,33 @@
 .layer-popup .task-log{background-color:#f4f4f4;padding:17px;}
 .layer-popup .task-log .tbl-typ3{margin-top:10px;}
 
+/* 내정보수정 */
+.tbl-memberEdit{}
+.tbl-memberEdit th,
+.tbl-memberEdit td{height:27px;padding:6px 0;border:1px solid #e5e5e5;color:#5e727b;}
+.tbl-memberEdit th{padding-left:29px;background-color:#fff;font-weight:400;text-align:left;}
+.tbl-memberEdit .heading{padding:0 22px;background-color:#f4f4f4;color:#364952;font-size:15px;font-weight:600;vertical-align:middle;}
+.tbl-memberEdit td{padding-left:20px;background-color:#fcfcfc;}
+.tbl-memberEdit td >input[type="text"]{height: 22px;border:1px solid #e5e5e5;font-size: 1em;line-height: 22px;}
+.tbl-memberEdit td .radio-form{display:inline-block;margin-left:14px;}
+.tbl-memberEdit td .btn{margin-left:5px;}
+.tbl-memberEdit td .txt-desc{display:inline-block;margin-left:5px;font-size:12px;color:#94aab4;}
+.user-profile{position:relative;height:95px;padding:25px 0 0 141px;margin:23px 0 23px 9px;}
+.user-profile .img{position:absolute;left:0;top:0;width:120px;height:120px;}
+.user-profile .user-profile-desc{line-height:20px;}
+.user-profile .user-profile-desc > p{margin-bottom:5px;}
 
-
-
-
-
+/* 자주가는 게시판 */
+.favorite-board-stting{margin-top:-30px;}
+.favorite-board-tag{padding:19px;padding-bottom:14px;border:1px solid #e5e5e5;border-top:0;}
+.favorite-board-tag .tag-list{padding:0;font-size:13px;}
+.favorite-board-tag .tag-list .btn{font-weight:400;}
+.favorite-board-insert{margin-top:30px;}
+.favorite-board-insert h3{height:39px;margin:0 0 30px 0;border:1px solid #e5e5e5;background-color:#f4f4f4;color:#364952;font-size:15px;font-weight:600;line-height:39px;text-align:center;}
+.favorite-board-insert .box-typ2{border:0;padding:0 0 30px 0;border-bottom:1px solid #e5e5e5; background:none;}
+.favorite-board-insert .box-class ul li,
+.favorite-board-insert .box-class ul li a{color:#5e727b; font-size:13px;}
+.favorite-board-insert .select-board{width:516px;}
 
 
 

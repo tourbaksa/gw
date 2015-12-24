@@ -55,7 +55,7 @@ button.btn{box-sizing: content-box;}
 .tag-ty2.selected{color:#fff;background:#5e727b;font-weight:bold;}
 .apply-ty1{min-width:50px;height:27px;padding:0 5px;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;background:#2cbcf2;color:#fff; text-align:center;}
 .apply-ty2{min-width:50px;height:27px;padding:0 5px;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;background:#ff912b;color:#fff; text-align:center;}
-.cansel-ty1{background:#fff;color:#2f4255;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #b0babd; width:60px;height:27px;text-align:center;}
+.cansel-ty1{background:#fff;color:#2f4255;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #b0babd; width:60px;height:25px;text-align:center;}
 
 .btn-txtDel-ty2,
 .btn-txtDel{color: #71b3cb;font-size:12px;}

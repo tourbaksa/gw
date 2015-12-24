@@ -151,6 +151,7 @@
 .box-typ2 .box-class > ul li{padding:7px 0 6px 12px;margin:5px 4px 0;}
 .box-typ2 .box-class > ul li:first-child{margin-top:0;}
 .box-typ2 .box-class > ul li:hover{background:#d7f0fa;}
+.box-typ2 .box-class > ul li.selected{background:#aadff4;}
 .box-typ2 .box-class-wrap{position:relative;}
 .box-typ2 .next{position:absolute;left:250px;top:50%;margin-top:-9px;}
 .box-typ2 .tag-check > li{margin-top:5px;}

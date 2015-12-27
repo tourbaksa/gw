@@ -72,7 +72,7 @@ button.btn{box-sizing: content-box;}
 .cansel-ty1{background:#fff;color:#2f4255;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #b0babd; width:60px;height:25px;text-align:center;}
 
 .btn-txtDel-ty2,
-.btn-txtDel{color: #71b3cb;font-size:12px;}
+.btn-txtDel{background:none;color: #71b3cb;font-size:12px;}
 .btn-txtDel-ty2{color: #8da5af;}
 .btn-txtDel > span,
 .btn-txtDel-ty2 > span{font-size: 0;line-height: 0;text-indent: -9999px;}

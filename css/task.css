@@ -490,6 +490,7 @@
 .tbl-list-ty2 table thead th{padding:10px 0;background:#f4f4f4;border-top:1px solid #e5e5e5;color:#364952;font-size:13px;font-weight:600;}
 .tbl-list-ty2 table tbody th, .tbl-list-ty2 table tbody td{padding:10px;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;}
 .tbl-list-ty2 td{color:#5e727b; text-align:center;}
+.
 
 /*  직원설정 - 근태정보  */
 .tbl-list.tbl-list-ty3 thead th{padding-left:15px;text-align:left;}
@@ -553,6 +554,9 @@
 /* 직원포인트 */
 .member-point .calendar-wrap{padding-bottom:9px;}
 
+/* 스크랩게시판 */
+table.hover{}
+table.hover tr:hover td{background-color:#f4f4f4;}
 
 
 

@@ -37,7 +37,7 @@
 .tab-ty1.task-three li.on a, .tab-ty1.task-four li.on a, .tab-ty1.task-five li.on a{height:30px;}
 .tab-ty1.task-three + .tbl-list, .tab-ty1.task-four + .tbl-list, .tab-ty1.task-five + .tbl-list{margin-top:10px;}
 
-/* table */
+/* table type1 */
 .tbl-list {position:relative;}
 .tbl-list table {font-size:13px;border-left:1px solid #e5e5e5;border-right:1px solid #e5e5e5;}
 .tbl-list table thead th{background:#cddadc;color:#364952;padding:13px 0 12px;font-weight:600;}
@@ -47,6 +47,8 @@
 .tbl-list table tbody td{text-align:center;background:#fff;}
 .tbl-list > button{text-align:left;}
 
+/* 업무요청리스트 */
+.tbl-list.tbl-list-ty2{}
 .tbl-list.tbl-list-ty2 tr th:first-child,
 .tbl-list.tbl-list-ty2 tr td:first-child{padding-left:28px;font-size:0;}
 .tbl-list.tbl-list-ty2 td:first-child .btn{margin:1px 3px 0 -22px;}
@@ -250,11 +252,10 @@
 .total{text-align:right;margin:10px 0;}
 
 /* paging */
-.paging-typ2{text-align:center;}
-.paging-typ2 > a{margin-left:13px;font-size:14px;}
-.paging-typ2 > a:hover{color:#364952;border-bottom:1px solid #364952;font-weight:bold;}
+.paging-typ2{margin-top:30px;text-align:center;}
+.paging-typ2 > a{margin-left:13px;font-size:14px;color:#8d9ea6;font-weight:bold;vertical-align:middle;}
 .paging-typ2 .next-ty1{margin-left:13px;}
-.paging-typ2 > strong{margin-left:13px;font-size:14px;}
+.paging-typ2 > strong{display:inline-block;margin-left:13px;border-bottom:1px solid #364952;font-size:14px;color:#364952;vertical-align:middle;}
 
 /* 출근부 */
 .option-layer{color:#5e727b;}
@@ -402,7 +403,8 @@
 .tbl-task-data td.return + .return,
 .tbl-task-data td.real-bar + .real-bar{border-left:1px solid #e5e5e5;}
 .footNote {margin:18px 0 0 0;color:#5e727b;text-align:right;}
-.footNote .calendar + .cal-int{width:98px;height:18px;margin-left:7px;border:1px solid #e5e5e5;}
+.footNote .calendar + .cal-int,
+.calendar-wrap .calendar + .cal-int{width:98px;height:18px;margin-left:7px;border:1px solid #e5e5e5;}
 .footNote .download-excel img{vertical-align:middle;}
 
 /* 대화하기 */
@@ -484,35 +486,35 @@
 .layer-popup .task-log .tbl-typ3{margin-top:10px;}
 
 /* 직원설정 */
-.pageTitleBox > h2 > span{font-weight:normal;}
-.pageTitleBox > .employ > input{width: 298px;padding-bottom:1px;margin-right:8px;border:1px solid #e5e5e5;}
-.pageTitleBox > .employ > button{float:right;}
+.tbl-list-ty2{border-left:1px solid #e5e5e5;border-right:1px solid #e5e5e5;}
+.tbl-list-ty2 table thead th{padding:10px 0;background:#f4f4f4;border-top:1px solid #e5e5e5;color:#364952;font-size:13px;font-weight:600;}
+.tbl-list-ty2 table tbody th, .tbl-list-ty2 table tbody td{padding:10px;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;}
+.tbl-list-ty2 td{color:#5e727b; text-align:center;}
 
-.tbl-list.tbl-list-typ2 th{background:#f4f4f4;font-weight:600;}
-.tbl-list.tbl-list-typ2 td{color:#5e727b;}
-.tbl-list.tbl-list-typ2 td:first-child{text-align:center;}
-
-.tbl-list.tbl-list-typ3 thead th{padding-left:15px;text-align:left;}
-.tbl-list.tbl-list-typ3 tbody th{text-align:center;border-left:1px solid #e5e5e5;}
-.tbl-list.tbl-list-typ3 tbody th:first-child{border-left:none;}
-.tbl-list.tbl-list-typ3 td{border-left:1px solid #e5e5e5;}
-.tbl-list.tbl-list-typ3 td:first-child{border-left:none;}
-.tbl-list.tbl-list-typ3 tbody td .btn-white30{font-weight:600;margin-top:20px;}
-.tbl-list.tbl-list-typ3 tbody td input[type="text"]{text-align:center;}
+/*  직원설정 - 근태정보  */
+.tbl-list.tbl-list-ty3 thead th{padding-left:15px;text-align:left;}
+.tbl-list.tbl-list-ty3 tbody th{text-align:center;border-left:1px solid #e5e5e5;}
+.tbl-list.tbl-list-ty3 tbody th:first-child{border-left:none;}
+.tbl-list.tbl-list-ty3 td{border-left:1px solid #e5e5e5;}
+.tbl-list.tbl-list-ty3 td:first-child{border-left:none;}
+.tbl-list.tbl-list-ty3 tbody td .btn-white30{font-weight:600;margin-top:20px;}
+.tbl-list.tbl-list-ty3 tbody td input[type="text"]{text-align:center;}
 .employ-btn{margin:20px 0 10px;}
 .btn-s-ty1{min-width:40px;height:23px;padding:0 10px;border:1px solid #b5c9cc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:#fff;color:#5e727b;line-height:25px;text-align:center;}
 .btn-s-ty2{min-width:40px;height:23px;padding:0 10px;border:1px solid #2cbcf2;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:#2cbcf2;color:#fff;line-height:25px;text-align:center;}
 
-.tbl-list.tbl-list-typ4 th{border-left:1px solid #e5e5e5;border-top:1px solid #e5e5e5;background:#f4f4f4;font-weight:600;}
-.tbl-list.tbl-list-typ4 th:first-child{border-left:none;}
-.tbl-list.tbl-list-typ4 td{border-left:1px solid #e5e5e5;color:#5e727b;}
-.tbl-list.tbl-list-typ4 td:first-child{border-left:none;text-align:center;}
+/*직원사용 이력보기*/
+.tbl-list-ty4 td,
+.tbl-list-ty4 th{padding:13px 0 11px;border:1px solid #e5e5e5;}
+.tbl-list-ty4 th{background:#f4f4f4;font-size:13px;font-weight:600;color:#364952;}
+.tbl-list-ty4 td{height:25px;padding:7px 0;color:#5e727b;text-align:center;}
 
 .employ-date{margin:15px 0;}
+.employ-date .form-date{line-height:23px;color:#5e727b;}
 .employ-date .form-date .color-orange{color:#fd7b03;font-weight:600;margin:0 7px;}
 .employ-date .form-date .color-blue-green{color:#5e727b;font-weight:600;}
 .employ-date .form-date{text-align:right;}
-.employ-date .form-date input{border:1px solid #e5e5e5;margin-left:7px;}
+.employ-date .form-date input{height:18px;margin-left:7px;border:1px solid #e5e5e5;}
 
 /* 내정보수정 */
 .tbl-memberEdit{}
@@ -543,14 +545,13 @@
 .favorite-board-insert .select-board{width:516px;}
 
 /* 직원연락처 */
-.member-search{position:relative;padding-left:296px;}
-.member-search-selectbox{position:absolute;left:0;top:0;font-size:0;}
-.member-search-selectbox select{height:30px;border:1px solid #e5e5e5;font-size:12px;}
-.member-search-selectbox select + select{margin-left:10px;}
-.member-search .input-search{width:180px;height:28px;border:1px solid #e5e5e5;}
-.member-search .input-search input[type="text"]{margin:0;}
-.member-search .input-search .search-ty1{width:28px;height:28px;}
+.tbl-list-ty4.member-contact table tbody td{padding:11px 0 10px; line-height:18px;}
+.tbl-list-ty4 table tbody .rank{display:block;color:#2cbcf2;}
+.tbl-list-ty4 table tbody .detail td{padding-left:12px;text-align:left;}
+.tbl-list-ty4 table tbody .detail td:first-child{background-color:#f4f4f4;color:#364952;font-size:13px;font-weight:600;}
 
+/* 직원포인트 */
+.member-point .calendar-wrap{padding-bottom:9px;}
 
 
 

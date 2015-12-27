@@ -22,7 +22,7 @@ header{width:100%; background-color:#3b4d56;}
 .input-search input[type="text"]{width:80%; margin:3px 0 0 0;}
 .input-search .search-ty1{position:absolute; right:3px; top:0;}
 
-#wrap{background:#fcfcfc;}
+#wrap{background:#fcfcfc;color:#5e727b;}
 #container{position:relative; width:1060px; margin:22px auto 0; padding-left:220px;}
 #container:after{content:'';display:block;clear:both;}
 

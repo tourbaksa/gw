@@ -70,6 +70,7 @@ button.btn{box-sizing: content-box;}
 .apply-ty1{min-width:50px;height:27px;padding:0 5px;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;background:#2cbcf2;color:#fff; text-align:center;}
 .apply-ty2{min-width:50px;height:27px;padding:0 5px;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;background:#ff912b;color:#fff; text-align:center;}
 .cansel-ty1{background:#fff;color:#2f4255;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #b0babd; width:60px;height:25px;text-align:center;}
+.return-ty1{background:#3b4d57;color:#fff;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; width:60px;height:27px;text-align:center;}
 
 .btn-txtDel-ty2,
 .btn-txtDel{background:none;color: #71b3cb;font-size:12px;}
@@ -105,6 +106,8 @@ button.btn{box-sizing: content-box;}
 .btn-white-img1{background:url(/images/ico_play.png) no-repeat 54px center;}
 .btn-white-img2{background:url(/images/ico_stop.png) no-repeat 54px center;}
 .btn-white-img3{background:url(/images/ico_end.png) no-repeat 54px center;}
+
+.btn-excel-img{background:url(/images/ico_excel.gif) #018752 no-repeat 54px center;color:#fff;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;min-width:70px; height:20px;text-align:left;padding:0 0 0 7px;font-size:11px;}
 
 .btn-plus-ty1{width:18px;height:18px;background:url(/images/btn_plus.png) no-repeat 0 0;}
 .btn-minus-ty1{width:18px;height:18px;background:url(/images/btn_minus.png) no-repeat 0 0;}

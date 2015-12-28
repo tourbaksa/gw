@@ -435,11 +435,11 @@
 
 			<div id="layer-popup" class="layer-popup">
 				<div class="layer-request">
-					<div>
-						<h3>업무지원요청 </h3>
+					<div class="tit-search-ty1">
+						<h3><label for="req1">업무지원요청</label> </h3>
 						<div class="tag-search">
 							<div class="input-search">
-								<input type="text" value="검색" name="">
+								<input type="text" value="검색" id="req1" name="">
 								<button class="btn search-ty1"><span class="img-btn">검색</span></button>
 							</div>
 						</div>
@@ -504,21 +504,25 @@
 					</div>
 
 					<div class="request">
-						<dl class="dl-list">
-							<dt>선택리스트</dt>
-							<dd>
-								<ul>
-									<li><a href="#none" class="del">[X]<span>삭제</span></a> 기획 | 리뉴얼 기획/제안 </li>
-									<li><a href="#none" class="del">[X]<span>삭제</span></a> 개발 | 인트라넷</li>
-									<li><a href="#none" class="del">[X]<span>삭제</span></a> 디자인 | 인트라넷</li>
-								</ul>
-							</dd>
-						</dl>
-						<button class="btn btn-white30">+ 업무지원 요청하기</button>
+						<h4>선택리스트</h4>
+						<ul>
+							<li><a href="#none" class="del">[X]<span>삭제</span></a> 기획 | 리뉴얼 기획/제안 </li>
+							<li><a href="#none" class="del">[X]<span>삭제</span></a> 개발 | 인트라넷</li>
+							<li><a href="#none" class="del">[X]<span>삭제</span></a> 디자인 | 인트라넷</li>
+						</ul>
+						<div class="btn-sort-ty2">
+							<button class="btn btn-white30">+ 업무지원 요청하기</button>
+						</div>
 					</div>
 
 					<div class="btn-sort-ty2">
-						<button class="btn btn-orange30">검색</button>
+						<div class="fl">
+							<button class="btn return-ty1">반려</button>	
+						</div>
+						<div class="fr">
+							<button class="btn apply-ty2">확인</button>
+							<button class="btn cansel-ty1">취소</button>
+						</div>
 					</div>
 
 				</div>

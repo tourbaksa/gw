@@ -5,11 +5,11 @@ legend {
 }
 body{font-size:12px;font-weight:400; font-family:'³ª´®°íµñ','Nanum Gothic',"Malgun Gothic",ngwoff, ngeot, nmwoff, nmeot,'µ¸¿ò',Dotum,'±¼¸²',Gulim,Tahoma, Geneva, sans-serif,verdana;}
 /* Form & button */
-input{color:#707070;}
+input{color:#5e727b;}
 input[type="text"] {padding:3px 5px 0; height:24px;border:0;font-size:12px; vertical-align:middle;}
 input[type="checkbox"]{width:13px;height:13px;margin:0;padding:0;vertical-align:middle;}
 input[type="radio"]{width:13px;height:13px;vertical-align:middle;margin-top:-1px;_margin-top:0;}
-select {font-family:NanumGothic,"³ª´®°íµñ";vertical-align:middle;font-size:12px; line-height:20px; padding:3px 0;; border-left:1px solid #c2c5cc; border-top:1px solid #c1c6cc; border-bottom:1px solid #e0e3ea; border-right:1px solid #e0e3ea;color:#707070;}
+select {font-family:NanumGothic,"³ª´®°íµñ";vertical-align:middle;font-size:12px; line-height:20px; padding:3px 0;border:1px solid #e5e5e5;color:#5e727b;}
 select option{font-family:NanumGothic,"³ª´®°íµñ";}
 
 textarea {color:#464646; border:1px solid #b9c6d4; padding:5px; vertical-align:top; font-size:12px; line-height:16px;font-family: NanumGothic,sans-serif; color:#707070;}
@@ -186,6 +186,19 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 .tbl-list.tbl-list-ty2 .tree-node td{background-color:#edf3f5;}
 .tbl-list.tbl-list-ty2 .tree-node td:first-child > a{display:inline-block;padding-left:11px;background:url(/images/bg_treenode.png) no-repeat 0 50%;}
 
+/* tableView  */
+
+.board-view tr td:first-child{border-right:0;}
+.board-view tr td + td{border-left:0;}
+.board-view .board-view-tit,
+.board-view .board-view-info{position:relative;padding:12px 0 12px 23px;border:1px solid #e5e5e5;}
+.board-view .board-view-tit .writer,
+.board-view .board-view-info .date{display:inline-block;position:absolute;right:20px;top:0;padding:12px 0 12px 23px;font-weight:400;}
+.board-view .board-view-tit{background-color:#f4f4f4;color:#3b4d57;font-size:13px;font-weight:600;}
+.board-view .board-view-tit .head-cate{color:#2cbcf2;}
+.board-view .board-view-info{border:1px solid #e5e5e5; border-top:0;}
+
+
 
 .paging-typ1{margin-bottom:8px;color:#819daa;font-size:0;font-weight:600;}
 .paging-typ1 .t-pager{display:inline-block;margin-right:9px;height:19px;font-size:12px;line-height:19px;vertical-align: middle;}
@@ -236,6 +249,14 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 .pageTitleBox .title-search .input-search{float:left;width:180px;margin-lefT:10px;height:28px;border:1px solid #e5e5e5;}
 .pageTitleBox .title-search .input-search input[type="text"]{margin:0;}
 .pageTitleBox .title-search .input-search .search-ty1{width:28px;height:28px;}
+.pageTitleBox .title-search > .all-post{float:left;padding-right:12px;height:32px;font-size:13px;color:#5e757d;line-height:32px;font-weight:600;}
+
+
+.footer-search .footer-search-selectbox{float:left;font-size:0;margin-right:0 !important;}
+.footer-search .footer-search-selectbox select{height:30px;border:1px solid #e5e5e5;font-size:12px;}
+.footer-search .input-search{float:left;width:180px;margin-lefT:10px;height:28px;border:1px solid #e5e5e5;}
+.footer-search .input-search input[type="text"]{margin:0;}
+.footer-search .input-search .search-ty1{width:28px;height:28px;}
 
 /* ¾÷¹«¿äÃ» ¹× ´ã´ç¾÷¹« */
 .taskWrap{padding:19px 0 12px 0;}

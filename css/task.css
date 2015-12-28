@@ -555,8 +555,8 @@
 .member-point .calendar-wrap{padding-bottom:9px;}
 
 /* 스크랩게시판 */
-table.hover{}
-table.hover tr:hover td{background-color:#f4f4f4;}
+table td.subject{text-align:left;}
+.hover tr:hover td{background-color:#f4f4f4 !important;}
 
 
 

@@ -48,267 +48,125 @@
 				<h2>시간 외 수당</h2>
 			</div>
 
-			<ul class="tab-ty1 task-two">
+			<ul class="tab-ty2">
 				<li><a href="#com1" class="on"><span>월별 조회</span></a></li> <!-- 연결할 layer ID를 href속성으로. -->
 				<li><a href="#com2"><span>일자별 조회</span></a></li>
 			</ul>
 
-			<div id="com1">
-				<div class="form-sort-search">
-					<form id="" method="post" action="/">
-						<fieldset>
-							<legend>조회기간</legend>
-							<div class="form-date">
-								<label for="fd1">조회기간</label>
-								<select id="fd1" class="select">
-									<option selected="selected">2015</option>
-									<option></option>
-								</select>
-								<select id="fd2" class="select">
-									<option selected="selected">12</option>
-									<option></option>
-								</select>
-								<label for="fd3">부서명</label>
-								<select id="fd3" class="select">
-									<option selected="selected">부서명</option>
-									<option></option>
-								</select>
-								<button class="btn apply-ty1">검색</button>
-							</div>
-							<div class="excel">
-								<input type="checkbox" id="" />
-								<label for="">미대상 제외</label>
-								<button class="btn btn-excel-img">다운로드</button>								
-							</div>
-						</fieldset>
-					</form>
-				</div>
-
-				<div class="tbl-list-ty4">
-					<table width="100%" summary="월별 시간외 수당 조회 대한 정보를 제공합니다.">
-						<colgroup>
-							<col width="14%" />
-							<col width="12%" />
-							<col width="12%" />
-							<col width="12%" />
-							<col width="12%" />
-							<col width="12%" />
-							<col width="12%" />
-							<col width="14%" />
-						</colgroup>
-						<caption>월별 시간외 수당 조회</caption>
-						<thead>
-							<tr>
-								<th scope="col" rowspan="2">2015</th>
-								<th scope="col" colspan="6">12월</th>
-								<th scope="col" rowspan="2">합계</th>
-							</tr>
-							<tr>
-								<th scope="col">1주<br>(12.01~12.01)</th>
-								<th scope="col">2주<br>(12.01~12.01)</th>
-								<th scope="col">3주<br>(12.01~12.01)</th>
-								<th scope="col">4주<br>(12.01~12.01)</th>
-								<th scope="col">5주<br>(12.01~12.01)</th>
-								<th scope="col">6주<br>(12.01~12.01)</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<th>김학성(1234)</th>
-								<td class="disabled">0</td> 
-								<td class="disabled">0</td> 
-								<td>1</td> 
-								<td class="disabled">0</td> 
-								<td>2</td> 
-								<td class="disabled">0</td> 
-								<td class="disabled">0</td> 
-							</tr>
-							<tr>
-								<th>김학성(1234)</th>
-								<td class="disabled">0</td> 
-								<td class="disabled">0</td> 
-								<td>1</td> 
-								<td class="disabled">0</td> 
-								<td>2</td> 
-								<td class="disabled">0</td> 
-								<td class="disabled">0</td> 
-							</tr>
-							<tr>
-								<th>김학성(1234)</th>
-								<td class="disabled">0</td> 
-								<td class="disabled">0</td> 
-								<td>1</td> 
-								<td class="disabled">0</td> 
-								<td>2</td> 
-								<td class="disabled">0</td> 
-								<td class="disabled">0</td> 
-							</tr>
-							<tr>
-								<th>김학성(1234)</th>
-								<td class="disabled">0</td> 
-								<td class="disabled">0</td> 
-								<td>1</td> 
-								<td class="disabled">0</td> 
-								<td>2</td> 
-								<td class="disabled">0</td> 
-								<td class="disabled">0</td> 
-							</tr>
-							<tr>
-								<th>김학성(1234)</th>
-								<td class="disabled">0</td> 
-								<td class="disabled">0</td> 
-								<td>1</td> 
-								<td class="disabled">0</td> 
-								<td>2</td> 
-								<td class="disabled">0</td> 
-								<td class="disabled">0</td> 
-							</tr>
-						</tbody>
-					</table>
-					
-				</div>
+			<div class="form-sort-search">
+				<form id="" method="post" action="/">
+					<fieldset>
+						<legend>조회기간</legend>
+						<div class="form-date">
+							<label for="fd1">조회기간</label>
+							<select id="fd1" class="select">
+								<option selected="selected">2015</option>
+								<option></option>
+							</select>
+							<select id="fd2" class="select">
+								<option selected="selected">12</option>
+								<option></option>
+							</select>
+							<label for="fd3">부서명</label>
+							<select id="fd3" class="select">
+								<option selected="selected">부서명</option>
+								<option></option>
+							</select>
+							<button class="btn apply-ty1">검색</button>
+						</div>
+						<div class="excel">
+							<input type="checkbox" id="" />
+							<label for="">미대상 제외</label>
+							<button class="btn btn-excel-img">다운로드</button>								
+						</div>
+					</fieldset>
+				</form>
 			</div>
 
-			<div id="com2" style="display:none">
-				<div class="employ-date">
-					<form id="" method="post" action="/">
-						<fieldset>
-							<legend>직원 사용이력입력</legend>
-							<div class="form-date">
-								<span class="calendar-wrap">
-									<a href="#none" class="calendar"><span>달력</span></a><input type="text" class="cal-int" style="width:100px"> ~
-									<a href="#none" class="calendar"><span>달력</span></a><input type="text" class="cal-int" style="width:100px">
-								</span>
-								(잔여일 : 0 )
-								<input type="text">
-								<a href="#none" class="color-orange">[입력]</a>
-								<a href="#none" class="color-blue-green">[닫기]</a>
-							</div>
-						</fieldset>
-					</form>
-				</div>
-				<div class="tbl-list-ty4">
-					<table width="100%" summary="직원 사용이력에 대한 정보를 제공합니다.">
-						<colgroup>
-							<col width="15%" />
-							<col width="15%" />
-							<col width="15%" />
-							<col width="*" />
-							<col width="15%" />
-						</colgroup>
-						<caption>직원 사용이력 정보제공</caption>
-						<thead>
-							<tr>
-								<th scope="col">구분</th>
-								<th scope="col">사용일자</th>
-								<th scope="col">입력일</th>
-								<th scope="col">입력내용</th>
-								<th scope="col">수정</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>연차</td>
-								<td>2015/12/24</td>
-								<td>2015/12/24 14:11:11</td>
-								<td>부산출장</td>
-								<td>
-									<button class="btn btn-s-ty1">삭제</button>
-								</td>
-							</tr>
-							<tr>
-								<td>연차</td>
-								<td>2015/12/24</td>
-								<td>2015/12/24 14:11:11</td>
-								<td>부산출장</td>
-								<td>
-									<button class="btn btn-s-ty1">삭제</button>
-								</td>
-							</tr>
-							<tr>
-								<td>연차</td>
-								<td>2015/12/24</td>
-								<td>2015/12/24 14:11:11</td>
-								<td>부산출장</td>
-								<td>
-									<button class="btn btn-s-ty1">삭제</button>
-								</td>
-							</tr>
-							<tr>
-								<td>연차</td>
-								<td>2015/12/24</td>
-								<td>2015/12/24 14:11:11</td>
-								<td>부산출장</td>
-								<td>
-									<button class="btn btn-s-ty1">삭제</button>
-								</td>
-							</tr>
-							<tr>
-								<td>연차</td>
-								<td>2015/12/24</td>
-								<td>2015/12/24 14:11:11</td>
-								<td>부산출장</td>
-								<td>
-									<button class="btn btn-s-ty1">삭제</button>
-								</td>
-							</tr>
-							<tr>
-								<td>연차</td>
-								<td>2015/12/24</td>
-								<td>2015/12/24 14:11:11</td>
-								<td>부산출장</td>
-								<td>
-									<button class="btn btn-s-ty1">삭제</button>
-								</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-							</tr>
-						</tbody>
-					</table>
-					
-				</div>
+			<div class="tbl-list-ty4">
+				<table width="100%" summary="월별 시간외 수당 조회 대한 정보를 제공합니다.">
+					<colgroup>
+						<col width="14%" />
+						<col width="12%" />
+						<col width="12%" />
+						<col width="12%" />
+						<col width="12%" />
+						<col width="12%" />
+						<col width="12%" />
+						<col width="14%" />
+					</colgroup>
+					<caption>월별 시간외 수당 조회</caption>
+					<thead>
+						<tr>
+							<th scope="col" rowspan="2">2015</th>
+							<th scope="col" colspan="6">12월</th>
+							<th scope="col" rowspan="2">합계</th>
+						</tr>
+						<tr>
+							<th scope="col">1주<br>(12.01~12.01)</th>
+							<th scope="col">2주<br>(12.01~12.01)</th>
+							<th scope="col">3주<br>(12.01~12.01)</th>
+							<th scope="col">4주<br>(12.01~12.01)</th>
+							<th scope="col">5주<br>(12.01~12.01)</th>
+							<th scope="col">6주<br>(12.01~12.01)</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>김학성(1234)</th>
+							<td class="disabled">0</td> 
+							<td class="disabled">0</td> 
+							<td>1</td> 
+							<td class="disabled">0</td> 
+							<td>2</td> 
+							<td class="disabled">0</td> 
+							<td class="disabled">0</td> 
+						</tr>
+						<tr>
+							<th>김학성(1234)</th>
+							<td class="disabled">0</td> 
+							<td class="disabled">0</td> 
+							<td>1</td> 
+							<td class="disabled">0</td> 
+							<td>2</td> 
+							<td class="disabled">0</td> 
+							<td class="disabled">0</td> 
+						</tr>
+						<tr>
+							<th>김학성(1234)</th>
+							<td class="disabled">0</td> 
+							<td class="disabled">0</td> 
+							<td>1</td> 
+							<td class="disabled">0</td> 
+							<td>2</td> 
+							<td class="disabled">0</td> 
+							<td class="disabled">0</td> 
+						</tr>
+						<tr>
+							<th>김학성(1234)</th>
+							<td class="disabled">0</td> 
+							<td class="disabled">0</td> 
+							<td>1</td> 
+							<td class="disabled">0</td> 
+							<td>2</td> 
+							<td class="disabled">0</td> 
+							<td class="disabled">0</td> 
+						</tr>
+						<tr>
+							<th>김학성(1234)</th>
+							<td class="disabled">0</td> 
+							<td class="disabled">0</td> 
+							<td>1</td> 
+							<td class="disabled">0</td> 
+							<td>2</td> 
+							<td class="disabled">0</td> 
+							<td class="disabled">0</td> 
+						</tr>
+					</tbody>
+				</table>
+				
 			</div>
-			
+
         </article>
     </section> 
 

@@ -3,12 +3,7 @@
 <head>
     <meta charset="euc-kr" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>인트라넷</title>
-    <!-- old IE -->
-    <!--[if lt IE 9]>
-    <script src="/js/lib/html5shiv.js"></script>
-    <![endif]-->
-    <!--// old IE -->
+    <title>부서별게시판 > 소속부서</title>
     <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
     <link rel='stylesheet' type='text/css' href='/css/reset.css'>
     <link rel='stylesheet' type='text/css' href='/css/layout.css'>
@@ -49,187 +44,276 @@
 			</div>
 			
 			<ul class="tab-ty1 task-three">
-				<li><a href="#com1" class="on"><span>전체</span></a></li> <!-- 연결할 layer ID를 href속성으로. -->
-				<li><a href="#com2"><span>소속부서</span></a></li>
-				<li><a href="#com3"><span>즐겨찾기</span></a></li>
+				<li><a href="#"><span>전체</span></a></li>
+				<li><a href="#" class="on"><span>소속부서</span></a></li>
+				<li><a href="#"><span>즐겨찾기</span></a></li>
 			</ul>
 
-			<div id="com1">
-				<div class="depart-cont">
-					<div class="de-board">
-						<div>
-							<h3>IT 기획팀 - 여행박사 및 각종 사이트 관련 정책/기획 문의 환영!!</h3>
-							<span class="btn-mark"><a href="#none" class="mark"><span>즐겨찾기</span></a></span>
-						</div>
-						<div class="tbl-list">
-							<table width="100%">
-								<caption>부서별 게시판 정보제공</caption>
-								<colgroup>
-									<col width="*" />
-									<col width="10%" />
-									<col width="10%" />
-									<col width="15%" />
-								</colgroup>
-								<thead>
-									<tr>
-										<th scope="col">제목</th>
-										<th scope="col">작성자</th>
-										<th scope="col">조회</th>
-										<th scope="col">작성일</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr class="notice">
-										<td><a href="#none"><span class="noti">[공지사항] </span>직원포인트 전환 차감</a></td>
-										<td>여행박사</td>
-										<td>300</td>
-										<td>2015/12/24</td>
-									</tr>
-									<tr class="notice">
-										<td><a href="#none"><span class="noti">[공지사항] </span>직원포인트 전환 차감</a></td>
-										<td>여행박사</td>
-										<td>300</td>
-										<td>2015/12/24</td>
-									</tr>
-									<tr class="notice">
-										<td><a href="#none"><span class="noti">[공지사항] </span>직원포인트 전환 차감</a></td>
-										<td>여행박사</td>
-										<td>300</td>
-										<td>2015/12/24</td>
-									</tr>
-									<tr>
-										<td><a href="#none">직원포인트 전환 차감</a></td>
-										<td>여행박사</td>
-										<td>300</td>
-										<td>2015/12/24</td>
-									</tr>
-									<tr>
-										<td><a href="#none">직원포인트 전환 차감</a></td>
-										<td>여행박사</td>
-										<td>300</td>
-										<td>2015/12/24</td>
-									</tr>
-									<tr>
-										<td><a href="#none">직원포인트 전환 차감</a></td>
-										<td>여행박사</td>
-										<td>300</td>
-										<td>2015/12/24</td>
-									</tr>
-									<tr>
-										<td><a href="#none">직원포인트 전환 차감</a></td>
-										<td>여행박사</td>
-										<td>300</td>
-										<td>2015/12/24</td>
-									</tr>
-									<tr>
-										<td><a href="#none">직원포인트 전환 차감</a></td>
-										<td>여행박사</td>
-										<td>300</td>
-										<td>2015/12/24</td>
-									</tr>
-									<tr>
-										<td><a href="#none">직원포인트 전환 차감</a></td>
-										<td>여행박사</td>
-										<td>300</td>
-										<td>2015/12/24</td>
-									</tr>
-									<tr>
-										<td><a href="#none">직원포인트 전환 차감</a></td>
-										<td>여행박사</td>
-										<td>300</td>
-										<td>2015/12/24</td>
-									</tr>
-									<tr>
-										<td><a href="#none">직원포인트 전환 차감</a></td>
-										<td>여행박사</td>
-										<td>300</td>
-										<td>2015/12/24</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
 
-						<div class="btn-sort-ty2">
-							<div class="fl">
-								<select class="select">
-									<option>제목</option>
-									<option></option>
-								</select>
-								<div class="tag-search">
-									<div class="input-search">
-										<input type="text" value="검색" name="">
-										<button class="btn search-ty1"><span class="img-btn">검색</span></button>
-									</div>
+			<div class="department-wrap">
+				<h3 class="tit-ty1">IT 기획팀 - 여행박사 및 각종 사이트 관련 정책/기획 문의 환영!!	<button class="btn-favorites-ty1 on"><span>즐겨찾기</span></button>	</h3>
+
+				<div class="department-board">
+					<div class="tbl-list-ty2 hover">
+						<table width="100%">
+							<caption>스크랩 게시판</caption>
+							<colgroup>
+								<col width="5%" />
+								<col width="15%" />
+								<col width="*" />
+								<col width="8%" />
+								<col width="10%" />
+								<col width="5%" />
+							</colgroup>
+							<thead>
+							<tr>
+								<th>제목</th>
+								<th>작성자</th>
+								<th>조회</th>
+								<th>작성일</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td class="subject"><a href="#none">직원포인트 전환 차감</a></td>
+								<td>여행박사</td>
+								<td>300</td>
+								<td>2015/12/24</td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="btn-sort-ty2">
+						<div class="fl">
+							<select class="select">
+								<option>제목</option>
+								<option></option>
+							</select>
+							<div class="tag-search">
+								<div class="input-search">
+									<input type="text" value="검색" name="">
+									<button class="btn search-ty1"><span class="img-btn">검색</span></button>
 								</div>
 							</div>
-							<div class="fr">
-								<button class="btn btn-orange30">글쓰기</button>
+						</div>
+						<div class="fr">
+							<button class="btn btn-orange30">글쓰기</button>
+						</div>
+					</div>
+
+					<div class="paging-typ2 mt20">
+						<button class="btn prev-ty1">
+							<span class="img-btn">이전</span>
+						</button>
+						<a href="#none">1</a>
+						<a href="#none">2</a>
+						<a href="#none">3</a>
+						<a href="#none">4</a>
+						<a href="#none">5</a>
+						<a href="#none">6</a>
+						<a href="#none">7</a>
+						<a href="#none">8</a>
+						<a href="#none">9</a>
+						<a href="#none">10</a>
+						<button class="btn next-ty1">
+							<span class="img-btn">다음</span>
+						</button>
+					</div>
+				</div>
+				<div class="department-all-view">
+					<h4>전체 게시글보기</h4>
+					<ul>
+						<li><a href="#none">기획팀 공지사항</a>
+							<ul>
+								<li><a href="#none">회의실</a></li>
+								<li><a href="#none">메뉴변경관리</a></li>
+								<li><a href="#none">최신동향</a></li>
+								<li><a href="#none">경조사</a></li>
+							</ul>
+						</li>
+						<li><a href="#none">기획팀 업무공유</a>
+							<ul>
+								<li><a href="#none">여행박사</a></li>
+								<li><a href="#none">인트라넷</a></li>
+								<li><a href="#none">엠클릭</a></li>
+								<li><a href="#none">온리세븐데이즈</a></li>
+								<li><a href="#none">모바일</a></li>
+								<li><a href="#none">기타 사이트</a></li>
+							</ul>
+						</li>
+					</ul>
+					<a href="#none" class="board-setting">게시판 관리</a>
+				</div>
+
+			</div>
+
+
+
+<!--
+				<div class="de-board">
+					<div>
+						<h3 class="tit-ty1"></h3>
+						<span class="btn-mark"><a href="#none" class="mark"><span>즐겨찾기</span></a></span>
+					</div>
+					<div class="tbl-list">
+						<table width="100%">
+							<caption>부서별 게시판 정보제공</caption>
+							<colgroup>
+								<col width="*" />
+								<col width="10%" />
+								<col width="10%" />
+								<col width="15%" />
+							</colgroup>
+							<thead>
+							<tr>
+								<th scope="col">제목</th>
+								<th scope="col">작성자</th>
+								<th scope="col">조회</th>
+								<th scope="col">작성일</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr class="notice">
+								<td><a href="#none"><span class="noti">[공지사항] </span>직원포인트 전환 차감</a></td>
+								<td>여행박사</td>
+								<td>300</td>
+								<td>2015/12/24</td>
+							</tr>
+							<tr class="notice">
+								<td><a href="#none"><span class="noti">[공지사항] </span>직원포인트 전환 차감</a></td>
+								<td>여행박사</td>
+								<td>300</td>
+								<td>2015/12/24</td>
+							</tr>
+							<tr class="notice">
+								<td><a href="#none"><span class="noti">[공지사항] </span>직원포인트 전환 차감</a></td>
+								<td>여행박사</td>
+								<td>300</td>
+								<td>2015/12/24</td>
+							</tr>
+							<tr>
+								<td><a href="#none">직원포인트 전환 차감</a></td>
+								<td>여행박사</td>
+								<td>300</td>
+								<td>2015/12/24</td>
+							</tr>
+							<tr>
+								<td><a href="#none">직원포인트 전환 차감</a></td>
+								<td>여행박사</td>
+								<td>300</td>
+								<td>2015/12/24</td>
+							</tr>
+							<tr>
+								<td><a href="#none">직원포인트 전환 차감</a></td>
+								<td>여행박사</td>
+								<td>300</td>
+								<td>2015/12/24</td>
+							</tr>
+							<tr>
+								<td><a href="#none">직원포인트 전환 차감</a></td>
+								<td>여행박사</td>
+								<td>300</td>
+								<td>2015/12/24</td>
+							</tr>
+							<tr>
+								<td><a href="#none">직원포인트 전환 차감</a></td>
+								<td>여행박사</td>
+								<td>300</td>
+								<td>2015/12/24</td>
+							</tr>
+							<tr>
+								<td><a href="#none">직원포인트 전환 차감</a></td>
+								<td>여행박사</td>
+								<td>300</td>
+								<td>2015/12/24</td>
+							</tr>
+							<tr>
+								<td><a href="#none">직원포인트 전환 차감</a></td>
+								<td>여행박사</td>
+								<td>300</td>
+								<td>2015/12/24</td>
+							</tr>
+							<tr>
+								<td><a href="#none">직원포인트 전환 차감</a></td>
+								<td>여행박사</td>
+								<td>300</td>
+								<td>2015/12/24</td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="btn-sort-ty2">
+						<div class="fl">
+							<select class="select">
+								<option>제목</option>
+								<option></option>
+							</select>
+							<div class="tag-search">
+								<div class="input-search">
+									<input type="text" value="검색" name="">
+									<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+								</div>
 							</div>
 						</div>
-
-						<div class="paging-typ2 mt20">
-							<button class="btn prev-ty1">
-								<span class="img-btn">이전</span>
-							</button>
-							<a href="#none">1</a>
-							<a href="#none">2</a>
-							<a href="#none">3</a>
-							<a href="#none">4</a>
-							<a href="#none">5</a>
-							<a href="#none">6</a>
-							<a href="#none">7</a>
-							<a href="#none">8</a>
-							<a href="#none">9</a>
-							<a href="#none">10</a>
-							<button class="btn next-ty1">
-								<span class="img-btn">다음</span>
-							</button>
+						<div class="fr">
+							<button class="btn btn-orange30">글쓰기</button>
 						</div>
-
 					</div>
-					<div class="de-board-view">
-						<dl class="dl-list">
-							<dt>등록자</dt>
-							<dd><p>기획팀 공지사항</p>
-								<ul>
-									<li><a href="#none">회의실</a></li>
-									<li><a href="#none">메뉴변경관리</a></li>
-									<li><a href="#none">최신동향</a></li>
-									<li><a href="#none">경조사</a></li>
-								</ul>
-							</dd>
-							<dd><p>기획팀 업무공유</p>
-								<ul>
-									<li><a href="#none">여행박사</a></li>
-									<li><a href="#none">인트라넷</a></li>
-									<li><a href="#none">엠클릭</a></li>
-									<li><a href="#none">온리세븐데이즈</a></li>
-									<li><a href="#none">모바일</a></li>
-									<li><a href="#none">기타 사이트</a></li>
-								</ul>
-							</dd>
-						</dl>
-						<a href="#none" class="admin">게시판 관리</a>
+
+					<div class="paging-typ2 mt20">
+						<button class="btn prev-ty1">
+							<span class="img-btn">이전</span>
+						</button>
+						<a href="#none">1</a>
+						<a href="#none">2</a>
+						<a href="#none">3</a>
+						<a href="#none">4</a>
+						<a href="#none">5</a>
+						<a href="#none">6</a>
+						<a href="#none">7</a>
+						<a href="#none">8</a>
+						<a href="#none">9</a>
+						<a href="#none">10</a>
+						<button class="btn next-ty1">
+							<span class="img-btn">다음</span>
+						</button>
 					</div>
-				</div>
-			</div>
-			<div id="com2">
-				<div class="depart-cont">
-					
-				</div>
-			</div>
-			<div id="com3">
-				<div class="depart-cont">
-					
-				</div>
-			
-			</div>
 
-				
-				
-            </div>
+				</div>
+				<div class="de-board-view">
+					<dl class="dl-list">
+						<dt>등록자</dt>
+						<dd><p>기획팀 공지사항</p>
+							<ul>
+								<li><a href="#none">회의실</a></li>
+								<li><a href="#none">메뉴변경관리</a></li>
+								<li><a href="#none">최신동향</a></li>
+								<li><a href="#none">경조사</a></li>
+							</ul>
+						</dd>
+						<dd><p>기획팀 업무공유</p>
+							<ul>
+								<li><a href="#none">여행박사</a></li>
+								<li><a href="#none">인트라넷</a></li>
+								<li><a href="#none">엠클릭</a></li>
+								<li><a href="#none">온리세븐데이즈</a></li>
+								<li><a href="#none">모바일</a></li>
+								<li><a href="#none">기타 사이트</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<a href="#none" class="admin">게시판 관리</a>
+				</div>
+-->
 
-        </article>
+
+
+</div>
+
+
+
+</article>
     </section>
 
     <!-- footer -->

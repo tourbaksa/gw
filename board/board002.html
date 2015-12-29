@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="euc-kr" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>게시판 권한 | 인트라넷</title>
+   
+    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    <link rel='stylesheet' type='text/css' href='/css/reset.css'>
+    <link rel='stylesheet' type='text/css' href='/css/layout.css'>
+    <link rel='stylesheet' type='text/css' href='/css/common.css'>
+    <link rel='stylesheet' type='text/css' href='/css/main.css'>
+    <link rel='stylesheet' type='text/css' href='/css/task.css'>
+</head>
+<body>
+
+<!-- wrap -->
+<div id="wrap">
+    <!-- header -->
+    <header id="header">
+		<div class="nav_container">
+			<img src="/images/@header.gif" alt="">
+		</div>
+    </header>
+    <!-- //header -->
+
+    <section id="container">
+
+		<aside id="side-left"> 
+			<div class="input-search">
+				<span class="input-text"><input type="text" value="Search"></span>
+				<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+			</div>
+			<div class="side-itemWrap">
+				<img src="/images/@side.gif" alt="">
+			</div>
+		</aside>
+        <article id="content">
+            <div class="page-top-content">
+                <div class="page-Location">오피스 &gt; 질문과 답변</div>
+                <h2 class="btn-QnaView"><a href="#none">여행질답 & 맞춤여행</a></h2>
+			</div>	
+			<div class="pageTitleBox">
+				<h2>게시판 관리</h2>
+			</div>
+
+			<div class="section board-admin">
+				<div class="fl">
+					<div class="box-class">
+						<h4>GNB</h4>
+						<ul>
+							<li><a href="#none">게시판</a></li>
+							<li><a href="#none">업무요청</a></li>
+							<li><a href="#none">자료실</a></li>
+							<li><a href="#none">근태관리</a></li>
+							<li><a href="#none">부서게시판</a></li>
+							<li><a href="#none">관리메뉴</a></li>
+						</ul>
+					</div>
+					<div class="box-class">
+						<h4>LNB</h4>
+						<ul>
+							<li><a href="#none">게시판</a></li>
+							<li><a href="#none">업무요청</a></li>
+							<li><a href="#none">자료실</a></li>
+							<li><a href="#none">근태관리</a></li>
+							<li><a href="#none">부서게시판</a></li>
+							<li><a href="#none">관리메뉴</a></li>
+						</ul>
+					</div>
+					<div class="box-class">
+						<h4>카테고리</h4>
+						<ul>
+							<li><a href="#none">게시판</a></li>
+							<li><a href="#none">업무요청</a></li>
+							<li><a href="#none">자료실</a></li>
+							<li><a href="#none">근태관리</a></li>
+							<li><a href="#none">부서게시판</a></li>
+							<li><a href="#none">관리메뉴</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="fr">
+					<h3 class="tit-ty2">게시판 권한 설정</h3>
+					<ul class="list-ty1">
+						<li>* 우측에서 선택한 게시판의 권한을 설정할 수 있습니다.우측에서 선택한 게시판의 권한을 설정할 수 있습니다.우측에서 선택한 게시판의 권한을 설정할 수 있습니다.</li>
+						<li>* LNB 단계부터 권한 설정이 가능하며,  게시물 읽기/쓰기/댓글쓰기 권한은 한번에 지정할 수 있습니다.</li>
+					</ul>
+					<ul class="radio-list-ty1">
+						<li>
+							<span><label for="s-ra1">메뉴노출</label></span> <input type="radio" id="s-ra1" name="s-ra"><label for="s-ra1">지정</label> <input type="radio" id="s-ra5" name="s-ra"><label for="s-ra5">미지정</label>
+						</li>
+						<li>
+							<span><label for="s-ra2">게시물읽기</label></span> <input type="radio" id="s-ra2" name="s-ra"><label for="s-ra2">허용</label> <input type="radio" id="s-ra6" name="s-ra"><label for="s-ra6">미허용</label>
+						</li>
+						<li>
+							<span><label for="s-ra3">게시물쓰기</label></span> <input type="radio" id="s-ra3" name="s-ra"><label for="s-ra3">허용</label> <input type="radio" id="s-ra7" name="s-ra"><label for="s-ra7">미허용</label>
+						</li>
+						<li>
+							<span><label for="s-ra4">댓글쓰기</label></span> <input type="radio" id="s-ra4" name="s-ra"><label for="s-ra4">허용</label> <input type="radio" id="s-ra8" name="s-ra"><label for="s-ra8">미허용</label>
+						</li>
+					</ul>
+
+					<h3 class="tit-ty2">게시판 권한
+						<span class="right">
+							<input type="radio" id="s-ra11" name="s-ra"><label for="s-ra11">읽기 권한</label> <input type="radio" id="s-ra12" name="s-ra"><label for="s-ra12">쓰기 권한</label>
+						</span>
+					</h3> 
+					
+					<p class="mb10">
+						<a href="#none" class="btn btn-ty1 on">직원검색</a>
+						<a href="#none" class="btn btn-ty1">부서검색</a>
+					</p>
+					
+					<div class="board-search">
+						<select id="" class="select" style="width:100px;">
+							<option>IT기획팀</option>
+							<option></option>
+						</select>	
+						<select id="" class="select" style="width:100px">
+							<option>성명</option>
+							<option></option>
+						</select>	
+						<div class="input-search-ty1">
+							<input type="text" value="검색" name="" id="">
+							<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+						</div>
+					</div>
+
+					<div class="board-permission">
+						<table width="100%" summary="">
+							<colgroup>
+								<col width="25%" />
+								<col width="35%" />
+								<col width="*" />
+							</colgroup>
+							<caption></caption>
+							<tbody>
+								<tr>
+									<td>
+									<ul>
+										<li><a href="#none">IT기획팀</a>
+										</li>
+									</ul>
+									</td>
+									<td>
+										<ul class="btn-name">
+											<li>홍원경(1213)<button class="btn btn-plus-ty2">추가</button></li>
+											<li>홍원경(1213)<button class="btn btn-plus-ty2">추가</button></li>
+											<li>홍원경(1213)<button class="btn btn-clear-ty1">해제</button></li>
+											<li>홍원경(1213)<button class="btn btn-clear-ty1">해제</button></li>
+											<li>홍원경(1213)<button class="btn btn-plus-ty2">추가</button></li>
+										</ul>
+									</td>
+									<td class="board-del-list">
+										<p><a href="#none" class="del">[X]<span>삭제</span></a> 홍원경</p>
+										<p><a href="#none" class="del">[X]<span>삭제</span></a> 박지훈</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<p>메뉴 노출의 권한을 지정할 경우 지정된 인원 외에는 해당 메뉴가 보이지 않으므로, 게시물 읽기/쓰기/댓글 쓰기는 지정된 직원 외에 모든 직언이 이용할 수 없습니다.</p>
+
+					
+				</div>
+			</div>
+			<div class="btn-sort-ty2">
+				<div class="fr">
+					<button class="btn btn-orange30">저장</button>
+					<button class="btn btn-white30">취소</button>
+				</div>
+			</div>
+
+			<div id="layer-popup" class="layer-popup">
+				<h2 class="tit-ty2">권한 설정 해제</h2>
+				<div class="confirm">
+					<p>해당 영역에 지정된 권한을 해제(초기화) 하시겠습니까?</p>
+					<div class="btn-sort-ty2">
+						<button class="btn apply-ty2">확인</button>
+						<button class="btn cansel-ty1">취소</button>
+					</div>
+					<a href="#none" class="close"><img src="/images/btn_pop_close.gif" alt="닫기"></a>
+				</div>
+			</div>
+
+        </article>
+    </section> 
+
+    <!-- footer -->
+	<footer id="footer">
+		<div class="footer-container">
+			<img src="/images/@footer.gif" alt="">
+		</div>
+	</footer>
+    <!-- //footer -->
+</div>
+<!-- //wrap -->
+
+<!-- old IE -->
+<!--[if lt IE 9]>
+<script src="/js/lib/html5shiv.js"></script>
+<![endif]-->
+<!--// old IE -->
+<script src="/js/lib/jquery-1.10.2.min.js"></script>
+<script src="/js/ui.js"></script>
+</body>
+</html>

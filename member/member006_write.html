@@ -3,7 +3,7 @@
 <head>
 	<meta charset="euc-kr" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title> 뷰 | 전체직원게시판 | 인트라넷 </title>
+	<title>쓰기 | 전체직원게시판 | 인트라넷</title>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
 	<link rel='stylesheet' type='text/css' href='/css/reset.css'>
 	<link rel='stylesheet' type='text/css' href='/css/layout.css'>
@@ -41,41 +41,80 @@
 			</div>
 			<div class="pageTitleBox">
 				<h2>전체직원 게시판</h2>
+				<div class="title-search">
+					<strong class="all-post">총 게시물 수 230</strong>
+					<span class="title-search-selectbox">
+						<select name="" style="width:118px;">
+							<option>카테고리</option>
+						</select>
+					</span>
+				</div>
 			</div>
-			<div class="board-view">
-				<dl>
-					<dt class="board-view-tit"><span class="head-cate">[공지사항]</span> 직원포인트 전환 차감 <span class="writer">작성자 : 김학성</span></dt>
-					<dd class="board-view-info">
-						<span class="file">첨부파일 : 세금계산서처리.jpg</span>
-						<span class="date">2015/11/18 15:20:12</span>
-					</dd>
-					<dd class="board-contents">
-						<div class="real-content">
-							군인공제회는 우리 군의 비전투 분야 민간 개방 확대 추세에 발맞춰 민간군사기업(PMC) 분야 투자를 확대할 것이라고 18일 밝혔다.<br>
-							이덕건 군인공제회 기획조정실장은 이날 서울 육군회관에서 기자간담회를 열어 “군이 비전투 분야 아웃소싱(외부 위<br>
-							탁)을 확대함에 따라 PMC 사업 기회도 늘어날 것”이라며 ‘군인공제회도 P<br>
-							MC 분야에 적극적으로 진출할 계획“이라고 설명했다. PMC는 군에 재화와 용역을 제공해 이윤을 얻는 민간기업을 가리킨다.<br>
-							이 실장은 “C&C, 공우이엔씨, 제일F&C 등 산하 기업의 기존 사업을 확대하거나 신규 사업 분야를 발굴하<br>
-							는 방안을 검토 중”이라며 “새로운 사업체를 설립하거나 M&A(인수합병)를  수<br>
-							있다”고 말했다.국방부는 올해 1월 전투근무지원 분야의 민간 개방을 확대해 2019년까지 현역 군인 2500명을 감축할 계획을 공개한 바 있다. 국방부가 지속적인 병력<br>
-							감축을 추진하는 만큼, 야전 부대 시설 관리, 청소, 제초 업무를 포함한 다양한 사업에 민간기업이 참여할 수 있는 기회가 늘어날 것으로 보인다.<br>
-							이 실장은 “군인공제회는 장기간 축적한 군 관련 사업 노하우를 갖춰 고효율의 PMC 사업체계를 구축할 수 있다”며 “PMC 투자 확대는 안정적인 수익 창출로 회원들의 복지를 증진<br>
-							하고 국군 전력 향상에도 기여할 수 있을 것”이라고 강조했다.<br>
-						</div>
-						<div class="name-tag">
-							<span class="img"><img src="/images/@profile02.jpg" alt=""></span>
-							<ul>
-								<li><span>작성자</span> <strong>고창현(2087)</strong></li>
-								<li><span>이메일</span> <strong class="fc-ty4">abad77@tourbaksa.co.kr</strong></li>
-								<li><span>직통전화</span> <strong>070-7017-2972</strong></li>
-								<li><span>메신저</span> <strong>abad77@nate.com</strong></li>
-								<li><span>IP</span> <strong>110.12.19.67</strong></li>
-							</ul>
-						</div>
-					</dd>
-				</dl>
-			</div>
+			<table class="tbl-list-ty5 list-ty1" width="100%">
+				<colgroup>
+					<col width="15%" />
+					<col width="*" />
+				</colgroup>
+				<tr>
+					<th>제목</th>
+					<td><input type="text" name="" id="" style="width:90%"></td>
+				</tr>
+				<tr>
+					<th>옵션</th>
+					<td><input type="checkbox" name="" id="c1"><label for="c1">공지사항</label></td>
+				</tr>
+				<tr>
+					<th>카테고리</th>
+					<td>
+						<select name="" id="" style="width:200px">
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>파일업로드</th>
+					<td>
+						<!--<button class="btn apply-ty1">파일선택</button>-->
+						<!--<ul class="file-list">-->
+							<!--<li>-->
+								<!--<span>뽀로로.JPG</span>-->
+								<!--<span class="fileSize"> [238243 byte]  </span>-->
+								<!--<a href="#none" class="btn-txtDel">[X]<span>삭제</span></a>-->
+							<!--</li>-->
+							<!--<li>-->
+								<!--<span>어머이게뭐야.JPG</span>-->
+								<!--<span class="fileSize"> [238243 byte]</span>-->
+								<!--<a href="#none" class="btn-txtDel">[X]<span>삭제</span></a>-->
+							<!--</li>-->
+							<!--<li>-->
+								<!--<span>8c85120.JPG</span>-->
+								<!--<span class="fileSize">[238243 byte]</span>-->
+								<!--<a href="#none" class="btn-txtDel">[X]<span>삭제</span></a>-->
+							<!--</li>-->
+						<!--</ul>-->
 
+						<div class="addFile">
+							<input type="text" name="userFile" value="" maxlength="15" size="" readonly="readonly" style="width:230px;">
+							<div class="file_input_div">
+								<input type="button" class="btn btn btn-ty2" value="찾아보기">
+								<input type="file" name="upfile" onchange="javascript: document.getElementById('userFile').value = this.value" class="file_input_hidden" style="width:80px;height:30px;margin:0px;filter:alpha(opacity=0);opacity:0;cursor:pointer;">
+							</div>
+						</div>
+
+					</td>
+				</tr>
+				<tr>
+					<th>이미지업로드</th>
+					<td></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+
+					</td>
+				</tr>
+			</table>
 			<div class="btn-sort-ty2">
 				<div class="fl">
 					<a href="#none" class="btn btn-orange30">수정</a>

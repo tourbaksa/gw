@@ -29,6 +29,7 @@ a{color:#5e727b; text-decoration:none;}
 
 /* titlt */
 .tit-ty1{color:#364952;font-size:15px;font-weight:600;}
+.tit-ty2{color:#364952;font-size:13px;font-weight:600;}
 
 /* 탭 공통 - 이미지형 */
 .tab-ty1{width:100%;height:32px;border-bottom:2px solid #7c939e; }
@@ -114,6 +115,8 @@ button.btn{box-sizing: content-box;}
 .btn-plus-ty1{width:18px;height:18px;background:url(/images/btn_plus.png) no-repeat 0 0;}
 .btn-minus-ty1{width:18px;height:18px;background:url(/images/btn_minus.png) no-repeat 0 0;}
 
+.btn-plus-ty2{min-width:60px;height:20px;line-height:20px;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;background:#ade7fe;color:#3b4d57;text-align:center;}
+.btn-clear-ty1{min-width:60px;height:20px;line-height:20px;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;background:#e4f1f7;color:#3b4d57;text-align:center;}
 
 /* form */
 input[type="radio"]{display:none;position:absolute;left:0;top:0;font-size:0;line-height:0;text-indent:-9999em;}
@@ -221,6 +224,7 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 .paging-typ1 .t-pager{display:inline-block;margin-right:9px;height:19px;font-size:12px;line-height:19px;vertical-align: middle;}
 .paging-typ1 strong{color:#3b4d56;}
 .paging-typ1 .prev-ty1{margin-right:2px;}
+
 .board-wrap .btn.more-ty1{position:absolute; right:20px; top:20px;}
 
 /* 게시판 카테고리 */
@@ -293,3 +297,17 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 .addFile  .file_input_div {position: relative; left:-5px; top:0; display:inline-block; width:80px; height:35px; vertical-align:middle;}
 .addFile  .file_input_div .btn {position:absolute;left:0;top:4px;}
 .addFile  .file_input_div .file_input_hidden {position:absolute; left:0px; top:0px; height:35px; font-size:13px; opacity:0; filter: alpha(opacity=0); -ms-filter: "alpha(opacity=0)"; -khtml-opacity: 0; -moz-opacity: 0;}
+
+
+/* 영역나눔 */
+.section:after{content:"";display:block;clear:both;}
+.section > .fl{float:left;}
+.section > .fr{float:right;}
+
+/* padding, margin */
+.mb10{margin-bottom:10px;}
+
+/* 검색바 */
+.input-search-ty1{position:relative; width:240px; height: 28px;}
+.input-search-ty1 input[type="text"]{width:80%;height:21px; margin:3px 0 0 0; }
+.input-search-ty1 .search-ty1{position:absolute; right:3px; top:0;width:28px;height:28px;}

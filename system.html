@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="euc-kr" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>시스템</title>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+	<link rel='stylesheet' type='text/css' href='/css/reset.css'>
+	<link rel='stylesheet' type='text/css' href='/css/layout.css'>
+	<link rel='stylesheet' type='text/css' href='/css/common.css'>
+	<link rel='stylesheet' type='text/css' href='/css/main.css'>
+	<link rel='stylesheet' type='text/css' href='/css/task.css'>
+</head>
+<body>
+
+<!-- wrap -->
+<div id="wrap">
+	<!-- header -->
+	<header id="header">
+		<div class="nav_container">
+			<img src="/images/@header.gif" alt="">
+		</div>
+	</header>
+	<!-- //header -->
+	<section id="container">
+		<aside id="side-left">
+			<div class="input-search">
+				<span class="input-text"><input type="text" value="Search"></span>
+				<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+			</div>
+			<div class="side-itemWrap">
+				<img src="/images/@side.gif" alt="">
+			</div>
+		</aside>
+		<article id="content">
+			<div class="page-top-content">
+				<div class="page-Location">오피스 &gt; 질문과 답변</div>
+				<h2 class="btn-QnaView"><a href="#none">여행질답 & 맞춤여행</a></h2>
+			</div>
+
+			<div class="pageTitleBox">
+				<h2>업무요청</h2>
+				<div>
+					<button class="btn more-ty2">+ 신규업무요청</button>
+					<div class="tag-search">
+						<ul class="btn-radio-list btn-radio-ty2">
+							<li>
+								<input type="radio" name="leave1" id="leave1" checked="checked"><label for="leave1">제목</label>
+							</li>
+							<li>
+								<input type="radio" name="leave1" id="leave2"><label for="leave2">태그</label>
+							</li>
+						</ul>
+						<div class="input-search">
+							<input type="text" value="검색" name="" id="">
+							<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="layer-popup" style="width:532px;">
+				<div class="layer-header">
+					<h2>파일업로드</h2>
+				</div>
+				<div class="layer-conetnt">
+					<div class="file-status">
+						<div class="file-all-status">
+							<strong>전체 전송</strong>
+							<div class="progress">
+								<span class="progress-val">10%</span>
+								<span class="progress-bar"><span class="progress-in" style="width: 84%"></span></span>
+							</div>
+						</div>
+
+						<table class="tbl-file-info" width="80%">
+							<colgroup>
+								<col width="25%" />
+								<col width="25%" />
+								<col width="25%" />
+								<col width="25%" />
+							</colgroup>
+							<tbody>
+								<tr>
+									<th>전송 파일</th>
+									<td>1/2</td>
+									<th>전송 속도</th>
+									<td>4.2MB/초</td>
+								</tr>
+								<tr>
+									<th>전송 용량</th>
+									<td>32.4MB/956.6MB</td>
+									<th>전송 시간</th>
+									<td>7초 / 3분48초</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table class="file-status-header" width="100%">
+							<colgroup>
+								<col width="30%" />
+								<col width="*" />
+								<col width="15%" />
+							</colgroup>
+							<thead>
+								<tr>
+									<th>이름</th>
+									<th>전송량</th>
+									<th>전송 상태</th>
+								</tr>
+							</thead>
+						</table>
+						<ul class="file-status-list">
+							<li><!--<li class="upload_complete">-->
+								<span class="item-name">didfhss.zip</span>
+								<div class="progress">
+									<span class="progress-val">32.4MB/956.6MB</span>
+									<span class="progress-bar"><span class="progress-in" style="width: 84%"></span></span>
+								</div>
+								<span class="item-status">전송중</span>
+							</li>
+						</ul>
+					</div>
+					<a href="#none" class="close"><img src="/images/btn_pop_close1.gif" alt="닫기"></a>
+				</div>
+			</div>
+		</article>
+	</section>
+
+	<!-- footer -->
+	<footer id="footer">
+		<div class="footer-container">
+			<img src="/images/@footer.gif" alt="">
+		</div>
+	</footer>
+	<!-- //footer -->
+</div>
+<!-- //wrap -->
+
+<!-- old IE -->
+<!--[if lt IE 9]>
+<script src="/js/lib/html5shiv.js"></script>
+<![endif]-->
+<!--// old IE -->
+<script src="/js/lib/jquery-1.10.2.min.js"></script>
+<script src="/js/ui.js"></script>
+</body>
+</html>

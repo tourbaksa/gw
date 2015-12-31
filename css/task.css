@@ -232,7 +232,7 @@
 .layer-request .box-class{width:140px;}
 .layer-request .box-class + .box-class{margin-left:29px;}
 .layer-request .box-class + .box-class:before{position:absolute;left:-17px;top:50%;width:9px;height:12px;background:url(/images/btn_next3.png) no-repeat 0 50%;}
-.layer-request .request {float:left;width:240px;margin-left:20px;background-color:#cad7dd;}
+.layer-request .request {position:absolute;right:0;top:0;width:240px;margin-left:20px;background-color:#cad7dd;}
 .layer-request .request h4{background:#cad7dd;}
 .layer-request .request ul li{padding:3px 0 0 12px;}
 
@@ -500,7 +500,6 @@
 .tbl-list-ty2 table thead th{padding:10px 0;background:#f4f4f4;border-top:1px solid #e5e5e5;color:#364952;font-size:13px;font-weight:600;}
 .tbl-list-ty2 table tbody th, .tbl-list-ty2 table tbody td{padding:10px;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;}
 .tbl-list-ty2 td{color:#5e727b; text-align:center;}
-.
 
 /*  직원설정 - 근태정보  */
 .tbl-list.tbl-list-ty3 thead th{padding-left:15px;text-align:left;}
@@ -580,7 +579,7 @@ table tr.notice td .head-cate{color:#2cbcf2;}
 .form-sort-search .form-date > label:first-child{margin-left:0;}
 .form-sort-search .excel{position:absolute;right:13px;top:14px;}
 .form-sort-search .excel > label{margin-right:10px;}
-f
+
 /* 포인트세부내역  */
 .tbl-list-ty5.list-ty1 tbody th{background-color:#f4f4f4;color:#364952;font-size:13px;font-weight:600;}
 
@@ -628,4 +627,6 @@ f
 .board-permission td .btn-name li:first-child{margin-top:0;}
 .board-permission td .btn-name li button{margin-left:10px;}
 .board-permission .board-del-list{background:#eaeaea;}
+
+
 

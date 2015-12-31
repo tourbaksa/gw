@@ -3,7 +3,7 @@
 <head>
     <meta charset="euc-kr" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>게시판 권한 | 인트라넷</title>
+    <title>게시판관리 | 인트라넷</title>
    
     <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
     <link rel='stylesheet' type='text/css' href='/css/reset.css'>
@@ -26,7 +26,7 @@
 
     <section id="container">
 
-		<aside id="side-left"> 
+		<aside id="side-left">
 			<div class="input-search">
 				<span class="input-text"><input type="text" value="Search"></span>
 				<button class="btn search-ty1"><span class="img-btn">검색</span></button>
@@ -80,7 +80,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="fr">
+				<div class="permission fr">
 					<h3 class="tit-ty2">게시판 권한 설정</h3>
 					<ul class="list-ty1">
 						<li>* 우측에서 선택한 게시판의 권한을 설정할 수 있습니다.우측에서 선택한 게시판의 권한을 설정할 수 있습니다.우측에서 선택한 게시판의 권한을 설정할 수 있습니다.</li>
@@ -111,59 +111,53 @@
 						<a href="#none" class="btn btn-ty1 on">직원검색</a>
 						<a href="#none" class="btn btn-ty1">부서검색</a>
 					</p>
-					
-					<div class="board-search">
-						<select id="" class="select" style="width:100px;">
-							<option>IT기획팀</option>
-							<option></option>
-						</select>	
-						<select id="" class="select" style="width:100px">
-							<option>성명</option>
-							<option></option>
-						</select>	
-						<div class="input-search-ty1">
-							<input type="text" value="검색" name="" id="">
-							<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+
+					<ul class="tab-ty3">
+						<li><a href="#board1" class="on"><span>서울</span></a></li>
+						<li><a href="#board2"><span>부산</span></a></li>
+					</ul>
+					<div id="board1">
+						<div class="board-cont">
+							<ul class="tree-menu-ty1">
+								<li><a href="#none">경영지원본부</a></li>
+								<li><a href="#none">해외영업본부</a></li>
+								<li><a href="#none">해외영업본부</a>
+									<ul>
+										<li><a href="#none">IT개발팀</a></li>
+										<li><a href="#none">IT개발팀</a></li>
+										<li><a href="#none">IT개발팀</a></li>
+										<li><a href="#none">IT개발팀</a></li>
+										<li><a href="#none">IT개발팀</a></li>
+										<li><a href="#none">IT개발팀</a></li>
+									</ul>
+								</li>
+								<li><a href="#none">해외영업본부</a>
+									<ul>
+										<li><a href="#none">IT개발팀</a></li>
+										<li><a href="#none">IT개발팀</a></li>
+										<li><a href="#none">IT개발팀</a></li>
+										<li><a href="#none">IT개발팀</a></li>
+										<li><a href="#none">IT개발팀</a></li>
+										<li><a href="#none">IT개발팀</a></li>
+									</ul>
+								</li>
+								<li><a href="#none">해외영업본부</a></li>
+							</ul>
+							<ul class="del-list">
+								<li><a href="#none" class="del">[X]<span>삭제</span></a> 기획 | 리뉴얼 기획/제안 </li>
+								<li><a href="#none" class="del">[X]<span>삭제</span></a> 개발 | 인트라넷</li>
+								<li><a href="#none" class="del">[X]<span>삭제</span></a> 디자인 | 인트라넷</li>
+							</ul>
+						</div>
+						
+					</div>
+					<div id="board2">
+						<div class="board-cont">
+							
 						</div>
 					</div>
 
-					<div class="board-permission">
-						<table width="100%" summary="">
-							<colgroup>
-								<col width="25%" />
-								<col width="35%" />
-								<col width="*" />
-							</colgroup>
-							<caption></caption>
-							<tbody>
-								<tr>
-									<td>
-									<ul>
-										<li><a href="#none">IT기획팀</a>
-										</li>
-									</ul>
-									</td>
-									<td>
-										<ul class="btn-name">
-											<li>홍원경(1213)<button class="btn btn-plus-ty2">추가</button></li>
-											<li>홍원경(1213)<button class="btn btn-plus-ty2">추가</button></li>
-											<li>홍원경(1213)<button class="btn btn-clear-ty1">해제</button></li>
-											<li>홍원경(1213)<button class="btn btn-clear-ty1">해제</button></li>
-											<li>홍원경(1213)<button class="btn btn-plus-ty2">추가</button></li>
-										</ul>
-									</td>
-									<td class="board-del-list">
-										<p><a href="#none" class="del">[X]<span>삭제</span></a> 홍원경</p>
-										<p><a href="#none" class="del">[X]<span>삭제</span></a> 박지훈</p>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
 
-					<p>메뉴 노출의 권한을 지정할 경우 지정된 인원 외에는 해당 메뉴가 보이지 않으므로, 게시물 읽기/쓰기/댓글 쓰기는 지정된 직원 외에 모든 직언이 이용할 수 없습니다.</p>
-
-					
 				</div>
 			</div>
 			<div class="btn-sort-ty2">
@@ -172,19 +166,6 @@
 					<button class="btn btn-white30">취소</button>
 				</div>
 			</div>
-
-			<div id="layer-popup" class="layer-popup">
-				<h2 class="tit-ty2">권한 설정 해제</h2>
-				<div class="confirm">
-					<p>해당 영역에 지정된 권한을 해제(초기화) 하시겠습니까?</p>
-					<div class="btn-sort-ty2">
-						<button class="btn apply-ty2">확인</button>
-						<button class="btn cansel-ty1">취소</button>
-					</div>
-					<a href="#none" class="close"><img src="/images/btn_pop_close.gif" alt="닫기"></a>
-				</div>
-			</div>
-
         </article>
     </section> 
 

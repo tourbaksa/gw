@@ -500,6 +500,7 @@
 .tbl-list-ty2 table thead th{padding:10px 0;background:#f4f4f4;border-top:1px solid #e5e5e5;color:#364952;font-size:13px;font-weight:600;}
 .tbl-list-ty2 table tbody th, .tbl-list-ty2 table tbody td{padding:10px;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;}
 .tbl-list-ty2 td{color:#5e727b; text-align:center;}
+.
 
 /*  직원설정 - 근태정보  */
 .tbl-list.tbl-list-ty3 thead th{padding-left:15px;text-align:left;}
@@ -517,7 +518,7 @@
 .tbl-list-ty4 td,
 .tbl-list-ty4 th{padding:13px 0 11px;border:1px solid #e5e5e5;}
 .tbl-list-ty4 th{background:#f4f4f4;font-size:13px;font-weight:600;color:#364952;}
-.tbl-list-ty4 td{height:25px;padding:7px 0;color:#5e727b;text-align:center;}
+.tbl-list-ty4 td{height:25px;padding:7px 5px;color:#5e727b;text-align:center;}
 .tbl-list-ty4 td.disabled{color:#bac7cd;}
 
 .employ-date{margin:15px 0;}
@@ -586,22 +587,23 @@ table tr.notice td .head-cate{color:#2cbcf2;}
 /* 전체게시판 글쓰기  */
 .tbl-list-ty5.list-ty1 td .file-list{width:450px;}
 /* board */
-.board-admin > .fr > h3{padding:8px 0;}
-.board-admin > .fr > h3 {position:relative;}
-.board-admin > .fr > h3 .right{position:absolute;right:0;top:8px;font-size:12px;font-weight:normal;}
+.board-admin > .fr{width:540px;}
+.board-admin > .permission{padding:19px;border:1px solid #e5e5e5; background:#fff;}
+.board-admin > .permission > h3{padding:8px 0;}
+.board-admin > .permission > h3 {position:relative;}
+.board-admin > .permission > h3 .right{position:absolute;right:0;top:8px;font-size:12px;font-weight:normal;}
 .board-admin .box-class{float:left;width:145px;border:1px solid #e5e5e5;background:#eaeaea;}
 .board-admin .box-class:first-child{margin-left:0;}
 .board-admin .box-class > h4{padding:9px 0 7px;background:#eaeaea;color:#5e727b;font-size:13px;font-weight:600;text-align:center;}
-.board-admin .box-class > ul{overflow:hidden;overflow-y:scroll;height:581px;padding:5px 1px;background:#fff;}
+.board-admin .box-class > ul{overflow:hidden;overflow-y:scroll;height:450px;padding:5px 1px;background:#fff;}
 .board-admin .box-class > ul li{padding:7px 0 6px 12px;margin:5px 4px 0;}
 .board-admin .box-class > ul li:first-child{margin-top:0;}
 .board-admin .box-class > ul li:hover{background:#d7f0fa;}
 .board-admin .box-class > ul li.selected{background:#aadff4;}
-.board-admin > .fr{width:540px;padding:19px;border:1px solid #e5e5e5; background:#fff;}
 
 .radio-list-ty1{padding:15px 0;margin-top:15px;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;}
 .radio-list-ty1 li {line-height:2;}
-.radio-list-ty1 li > span{display:inline-block;width:100px;;font-weight:600;}
+.radio-list-ty1 li > span{display:inline-block;width:80px;font-weight:600;}
 .radio-list-ty1 li > label{margin:0 10px;}
 
 .board-cont{background:#eaeaea;}
@@ -618,15 +620,14 @@ table tr.notice td .head-cate{color:#2cbcf2;}
 
 .board-search:after{content:"";display:block;clear:both;}
 .board-search .input-search-ty1{border:1px solid #e5e5e5}
-.board-search .select{float:left;}
+.board-search .select{float:left;margin-right:5px;}
 .board-search .input-search-ty1{float:left;}
 
 .board-permission{margin:10px 0 20px;border:1px solid #e5e5e5;}
 .board-permission td{padding:10px;border-left:1px solid #e5e5e5;;vertical-align:top;}
+.board-permission td:first-child{border-left:none;}
 .board-permission td .btn-name li{margin-top:7px;}
 .board-permission td .btn-name li:first-child{margin-top:0;}
 .board-permission td .btn-name li button{margin-left:10px;}
 .board-permission .board-del-list{background:#eaeaea;}
-
-
 

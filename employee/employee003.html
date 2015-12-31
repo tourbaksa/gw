@@ -3,7 +3,7 @@
 <head>
     <meta charset="euc-kr" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>사용이력보기 | 인트라넷</title>
+    <title>직원근태 | 인트라넷</title>
     <!-- old IE -->
     <!--[if lt IE 9]>
     <script src="/js/lib/html5shiv.js"></script>
@@ -45,173 +45,273 @@
                 <h2 class="btn-QnaView"><a href="#none">여행질답 & 맞춤여행</a></h2>
 			</div>	
 			<div class="pageTitleBox">
-				<h2>직원설정 <span>사용 이력보기</span></h2>
-			</div>
-
-			<div class="employ">
-				<select class="select" title="근태년도" style="width:100px">
-					<option>2015</option>
-					<option></option>
-				</select>
-				년도 사용연차
-			</div>
-
-			<div class="btn-sort-ty2">
-				<div class="fr">
-					<ul class="btn-radio-list">
-						<li><input type="radio" name="leave1" id="leave0" checked="checked"><label for="leave0">전체</label></li>
-						<li><input type="radio" name="leave1" id="leave1"><label for="leave1">연차</label></li>
-						<li><input type="radio" name="leave1" id="leave2"><label for="leave2">반차</label></li>
-						<li><input type="radio" name="leave1" id="leave3"><label for="leave3">시간연차</label></li>
-						<li><input type="radio" name="leave1" id="leave4"><label for="leave4">교육</label></li>
-						<li><input type="radio" name="leave1" id="leave5"><label for="leave5">출장</label></li>
-						<li><input type="radio" name="leave1" id="leave6"><label for="leave6">외근</label></li>
-						<li><input type="radio" name="leave1" id="leave7"><label for="leave7">당대휴무</label></li>
-						<li><input type="radio" name="leave1" id="leave8"><label for="leave8">휴가</label></li>
-						<li><input type="radio" name="leave1" id="leave9"><label for="leave9">휴직</label></li>
-					</ul>
+				<h2>직원설정 <span>근태정보</span></h2>
+				<div class="title-search">
+					<span class="title-search-selectbox">
+						<select name="" style="width:98px;">
+							<option>2015</option>
+						</select>
+					</span>
 				</div>
 			</div>
 
-			<div class="employ-date">
-				<form id="" method="post" action="/">
-					<fieldset>
-						<legend>직원 사용이력입력</legend>
-						<div class="form-date">
-							<span class="calendar-wrap">
-								<a href="#none" class="calendar"><span>달력</span></a><input
-									type="text" class="cal-int" style="width:100px"> ~
-								<a href="#none" class="calendar"><span>달력</span></a><input type="text" class="cal-int"
-																						   style="width:100px">
-							</span>
-							(잔여일 : 0 )
-							<input type="text">
-							<a href="#none" class="color-orange">[입력]</a>
-							<a href="#none" class="color-blue-green">[닫기]</a>
-						</div>
-					</fieldset>
-				</form>
-			</div>
-
-			<div class="tbl-list-ty4">
-				<table width="100%" summary="직원 사용이력에 대한 정보를 제공합니다.">
+			<div class="tbl-list tbl-list-ty3">
+				<table width="100%" summary="직원근태정보에 대한 정보를 제공합니다.">
 					<colgroup>
-						<col width="15%" />
-						<col width="15%" />
-						<col width="15%" />
+						<col width="19%" />
+						<col width="19%" />
+						<col width="19%" />
+						<col width="19%" />
 						<col width="*" />
-						<col width="15%" />
 					</colgroup>
-					<caption>직원 사용이력 정보제공</caption>
+					<caption>직원근태 정보제공</caption>
 					<thead>
 						<tr>
-							<th scope="col">구분</th>
-							<th scope="col">사용일자</th>
-							<th scope="col">입력일</th>
-							<th scope="col">입력내용</th>
-							<th scope="col">수정</th>
+							<th colspan="5">휴가정보</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>연차</td>
-							<td>2015/12/24</td>
-							<td>2015/12/24 14:11:11</td>
-							<td>부산출장</td>
+							<th scope="col">구분</th>
+							<th scope="col">보유수량</th>
+							<th scope="col">사용</th>
+							<th scope="col">사용예정</th>
+							<th scope="col">비고</th>
+						</tr>
+						<tr>
+							<td>연차 </td>
 							<td>
-								<button class="btn btn-s-ty1">삭제</button>
+								<div class="input-text-ty1">
+								<input type="text" style="width:46px">
+								<span>/</span>
+								<input type="text" style="width:46px">
+							</div>
+							</td>
+							<td>4 </td>
+							<td>3 </td>
+							<td rowspan="4">
+								시간연차 가능시간 : 1.168
+								<button class="btn btn-white30">사용이력보기</button>
 							</td>
 						</tr>
 						<tr>
-							<td>연차</td>
-							<td>2015/12/24</td>
-							<td>2015/12/24 14:11:11</td>
-							<td>부산출장</td>
+							<td>휴가</td>
 							<td>
-								<button class="btn btn-s-ty1">삭제</button>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
 							</td>
+							</td>
+							<td>4 </td>
+							<td>3 </td>
 						</tr>
 						<tr>
-							<td>연차</td>
-							<td>2015/12/24</td>
-							<td>2015/12/24 14:11:11</td>
-							<td>부산출장</td>
+							<td>휴직</td>
 							<td>
-								<button class="btn btn-s-ty1">삭제</button>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
 							</td>
+							</td>
+							<td>0</td>
+							<td>-</td>
 						</tr>
 						<tr>
-							<td>연차</td>
-							<td>2015/12/24</td>
-							<td>2015/12/24 14:11:11</td>
-							<td>부산출장</td>
+							<td>당직근무</td>
 							<td>
-								<button class="btn btn-s-ty1">삭제</button>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
 							</td>
-						</tr>
-						<tr>
-							<td>연차</td>
-							<td>2015/12/24</td>
-							<td>2015/12/24 14:11:11</td>
-							<td>부산출장</td>
-							<td>
-								<button class="btn btn-s-ty1">삭제</button>
-							</td>
-						</tr>
-						<tr>
-							<td>연차</td>
-							<td>2015/12/24</td>
-							<td>2015/12/24 14:11:11</td>
-							<td>부산출장</td>
-							<td>
-								<button class="btn btn-s-ty1">삭제</button>
-							</td>
-						</tr>
-						<tr>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-						</tr>
-						<tr>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-						</tr>
-						<tr>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-						</tr>
-						<tr>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-						</tr>
-						<tr>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-						</tr>
-						<tr>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
+							<td>당직대체 휴무</td>
+							<td></td>
 						</tr>
 					</tbody>
 				</table>
-				
+			</div>
+
+			<div class="employ-btn btn-sort-ty2">
+				<div class="fr">
+					<button class="btn btn-s-ty1">08:30</button>
+					<button class="btn btn-s-ty2">09:00</button>
+					<button class="btn btn-s-ty1">09:30</button>
+				</div>
+			</div>
+
+			<div class="tbl-list tbl-list-ty3">
+				<table width="100%" summary="직원 출근정보에 대한 정보를 제공합니다.">
+					<colgroup>
+						<col width="*" />
+						<col width="7%" />
+						<col width="7%" />
+						<col width="7%" />
+						<col width="7%" />
+						<col width="7%" />
+						<col width="7%" />
+						<col width="7%" />
+						<col width="7%" />
+						<col width="7%" />
+						<col width="7%" />
+						<col width="7%" />
+						<col width="7%" />
+					</colgroup>
+					<caption>직원 출근정보 표</caption>
+					<thead>
+						<tr>
+							<th colspan="13">출근정보</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="col">구분</th>
+							<th scope="col">1</th>
+							<th scope="col">2</th>
+							<th scope="col">3</th>
+							<th scope="col">4</th>
+							<th scope="col">5</th>
+							<th scope="col">6</th>
+							<th scope="col">7</th>
+							<th scope="col">8</th>
+							<th scope="col">9</th>
+							<th scope="col">10</th>
+							<th scope="col">11</th>
+							<th scope="col">12</th>
+						</tr>
+						<tr>
+							<th>출근</th>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" value="09:00" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<th>퇴근</th>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+							<td>
+								<div class="input-text-ty1">
+									<input type="text" style="width:46px">
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="btn-sort-ty2">
+				<div class="fr">
+					<button class="btn btn-orange30">등록</button>
+					<button class="btn btn-white30">취소</button>
+				</div>
 			</div>
 			
         </article>

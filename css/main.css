@@ -1,14 +1,14 @@
 @charset "euc-kr";
 
 
-.board-info-group{float:left;width:780px;}
-.board-info-side{float:left;width:240px;margin-left:20px;}
+.board-info-group{float:left;width:765px;}
+.board-info-side{float:left;width:240px;margin-left:15px;}
 
 
 .board-etc-wrap{ margin-top:20px;}
 .board-etc-wrap:after{content:"";display:block;clear:both;}
 .board-etc-wrap .board-wrap{float:left;width:498px;}
-.board-etc-wrap .board-etc{float:left;width:220px;margin-left:20px;}
+.board-etc-wrap .board-etc{float:left;width:220px;margin-left:15px;}
 
 /* 환율정보 */
 .rate-wrap{padding:19px 15px 12px;}
@@ -76,8 +76,8 @@
 /* 그래프 */
 .board-graph-wrap{overflow:hidden;clear:both;margin:20px 0 0 0;}
 .graph-cont{float:left;border:1px solid #e5e5e5;}
-.graph-cont + .graph-cont{margin-left:20px;}
+.graph-cont + .graph-cont{margin-left:13px;}
 .graph-cont.type1{width:243px;}
-.graph-cont.type2{width:273px;}
+.graph-cont.type2{width:271px;overflow:hidden;}
 .graph-cont.type3{width:218px;}
 .graph-cont h2{border-bottom:1px solid #e5e5e5; padding:8px 0 8px 12px;}

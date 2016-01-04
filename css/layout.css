@@ -1,7 +1,7 @@
 @charset "euc-kr";
 
 header{width:100%; background-color:#3b4d56;}
-.nav_container{overflow:hidden;width:1280px; margin:0 auto;}
+.nav_container{overflow:hidden;width:1260px; margin:0 auto;}
 .nav_container h1{width:142px; padding:20px 0 0 0;}
 .nav_container #gnb{}
 .nav_container #gnb li{float:left;}
@@ -23,7 +23,7 @@ header{width:100%; background-color:#3b4d56;}
 .input-search .search-ty1{position:absolute; right:3px; top:0;}
 
 #wrap{background:#fcfcfc;color:#5e727b;}
-#container{position:relative; width:1060px; margin:22px auto 0; padding-left:220px;}
+#container{position:relative; width:1040px; margin:22px auto 0; padding-left:220px;}
 #container:after{content:'';display:block;clear:both;}
 
 /* ÁÂ ÄÁÅÙÃ÷ */
@@ -62,7 +62,7 @@ header{width:100%; background-color:#3b4d56;}
 .side-menu .dep1 .submenu li.on > a{ height:25px; line-height:25px; background:#e9eef1 url(/images/bul_dot_01_on.png) no-repeat 14px 50%;color:#5e727b;}
 
 
-#content{float:left; min-height:800px; padding:0 0 40px 20px;width:1040px;}
+#content{float:left; min-height:800px; padding:0 0 40px 15px;width:1025px;}
 
 /* ¿©ÇàÁú´ä &nbsp; ¸ÂÃã¿©Çà */
 .page-top-content{position:relative;}
@@ -99,7 +99,7 @@ header{width:100%; background-color:#3b4d56;}
 
 /* footer */
 #footer{width:100%;border-top:1px solid #e5e5e5;background-color:#fafafa;}
-#footer .footer-container{position:relative;overflow:hidden;width:1280px; margin:0 auto;background-color:#fafafa;}
+#footer .footer-container{position:relative;overflow:hidden;width:1260px; margin:0 auto;background-color:#fafafa;}
 #footer .footer-container:after{content:'';display:block;clear:both;}
 #footer .footer-container h2{float:left; width:220px; padding:59px 0 0 0;text-align:center;}
 #footer .footer-container .copyRight {float:left; padding:23px 0 23px 25px;}

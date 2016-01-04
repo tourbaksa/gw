@@ -76,6 +76,7 @@
 .layer-popup{border:3px solid #7c939e;position:relative;background:#f4f4f4;position:absolute;z-index:10;box-sizing:border-box;}
 .layer-popup .layer-header h2{color:#fff;background:#7c939e;font-size:15px;font-weight:600;padding:12px 0 11px;text-align:center;}
 .layer-popup .layer-conetnt{padding-bottom:15px;}
+.layer-popup .layer-conetnt .alim{padding:20px;font-size:15px;text-align:center;word-wrap:break-all;}
 .layer-popup .close{position:absolute;right:6px;top:7px;z-idnex:1;}
 
 .tooltip-layer.task{width:600px;z-index:1;background:#fff;}
@@ -198,7 +199,7 @@
 .comment{margin-top:40px;}
 .com-cont{padding:20px;border:1px solid #7c939e;}
 .com-cont .add label{font-size:0;line-height:0;text-indent:-9999px;position:absolute;left:0;top:0;}
-.com-cont .add textarea{border:1px solid #e5e5e5;width:100%;box-sizing:border-box;padding:5px;;}
+.com-cont .add textarea{border:1px solid #e5e5e5;width:100%;box-sizing:border-box;padding:5px;}
 
 .dl-list{border:1px solid #e5e5e5;margin-bottom:10px;}
 .dl-list dt{position:relative;font-weight:600;font-size:13px;border-bottom:1px solid #e5e5e5;background:#edf2f5;padding:12px 15px 11px 15px;}
@@ -235,6 +236,8 @@
 .layer-request .request {position:absolute;right:0;top:0;width:240px;margin-left:20px;background-color:#cad7dd;}
 .layer-request .request h4{background:#cad7dd;}
 .layer-request .request ul li{padding:3px 0 0 12px;}
+.name-list a{font-size:13px;font-weight:600;margin-left:10px;}
+.name-list a:first-child{margin-left:0;}
 
 /* work */
 .btn-radio-list {margin-left:-5px;}
@@ -631,3 +634,11 @@ table tr.notice td .head-cate{color:#2cbcf2;}
 .board-permission td .btn-name li button{margin-left:10px;}
 .board-permission .board-del-list{background:#eaeaea;}
 
+.layer-popup .layer-content .remind{padding:20px;text-align:center;}
+.layer-popup .layer-content .remind > ul > li{margin-top:10px;}
+.layer-popup .layer-content .remind > ul > li:first-child{margin:0;}
+.layer-popup .layer-content .remind .calendar + input.cal-int1{width:80px;padding:3px 5px 1px;border:1px solid #e5e5e5;}
+input.cal-int1{padding:3px 5px 1px;border:1px solid #e5e5e5;box-sizing:content-box;}
+.layer-popup .layer-content .remind p + input[type="text"]{margin-top:7px;}
+.layer-popup .layer-content .remind .plus{display:inline-block;width:18px;height:28px;background:url(/images/ico_plus.png) no-repeat 5px center;background-size:7px 6px;vertical-align:middle;font-size:0;line-height:0;text-indent:-9999px;}
+.layer-popup .layer-content .remind .plus.on{background:url(/images/ico_minus.png) no-repeat 5px center;}

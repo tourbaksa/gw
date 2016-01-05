@@ -76,7 +76,7 @@
 .layer-popup{border:3px solid #7c939e;position:relative;background:#f4f4f4;position:absolute;z-index:10;box-sizing:border-box;}
 .layer-popup .layer-header h2{color:#fff;background:#7c939e;font-size:15px;font-weight:600;padding:12px 0 11px;text-align:center;}
 .layer-popup .layer-conetnt{padding-bottom:15px;}
-.layer-popup .layer-conetnt .alim{padding:20px;font-size:15px;text-align:center;word-wrap:break-all;}
+.layer-popup .layer-conetnt .alim{min-width: 250px; padding:20px;font-size:15px;text-align:center;word-wrap:break-all;}
 .layer-popup .close{position:absolute;right:6px;top:7px;z-idnex:1;}
 
 .tooltip-layer.task{width:600px;z-index:1;background:#fff;}
@@ -564,7 +564,7 @@
 .favorite-board-insert .box-typ2{border:0;padding:0 0 30px 0;border-bottom:1px solid #e5e5e5; background:none;}
 .favorite-board-insert .box-class ul li,
 .favorite-board-insert .box-class ul li a{color:#5e727b; font-size:13px;}
-.favorite-board-insert .select-board{width:516px;}
+.favorite-board-insert .select-board{width:500px;}
 
 /* 직원연락처 */
 .tbl-list-ty4.member-contact table tbody td{padding:11px 0 10px; line-height:18px;}

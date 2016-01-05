@@ -215,8 +215,8 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 .board-comment-box .cmt-info{padding-left:25px;}
 .board-comment-box .cmt-info > *{display:block;}
 .board-comment-box .cmt-info .name{display:inline-block; padding-bottom:5px;}
-.board-comment-write{margin:9px 0 0 0;}
-.board-comment-write textarea{float:left;width:908px;height:48px;border:1px solid  #e5e5e5;resize:none;}
+.board-comment-write{overflow:hidden;margin:9px 0 0 0;}
+.board-comment-write textarea{float:left;width:893px;height:48px;border:1px solid  #e5e5e5;resize:none;}
 .board-comment-write .btn{float:left;width: 110px;height: 60px; margin-left: 10px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #5e727b; color: #fff;}
 
 .paging-typ1{margin-bottom:8px;color:#819daa;font-size:0;font-weight:600;}
@@ -250,7 +250,7 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 
 /* title box */
 .pageTitleBox{overflow:hidden;position:relative;height:52px;margin:22px 0 30px 0;border:1px solid #e5e5e5;border-top:1px solid #a2b4bd;}
-.pageTitleBox h2{float:left;margin:18px 0 0 22px; color:#364952;font-size:16px;font-weight:bold;}
+.pageTitleBox h2{float:left;margin:15px 0 0 22px; color:#364952;font-size:16px;font-weight:bold;}
 .pageTitleBox > h2 > span{font-weight:normal;}
 .pageTitleBox > div{float:right;margin:11px 11px 0 0;}
 .pageTitleBox .tag-search{float:right;position:relative;}
@@ -288,14 +288,8 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 .taskWrap .btn.more-ty1{position:absolute; right:15px; top:0;}
 
 /* ÆÄÀÏÃ·ºÎ */
-
-.addFile{display:inline-block; width:380px;}
-.addFile input {position:relative; margin-right:0;}
-.addFile  label {margin-right:36px; margin-left:10px;}
-.addFile  input[type="text"]{}
-.addFile  .file_input_div {position: relative; left:-5px; top:0; display:inline-block; width:80px; height:35px; vertical-align:middle;}
-.addFile  .file_input_div .btn {position:absolute;left:0;top:4px;}
-.addFile  .file_input_div .file_input_hidden {position:absolute; left:0px; top:0px; height:35px; font-size:13px; opacity:0; filter: alpha(opacity=0); -ms-filter: "alpha(opacity=0)"; -khtml-opacity: 0; -moz-opacity: 0;}
+.addFile{display:block;}
+.addFile .file-list{width:80% !important;}
 
 
 /* ¿µ¿ª³ª´® */

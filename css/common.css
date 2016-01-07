@@ -3,7 +3,7 @@ caption,
 legend {
     position:absolute; visibility:hidden; width:0; height:0; overflow:hidden; font-size:0;
 }
-body{font-size:12px;font-weight:400; font-family:'³ª´®°íµñ','Nanum Gothic',"Malgun Gothic",ngwoff, ngeot, nmwoff, nmeot,'µ¸¿ò',Dotum,'±¼¸²',Gulim,Tahoma, Geneva, sans-serif,verdana;line-height:1.5;}
+body{font-size:12px;font-weight:400;color:#5e727b; font-family:'³ª´®°íµñ','Nanum Gothic',"Malgun Gothic",ngwoff, ngeot, nmwoff, nmeot,'µ¸¿ò',Dotum,'±¼¸²',Gulim,Tahoma, Geneva, sans-serif,verdana;line-height:1.5;}
 /* Form & button */
 input{color:#5e727b;}
 input[type="text"] {padding:3px 5px 0; height:24px;border:0;font-size:12px; vertical-align:middle;outline: 0;}
@@ -17,6 +17,10 @@ button {overflow: hidden; margin: 0; padding: 0; border: 0 none; font-family:Nan
 /* fireFox button */
 button::-moz-focus-inner{padding:0; margin:0;}
 a{color:#5e727b; text-decoration:none;}
+
+
+.fl{float:left !important;}
+.fr{float:right !important;}
 
 .width-full{width:99% !important;}
 /* font-color */
@@ -69,8 +73,8 @@ button.btn{box-sizing: content-box;}
 .tag-ty1{color:#fff;background:#5e727b;min-width:60px;height:27px;line-height:27px;text-align:center;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #5e727b;}
 .tag-ty2{color:#5e727b;background:#fff;min-width:60px;height:27px;line-height:27px;text-align:center;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #b0babd;}
 .tag-ty2.selected{color:#fff;background:#5e727b;font-weight:bold;}
-.apply-ty1{min-width:50px;height:27px;padding:0 5px;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;background:#2cbcf2;color:#fff; text-align:center;}
-.apply-ty2{min-width:50px;height:27px;padding:0 5px;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;background:#ff912b;color:#fff; text-align:center;}
+.apply-ty1{min-width:50px;height:27px;padding:0 5px;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;background:#2cbcf2;color:#fff;line-height:27px; text-align:center;}
+.apply-ty2{min-width:50px;height:27px;padding:0 5px;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;background:#ff912b;color:#fff;line-height:27px; text-align:center;}
 .cansel-ty1{background:#fff;color:#2f4255;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #b0babd; width:60px;height:25px;text-align:center;}
 .return-ty1{background:#3b4d57;color:#fff;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; width:60px;height:27px;text-align:center;}
 .btn-edit{padding:0 2px; height:11px;  color:#819daa; background-color:#f4f4f4; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #cad8dc; line-height:11px; font-size:9px; font-family:"±¼¸²",Gulim;}
@@ -95,13 +99,15 @@ button.btn{box-sizing: content-box;}
 
 
 .btn-gray27,.btn-white30,
-.btn-orange30, .btn-blue30, .btn-gray30, .btn-gray30-ty2{height:30px;min-width:40px;padding:0px 10px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;text-align:center;color:#fff;font-size:13px;line-height:30px;}
+.btn-orange30, .btn-blue30, .btn-gray30, .btn-gray30-ty2,.btn-gray27-ty2{height:30px;min-width:40px;padding:0px 10px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;text-align:center;color:#fff;font-size:13px;line-height:30px;}
 .btn-white30{height:28px;background:#fff;border:1px solid #b0babd;color:#2f4255;line-height:28px;}
 .btn-orange30{background:#ff912b;}
 .btn-blue30{background:#2cbcf2;}
-.btn-gray27{height:27px;}
+.btn-gray27,
+.btn-gray27-ty2{height:27px;line-height:27px;}
 .btn-gray27,.btn-gray30{background:#5e727b;}
-.btn-gray30-ty2{background:#3b4d57;}
+.btn-gray30-ty2,
+.btn-gray27-ty2{background:#3b4d57;}
 .wid90{width:90px;}
 
 .btn-white-img1, .btn-white-img2, .btn-white-img3{background-color:#fff;color:#2f4255;-webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #b0babd; width:62px; height:30px;text-align:left;padding:0 0 0 4px;font-size:11px;}
@@ -339,7 +345,8 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 .file-status-list .progress-bar {margin-right:116px;}
 .item-status{width:71px;text-align:center;}
 
-
+/* */
+.form-sort{}
 
 /*
 progress {position:relative;display:inline-block;width:150px;height:11px;margin:0;background:none;border:1px solid #e5e5e5;text-align: left;}

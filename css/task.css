@@ -98,11 +98,12 @@
 .layer-popup .confirm.tc{text-align:center;}
 .layer-popup .confirm .close{position:absolute;right:0;top:0;z-idnex:1;}
 
-.layer-date{padding:19px 17px 23px;}
+.layer-date{padding:19px 10px 23px;}
 .layer-date h3{font-size:13px;margin-bottom:8px;}
 .layer-date > ul:after{content:"";display:block;clear:both;}
 .layer-date li {float:left;}
-.layer-date li:first-child{margin-right:10px;}
+.layer-date li + li{margin-left:10px;}
+/*.layer-date li:first-child{margin-right:10px;}*/
 .layer-date li > h4{font-size:13px;height:29px;line-height:29px;border:1px solid #e5e5e5;color:#5e727b;border-bottom:none;text-align:center;box-sizing:border-box;}
 .layer-date li > div > p{text-align:center;height:30px;line-height:30px;background:#94aab4;color:#fff;font-size:14px;font-weight:600;}
 .layer-date li > div > p .prev-ty2{background:url(/images/btn_date_prev1.png) no-repeat center center;width:28px;height:30px;}
@@ -110,10 +111,23 @@
 .layer-date li > div table{text-align:center;}
 .layer-date li > div table thead th {background:#e0eaec;border:1px solid #c7d9dd;width:32px;height:22px;color:#5e727b;}
 .layer-date li > div table tbody td {border:1px solid #e5e5e5;color:#5e727b;background:#fff;box-sizing:border-box;}
-.layer-date li > div table tbody td:first-child a{color:#ff5461;}
-.layer-date li > div table tbody td:last-child a{color:#5bc9f2;}
+.layer-date li > div table tbody td.gray a{color:#A2B4BD;}
+.layer-date li > div table tbody td.sun a{color:#ff5461;}
+.layer-date li > div table tbody td.sun.gray a{color:#F5A8AE;}
+.layer-date li > div table tbody td.sat a{color:#5bc9f2;}
+.layer-date li > div table tbody td.sat.gray a{color:#B8E0EF;}
+.layer-date li > div table tbody td.selected,
+.layer-date li > div table tbody td.today.selected{background-color:#ff912b !important;}
+.layer-date li > div table tbody td.selected a,
+.layer-date li > div table tbody td.today.selected a{color:#fff;font-weight:600 !important;}
+.layer-date li > div table tbody td.today {background-color:#d6e0e2;}
+.layer-date li > div table tbody td.today a{}
+
 .layer-date li > div table tbody td a{display:block;width:32px;height:28px;line-height:28px;}
 
+.layer-date li > div table.date-selector{width:232px; table-layout: fixed;}
+.layer-date li > div table.date-selector td{}
+.layer-date li > div table.date-selector td a{width:100%;height:48px;line-height:48px; text-align:center;}
 .layer-tag{padding:20px;}
 .layer-tag h3{font-size:13px;margin-bottom:20px;}
 .layer-tag input{border:1px solid #e5e5e5;height:22px;}
@@ -649,3 +663,17 @@ input.cal-int1{padding:3px 5px 1px;border:1px solid #e5e5e5;box-sizing:content-b
 .layer-popup .layer-content .remind p + input[type="text"]{margin-top:7px;}
 .layer-popup .layer-content .remind .plus{display:inline-block;width:18px;height:28px;background:url(/images/ico_plus.png) no-repeat 5px center;background-size:7px 6px;vertical-align:middle;font-size:0;line-height:0;text-indent:-9999px;}
 .layer-popup .layer-content .remind .plus.on{background:url(/images/ico_minus.png) no-repeat 5px center;}
+
+/* ÆË¾÷ */
+.memo-wrap{padding:0 20px 25px;border:1px solid #e5e5e5;border-top:0;background-color:#fff;}
+.memo-wrap .form-sort-ty1{overflow:hidden; padding:18px 0 8px 0;}
+.memo-wrap .form-sort-ty1 label{color:#5e727b;}
+.memo-wrap .tbl-list-ty2{border-left:0; border-right:0;}
+.memo-wrap .tbl-list-ty2 td{padding:10px 5px;}
+.memo-wrap .btn-sort-ty2 {position:relative; margin:10px 0 0 0;}
+.memo-wrap .btn-sort-ty2 .paging-typ2{padding:11px 0 0 0;}
+.memo-wrap .btn-sort-ty2 .btn-gray27-ty2{position:absolute; right:0; top:0;}
+.memo-wrap #memo02 {padding:14px 0 0 0;}
+.memo-wrap #memo02 table td{padding:4px 0;}
+.memo-wrap #memo02 table td select{height:25px;}
+.memo-wrap #memo02 table td textarea{width:97%;margin:12px 0 0 0;border:1px solid #e5e5e5; resize:none;}

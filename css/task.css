@@ -49,7 +49,7 @@
 .tbl-list > button{text-align:left;}
 
 /* 업무요청리스트 */
-.tbl-list.tbl-list-ty2{}
+.tbl-list.tbl-list-ty2{border-left:0;border-right:0;}
 .tbl-list.tbl-list-ty2 tr th:first-child,
 .tbl-list.tbl-list-ty2 tr td:first-child{padding-left:28px;font-size:0;}
 .tbl-list.tbl-list-ty2 td:first-child .btn{margin:1px 3px 0 -22px;}
@@ -267,7 +267,7 @@
 .btn-radio-list {margin-left:-5px;}
 .btn-radio-list:after{content:"";display:block;clear:both;}
 .btn-radio-list li{float:left;margin:0 0 7px 4px;position:relative;}
-.btn-radio-list li input + label{color:#fff;background:#5e727b;text-align:center;width:50px;height:24px;line-height:24px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;display:inline-block;padding-left:0;cursor:pointer}
+.btn-radio-list li input + label{color:#fff;background:#5e727b;text-align:center;width:50px;height:20px;line-height:20px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;display:inline-block;padding-left:0;cursor:pointer}
 .btn-radio-list li input:checked + label{color:#fff;background:#5bc9f2;}
 .btn-radio-list li input{position:absolute;left:0;top:0;display:none;width:50px;height:24px;}
 .btn-radio-ty2 {position:absolute;left:3px;top:3px;z-index:10;}
@@ -328,8 +328,12 @@
 .dateContent .leave-option-wrap .reason .start{margin-bottom:8px;color:#5e727b;}
 .dateContent .leave-option-wrap .reason .start li{font-weight:600;;}
 .dateContent .leave-option-wrap > div > h3{margin-bottom:10px;}
+.dateContent .leave-option-wrap .btn-radio-list label{color:#94aab4; font-weight:400;}
+.dateContent .leave-option-wrap .btn-radio-list input:checked +label{color:#fff;}
 
-.dateContent .calendar{float:left;height:707px;position:relative;}
+
+.dateContent .leave-option-wrap + .calendar {position:relative;float:left;width:840px;height:707px;}
+.dateContent .calendar{width:100%; height:710px;}
 .calendar .sun{background:#edf2f5;color:#ff5461 !important;}
 .calendar .sat{background:#edf2f5;color:#5bc9f2 !important;}
 .week{table-layout:fixed;}
@@ -350,7 +354,7 @@
 .month-row .tbl-gird td.on > div{background:#eef9fe;border:3px solid #5bc9f2;width:100%;}
 /*.month-row .tbl-gird td.today .outline{background:#eef9fe;border:3px solid #5bc9f2;width:auto; height:130px;}*/
 .month-row .tbl-gird td.drag {background:#eef9fe;}
-.month-row .tbl-gird td.overtime{font-size:12px;color:#5e727b;text-align:center; vertical-align:center;}
+.month-row .tbl-gird td.overtime{font-size:12px;color:#5e727b;text-align:center; vertical-align:middle;}
 
 
 .month-row .tbl-schedule{position:relative;width:100%;table-layout: fixed;}

@@ -85,7 +85,7 @@ button.btn{box-sizing: content-box;}
 .btn-txtDel-ty2 > span{font-size: 0;line-height: 0;text-indent: -9999px;}
 
 /* 출근부 스케쥴태그 */
-.schedule-color1, .schedule-color2, .schedule-color3, .schedule-color4, .schedule-color5, .schedule-color6, .schedule-color7, .schedule-color8, .schedule-color9{display:block;width:100%;height:13px;padding:4px 0 3px;color:#fff;font-size:12px;text-align:center;}
+.schedule-color1, .schedule-color2, .schedule-color3, .schedule-color4, .schedule-color5, .schedule-color6, .schedule-color7, .schedule-color8, .schedule-color9{display:block;width:100%;height:16px;padding:4px 0 3px;color:#fff;font-size:12px;text-align:center;line-height:16px;}
 .schedule-color1 a, .schedule-color2 a, .schedule-color3 a, .schedule-color4 a, .schedule-color5 a, .schedule-color6 a, .schedule-color7 a, .schedule-color8 a, .schedule-color9 a{display:block;color:#fff;}
 .schedule-color1{background:#ff8e74;}
 .schedule-color2{background:#ffb83c;}
@@ -315,11 +315,37 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 .progress {height: 11px}
 .progress-val {float:right;}
 .progress-bar {display: block;overflow: hidden;height: 9px;margin:2px 0 0 0;background: #ffffff;border:1px solid #e5e5e5;}
-.progress-in {display: block;min-width: 8px; height: 9px; background: #5bc9f2;
-    color:#2cbcf2; font-size:12px; font-weight:bold;
+.progress-in {display: block;width: 100%;min-width: 8px; height: 9px; font-size:12px; font-weight:bold;}
+
+/* Background Colors  */
+progress,                          /* Firefox  */
+progress[role][aria-valuenow] {    /* Polyfill */
+    background: #e5e5e5 !important; /* !important is needed by the polyfill */
+}
+/* Chrome */
+progress::-webkit-progress-bar {background: #e5e5e5;}
+
+/* Foreground Colors   */
+/* IE10 */
+progress {
+    color: #2cbcf2;
+}
+
+/* Firefox */
+progress::-moz-progress-bar {
+    background: #2cbcf2;
+}
+
+/* Chrome */
+progress::-webkit-progress-value {
+    background: #2cbcf2;
+}
+
+/* Polyfill */
+progress[aria-valuenow]:before  {
+    background: #2cbcf2;
 }
 /* 파일업로드 */
-
 .file-status{}
 .file-all-status{position:relative;overflow:hidden; height:20px; padding:12px 0; margin:0 17px; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5;}
 .file-all-status strong{float:left;width:63px;color:#3b4d57;font-size:12px;font-weight:bold;}
@@ -347,7 +373,6 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 
 /* */
 .form-sort{}
-
 /*
 progress {position:relative;display:inline-block;width:150px;height:11px;margin:0;background:none;border:1px solid #e5e5e5;text-align: left;}
 progress::-webkit-progress-bar {height:9px;width:150px;background-color: #fff;}

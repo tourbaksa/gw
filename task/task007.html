@@ -120,23 +120,18 @@
 											<p class="add-attach"><strong>첨부파일 : </strong><a href="미분양.pdf">미분양.pdf</a></p>
 											<a href="#none" class="add-cmt">답글</a>
 										</div>
-										<ul class="cmt-list">
-											<li>
+										<div class="cmt-list">
+											<div class="cmt-list-content">
 												<p class="add-name">김학성<a href="#none" class="del">[X]</a><span class="date">2015/11/19 15:11:11</span></p>
 												<p class="add-detail"><strong>@김학성</strong>기록적인 증가다. 이전까지는 2003년 12월에 전월보다 36.3%(1만190가구) 늘어난 것이다. 기록적인 증가다. 이전까지는 2003년 12월에 전월보다 36.3%(1만190가구) 늘어난 것이다.</p>
 												<a href="#none" class="add-cmt">댓글</a>
-											</li>
-											<li>
+											</div>
+											<div class="cmt-list-content">
 												<p class="add-name">김학성<a href="#none" class="del">[X]</a><span class="date">2015/11/19 15:11:11</span></p>
 												<p class="add-detail"><strong>@김학성</strong>기록적인 증가다. 이전까지는 2003년 12월에 전월보다 36.3%(1만190가구) 늘어난 것이다. 기록적인 증가다. 이전까지는 2003년 12월에 전월보다 36.3%(1만190가구) 늘어난 것이다.</p>
 												<a href="#none" class="add-cmt">댓글</a>
-											</li>
-											<li>
-												<p class="add-name">김학성<a href="#none" class="del">[X]</a><span class="date">2015/11/19 15:11:11</span></p>
-												<p class="add-detail"><strong>@김학성</strong>기록적인 증가다. 이전까지는 2003년 12월에 전월보다 36.3%(1만190가구) 늘어난 것이다. 기록적인 증가다. 이전까지는 2003년 12월에 전월보다 36.3%(1만190가구) 늘어난 것이다.</p>
-												<a href="#none" class="add-cmt">댓글</a>
-											</li>
-										</ul>
+											</div>
+										</div>
 										<div class="cmt-detail">
 											<p class="add-name">김학성<a href="#none" class="del">[X]</a><span class="date">2015/11/19 15:11:11</span></p>
 											<p class="add-detail">미분양 주택이 급증했다. </p>
@@ -403,7 +398,7 @@
 			</div>
 												
 			<!-- 일정 등록 -->
-			<div id="layer-popup1" class="layer-popup" style="width:410px;position:absolute;left:20%; top:5%;">
+			<div id="layer-popup1" class="layer-popup" style="width:410px;position:absolute;left:20%; top:5%;display:none;">
 				<div class="layer-header">
 					<h2>일정등록</h2>
 				</div>
@@ -467,7 +462,7 @@
 					<a href="#none" class="close"><img src="/images/btn_pop_close1.gif" alt="닫기"></a>
 				</div>
 			</div>
-			<div id="layer-popup2" class="layer-popup" style="width:980px;">
+			<div id="layer-popup2" class="layer-popup" style="width:980px;display:none;">
 				<div class="layer-header">
 					<h2>업무지원요청</h2>
 				</div>
@@ -574,7 +569,7 @@
 				</div>
 			</div>
 
-			<div id="layer-popup3" class="layer-popup" style="width:460px;position:absolute;left:20%;top:40%;">
+			<div id="layer-popup3" class="layer-popup" style="width:460px;position:absolute;left:20%;top:40%;display:none;">
 				<div class="layer-header">
 					<h2>업무 담당자 지정</h2>
 				</div>
@@ -582,15 +577,17 @@
 						<div class="layer-request">
 							<div class="box-typ2">
 								<div class="name-list">
-									<ul class="btn-radio-list">
-										<li><input type="checkbox" name="ch1" id="ch1"><label for="ch1">성덕선</label></li>
-										<li><input type="checkbox" name="ch2" id="ch2"><label for="ch2">성덕선</label></li>
-										<li><input type="checkbox" name="ch3" id="ch3"><label for="ch3">성덕선</label></li>
-										<li><input type="checkbox" name="ch4" id="ch4"><label for="ch4">성덕선</label></li>
-										<li><input type="checkbox" name="ch5" id="ch5"><label for="ch5">성덕선</label></li>
-										<li><input type="checkbox" name="ch6" id="ch6"><label for="ch6">성덕선</label></li>
-										<li><input type="checkbox" name="ch7" id="ch7"><label for="ch7">성덕선</label></li>
-									</ul>
+									<div class="tag-list btn-type">
+										<span><button class="btn">전체</button></span>
+										<span><button class="btn">연중행사</button></span>
+										<span><button class="btn">항공요금표</button></span>
+										<span><button class="btn">기획팀 업무관리</button></span>
+										<span><button class="btn">개발팀 업무요청</button></span>
+										<span><button class="btn">경영지원본부</button></span>
+										<span><button class="btn">영업1팀</button></span>
+										<span><button class="btn">고객만족게시판</button></span>
+										<span><button class="btn">환불보상게시판</button></span>
+									</div>
 								</div>
 								<div class="btn-sort-ty2">
 									<div class="fl">
@@ -607,7 +604,7 @@
 				</div>
 			</div>
 
-			<div id="layer-popup4" class="layer-popup" style="width:460px;position:absolute;left:20%;top:70%;">
+			<div id="layer-popup4" class="layer-popup" style="width:460px;position:absolute;left:20%;top:70%;display:none;">
 				<div class="layer-header">
 					<h2>참조자 해제</h2>
 				</div>
@@ -622,7 +619,7 @@
 				</div>
 			</div>
 
-			<div id="layer-popup5" class="layer-popup" style="width:460px;position:absolute;left:50%;top:20%;">
+			<div id="layer-popup5" class="layer-popup" style="width:460px;position:absolute;left:50%;top:20%;display:none;">
 				<div class="layer-header">
 					<h2>완료</h2>
 				</div>
@@ -637,7 +634,7 @@
 				</div>
 			</div>
 
-			<div id="layer-popup6" class="layer-popup" style="width:460px;position:absolute;left:50%;top:40%;">
+			<div id="layer-popup6" class="layer-popup" style="width:460px;position:absolute;left:50%;top:40%;display:none;">
 				<div class="layer-header">
 					<h2>업무 완료처리</h2>
 				</div>
@@ -652,7 +649,7 @@
 				</div>
 			</div>
 
-			<div id="layer-popup7" class="layer-popup" style="width:460px;position:absolute;left:50%;top:60%;">
+			<div id="layer-popup7" class="layer-popup" style="width:460px;position:absolute;left:50%;top:60%;display:none;">
 				<div class="layer-header">
 					<h2>업무 보류처리</h2>
 				</div>
@@ -668,7 +665,7 @@
 				</div>
 			</div>
 
-			<div id="layer-popup8" class="layer-popup" style="width:600px;position:absolute;left:20%;top:65%;">
+			<div id="layer-popup8" class="layer-popup" style="width:600px;position:absolute;left:20%;top:65%;display:none;">
 				<div class="layer-header">
 					<h2>remind</h2>
 				</div>

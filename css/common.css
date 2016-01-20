@@ -6,7 +6,7 @@ legend {
 body{font-size:12px;font-weight:400;color:#5e727b; font-family:'³ª´®°íµñ','Nanum Gothic',"Malgun Gothic",ngwoff, ngeot, nmwoff, nmeot,'µ¸¿ò',Dotum,'±¼¸²',Gulim,Tahoma, Geneva, sans-serif,verdana;line-height:1.5;}
 /* Form & button */
 input{color:#5e727b;}
-input[type="text"] {padding:3px 5px 0; height:24px;border:0;font-size:12px; vertical-align:middle;outline: 0;}
+input[type="text"] {padding:3px 5px 0; height:24px;border:1px solid #e5e5e5;font-size:12px; vertical-align:middle;outline: 0;}
 input[type="checkbox"]{width:13px;height:13px;margin:0;padding:0;vertical-align:middle;}
 input[type="radio"]{width:13px;height:13px;vertical-align:middle;margin-top:-1px;_margin-top:0;}
 select {font-family:NanumGothic,"³ª´®°íµñ";vertical-align:middle;font-size:12px; line-height:20px; padding:3px 0;border:1px solid #e5e5e5;color:#5e727b;}
@@ -133,14 +133,15 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 .input-text-ty1 .hyphen {display: inline-block;width: 20px;height: 1px;background: url(/images/txt_hyphen.gif) no-repeat 50% 0;text-indent: -9999px;vertical-align: middle;}
 
 /* ÅÂ±× */
-.tag-list {color:#3b4d57;padding:10px 0 3px;word-wrap:break-word;}
-.tag-list > span {display:inline-block; margin:0 14px 5px 0;}
+.tag-list {overflow:hidden;padding:10px 0 3px;word-wrap:break-word;color:#3b4d57;}
+.tag-list > span {display:inline-block;}
 .tag-list button{margin: 0; padding: 0;display: -moz-inline-stack;display: inline-block;text-decoration: none !important;border: 0;font-size: 12px; font-family: NanumGothic,"³ª´®°íµñ",dotum,arial;white-space: nowrap;vertical-align: middle; overflow: visible;
     color: #fff;}
-.tag-list > span button.btn{background:none;color:#3b4d57;font-weight:600;}
+.tag-list > span button.btn{float:left;background:none;color:#3b4d57;font-weight:600;}
+.tag-list.btn-type > span{float:left;margin:5px 5px 0 0;}
 .tag-list.btn-type > span button.btn{min-width:30px;height:24px;padding:0 10px;border:1px solid #e7e6e6;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:#fff;color:#5e727b;text-align:center;line-height:24px;}
-.tag-list > span .Del{margin-left:5px;background:none;color:#71b3cb;font-size:12px;font-weight:400;vertical-align:middle;}
-
+.tag-list.btn-type > span button.Del{height:26px;line-height:26px;}
+.tag-list > span .Del{float:left;margin:0 5px 0 1px;background:none;color:#71b3cb;font-size:12px;font-weight:400;vertical-align:middle;}
 
 /* favorites - ¹öÆ°Çü- */
 .btn-favorites-ty1{padding:4px;background-color:#fff;webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; border:1px solid #e5e5e5;text-align:left;}
@@ -212,11 +213,14 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 .name-tag li{position:relative;padding-left:58px;line-height:16px;}
 .name-tag li span{position:absolute;left:0;top:0;}
 .name-tag li strong{font-weight:normal;}
+
+/* ÀüÃ¼Á÷¿ø°Ô½ÃÆÇ ÄÚ¸àÆ® */
 .board-comment-box {margin:30px 0 0 0;border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5;}
 .board-comment-box dl{position:relative; display:table;width:100%;height:60px;padding:10px 0 10px 120px;box-sizing: border-box;}
 .board-comment-box dl + dl{border-top:1px solid #e5e5e5;}
-.board-comment-box dl dt{position:absolute;left:0;top:50%;display:table-cell;width:120px;height:40px;margin-top:-20px;border-right:2px solid #e5e5e5; box-sizing: border-box;}
-.board-comment-box dl .cmt-content{display:table-cell;padding-left:23px;vertical-align:middle;}
+.board-comment-box dl dt{position:absolute;left:0;top:10px;display:table-cell;width:120px;height:40px;box-sizing: border-box;}
+.board-comment-box dl .cmt-content{display:table-cell;padding-left:23px;border-left:1px solid #e5e5e5;vertical-align:middle;}
+.board-comment-box dl .cmt-text{padding-bottom:15px;}
 .board-comment-box dl .cmt-del{position:absolute; right:20px; top:20px;}
 .board-comment-box .cmt-info{padding-left:25px;}
 .board-comment-box .cmt-info > *{display:block;}
@@ -224,6 +228,33 @@ input[type="radio"]:checked + label{background:url(/images/bg_radio_check.png) n
 .board-comment-write{overflow:hidden;margin:9px 0 0 0;}
 .board-comment-write textarea{float:left;width:893px;height:48px;border:1px solid  #e5e5e5;resize:none;}
 .board-comment-write .btn{float:left;width: 110px;height: 60px; margin-left: 10px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #5e727b; color: #fff;}
+
+/* ÀüÃ¼Á÷¿ø°Ô½ÃÆÇ ÄÚ¸àÆ® ´ñ±Û */
+.cmt-reply-section{margin-top:10px; border-top:1px solid #eaeaea; background-color:#f4f4f4;}
+.cmt-reply-section .btn-ty1-xs span{font-weight:600;}
+.cmt-reply-wrap{position: relative;padding: 9px 20px;background: url(/images/bg_comment.png) no-repeat 15px 13px;}
+.cmt-reply-wrap .add-cmt{position:absolute;right:20px;bottom:0;color: #2cbcf2;text-decoration: underline;}
+.cmt-reply-wrap + .cmt-reply-wrap{margin-top:10px;border-top: 1px solid #e5e5e5;}
+.cmt-reply-wrap .cmt-reply-info,
+.cmt-reply-wrap .cmt-reply-content{padding-left:6px;}
+.cmt-reply-wrap .cmt-reply-info {position:relative;overflow:hidden;}
+.cmt-reply-wrap .cmt-reply-info .del{background-color:#f4f4f4;}
+.cmt-reply-wrap .cmt-reply-info .date {position:absolute;right:0;top:0;}
+.cmt-reply-wrap .cmt-reply-content{padding:3px 0 0 0;}
+.cmt-reply-wrap .cmt-reply-content strong{margin-right:5px;}
+
+.cmt-reply-write{position:relative;margin:10px 0 0 0;padding-right:70px;}
+.cmt-reply-write textarea{width:100%;height:60px;border:1px solid #eaeaea;resize:none;box-sizing: border-box;-webkit-box-sizing: border-box;}
+.cmt-reply-write .btn{position:absolute;right:0;top:0;width:69px;height:58px;border:1px solid #eaeaea; border-left:0;color:#fff;font-size:13px;font-weight:600;
+    background-color: #49c0f0; background-image: -webkit-gradient(linear, left top, left bottom, from(#49c0f0), to(#2cbcf2));
+    background-image: -webkit-linear-gradient(top, #49c0f0, #2cbcf2);
+    background-image: -moz-linear-gradient(top, #49c0f0, #2cbcf2);
+    background-image: -ms-linear-gradient(top, #49c0f0, #2cbcf2);
+    background-image: -o-linear-gradient(top, #49c0f0, #2cbcf2);
+    background-image: linear-gradient(to bottom, #49c0f0, #2cbcf2);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#49c0f0, endColorstr=#2cbcf2);
+}
+
+
 
 .paging-typ1{margin-bottom:8px;color:#819daa;font-size:0;font-weight:600;}
 .paging-typ1 .t-pager{display:inline-block;margin-right:9px;height:19px;font-size:12px;line-height:19px;vertical-align: middle;}

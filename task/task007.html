@@ -3,7 +3,7 @@
 <head>
     <meta charset="euc-kr" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>신규업무요청</title>
+    <title> 디테일 | 신규업무요청 | 인트라넷</title>
     <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
     <link rel='stylesheet' type='text/css' href='/css/reset.css'>
     <link rel='stylesheet' type='text/css' href='/css/layout.css'>
@@ -462,98 +462,86 @@
 					<a href="#none" class="close"><img src="/images/btn_pop_close1.gif" alt="닫기"></a>
 				</div>
 			</div>
-			<div id="layer-popup2" class="layer-popup" style="width:980px;display:none;">
+			<!-- 업무지원요청 -->
+			<div id="layer-popup2" class="layer-popup" style="width:980px;display:block;position:absolute;left:20%; top:35%;">
 				<div class="layer-header">
 					<h2>업무지원요청</h2>
 				</div>
 				<div class="layer-conetnt">
 					<div class="layer-request">
 						<div class="end-work">
-							<ul>
-								<li>
-									<a href="#none" class="btn btn-ty1">업무요청 직접검색</a>
-								</li>
-								<li>
-									<a href="#none" class="btn btn-ty1">업무요청 찾기</a>
-								</li>
-								<li>
-									<a href="#none" class="btn btn-ty1 on">즐겨찾기</a>
-								</li>
-							</ul>
+							<a href="#category-select-zone" class="btn btn-ty1 on">카테고리 선택</a>
+							<a href="#category-search-zone" class="btn btn-ty1">카테고리 검색</a>
+							<a href="#category-recent-zone" class="btn btn-ty1">최근사용</a>
 						</div>
-						<div class="box-typ2">
-							<div class="tit-search-ty1">
-								<label for="req1">업무지원요청</label>
-								<div class="input-search">
-									<input type="text" value="검색" id="req1" name="">
-									<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+						<!-- 카테고리 선택 -->
+						<div id="category-select-zone" class="category-content" style="display:block">
+							<div class="box-typ2">
+								<div class="category-result-wrap">
+									<div class="box-class">
+										<h4>1차 분류</h4>
+										<ul>
+											<li><a href="#none">게시판</a></li>
+											<li><a href="#none">업무요청</a></li>
+											<li><a href="#none">자료실</a></li>
+											<li><a href="#none">근태관리</a></li>
+											<li><a href="#none">부서게시판</a></li>
+											<li><a href="#none">관리메뉴</a></li>
+										</ul>
+									</div>
+									<div class="box-class">
+										<h4>2차 분류</h4>
+										<ul>
+											<li><a href="#none">전체직원 게시판</a></li>
+											<li><a href="#none">사업비 운영현황</a></li>
+											<li><a href="#none">개인별 영업실적 점검표</a></li>
+											<li><a href="#none">고객포인트 요청 게시판</a></li>
+											<li><a href="#none">주식 게시판</a></li>
+											<li><a href="#none">개선, 제안 게시판</a></li>
+											<li><a href="#none">TB VOC 사례</a></li>
+											<li><a href="#none">팀장회의/실적보고</a></li>
+											<li><a href="#none">환불보상게시판</a></li>
+										</ul>
+									</div>
+
+									<div class="box-class">
+										<h4>3차 분류</h4>
+										<ul>
+											<li><a href="#none">전체직원 게시판</a></li>
+											<li><a href="#none">사업비 운영현황</a></li>
+											<li><a href="#none">개인별 영업실적 점검표</a></li>
+											<li><a href="#none">고객포인트 요청 게시판</a></li>
+											<li><a href="#none">주식 게시판</a></li>
+											<li><a href="#none">개선, 제안 게시판</a></li>
+											<li><a href="#none">TB VOC 사례</a></li>
+											<li><a href="#none">팀장회의/실적보고</a></li>
+											<li><a href="#none">환불보상게시판</a></li>
+										</ul>
+									</div>
+
+									<div class="box-class">
+										<h4>4차 분류</h4>
+										<ul>
+											<li><a href="#none">전체직원 게시판</a></li>
+											<li><a href="#none">사업비 운영현황</a></li>
+											<li><a href="#none">개인별 영업실적 점검표</a></li>
+											<li><a href="#none">고객포인트 요청 게시판</a></li>
+											<li><a href="#none">주식 게시판</a></li>
+											<li><a href="#none">개선, 제안 게시판</a></li>
+											<li><a href="#none">TB VOC 사례</a></li>
+											<li><a href="#none">팀장회의/실적보고</a></li>
+											<li><a href="#none">환불보상게시판</a></li>
+										</ul>
+									</div>
 								</div>
-							</div>
-							<div class="box-class">
-								<h4>1차 분류</h4>
-								<ul>
-									<li><a href="#none">게시판</a></li>
-									<li><a href="#none">업무요청</a></li>
-									<li><a href="#none">자료실</a></li>
-									<li><a href="#none">근태관리</a></li>
-									<li><a href="#none">부서게시판</a></li>
-									<li><a href="#none">관리메뉴</a></li>
-								</ul>
-							</div>
-							<!--<a href="#none" class="next"><img src=" alt="다음" /></a>-->
-							<div class="box-class">
-								<h4>2차 분류</h4>
-								<ul>
-									<li><a href="#none">전체직원 게시판</a></li>
-									<li><a href="#none">사업비 운영현황</a></li>
-									<li><a href="#none">개인별 영업실적 점검표</a></li>
-									<li><a href="#none">고객포인트 요청 게시판</a></li>
-									<li><a href="#none">주식 게시판</a></li>
-									<li><a href="#none">개선, 제안 게시판</a></li>
-									<li><a href="#none">TB VOC 사례</a></li>
-									<li><a href="#none">팀장회의/실적보고</a></li>
-									<li><a href="#none">환불보상게시판</a></li>
-								</ul>
-							</div>
-
-							<div class="box-class">
-								<h4>3차 분류</h4>
-								<ul>
-									<li><a href="#none">전체직원 게시판</a></li>
-									<li><a href="#none">사업비 운영현황</a></li>
-									<li><a href="#none">개인별 영업실적 점검표</a></li>
-									<li><a href="#none">고객포인트 요청 게시판</a></li>
-									<li><a href="#none">주식 게시판</a></li>
-									<li><a href="#none">개선, 제안 게시판</a></li>
-									<li><a href="#none">TB VOC 사례</a></li>
-									<li><a href="#none">팀장회의/실적보고</a></li>
-									<li><a href="#none">환불보상게시판</a></li>
-								</ul>
-							</div>
-
-
-							<div class="box-class">
-								<h4>4차 분류</h4>
-								<ul>
-									<li><a href="#none">전체직원 게시판</a></li>
-									<li><a href="#none">사업비 운영현황</a></li>
-									<li><a href="#none">개인별 영업실적 점검표</a></li>
-									<li><a href="#none">고객포인트 요청 게시판</a></li>
-									<li><a href="#none">주식 게시판</a></li>
-									<li><a href="#none">개선, 제안 게시판</a></li>
-									<li><a href="#none">TB VOC 사례</a></li>
-									<li><a href="#none">팀장회의/실적보고</a></li>
-									<li><a href="#none">환불보상게시판</a></li>
-								</ul>
-							</div>
-
-							<div class="box-class request">
-								<h4>선택리스트</h4>
-								<ul>
-									<li><a href="#none" class="del">[X]<span>삭제</span></a> 기획 | 리뉴얼 기획/제안 </li>
-									<li><a href="#none" class="del">[X]<span>삭제</span></a> 개발 | 인트라넷</li>
-									<li><a href="#none" class="del">[X]<span>삭제</span></a> 디자인 | 인트라넷</li>
-								</ul>
+								<div class="box-class selected-list">
+									<h4>선택리스트</h4>
+									<ul>
+										<li><a href="#none" class="del">[X]<span>삭제</span></a> 기획 | 리뉴얼 기획/제안</li>
+										<li><a href="#none" class="del">[X]<span>삭제</span></a> 개발 | 인트라넷</li>
+										<li><a href="#none" class="del">[X]<span>삭제</span></a> 디자인 | 인트라넷</li>
+									</ul>
+								</div>
 							</div>
 							<div class="btn-sort-ty2">
 								<div class="fl">
@@ -564,39 +552,95 @@
 									<button class="btn cansel-ty1">취소</button>
 								</div>
 							</div>
+							</div>
+						</div>
+
+						<!-- 카테고리검색 -->
+						<div id="category-search-zone" class="category-content" style="display:block">
+							<div class="tit-search-ty1">
+								<label for="req1">업무지원요청</label>
+								<div class="input-search">
+									<input type="text" value="검색" id="req1" name="">
+									<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+								</div>
+							</div>
+							<div class="box-typ2">
+								<div class="category-result-wrap">
+									<div class="box-class width-full">
+										<ul>
+											<li><a href="#none">게시판</a></li>
+											<li><a href="#none">업무요청</a></li>
+											<li><a href="#none">자료실</a></li>
+											<li><a href="#none">근태관리</a></li>
+											<li><a href="#none">부서게시판</a></li>
+											<li><a href="#none">관리메뉴</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="box-class selected-list">
+									<h4>선택리스트</h4>
+									<ul>
+										<li><a href="#none" class="del">[X]<span>삭제</span></a> 기획 | 리뉴얼 기획/제안</li>
+										<li><a href="#none" class="del">[X]<span>삭제</span></a> 개발 | 인트라넷</li>
+										<li><a href="#none" class="del">[X]<span>삭제</span></a> 디자인 | 인트라넷</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- 최근사용 -->
+						<div id="category-recent-zone" class="category-content" style="display:block">
+							<div class="box-typ2">
+								<div class="category-result-wrap">
+									<div class="box-class width-full">
+										<ul>
+											<li><a href="#none">게시판</a></li>
+											<li><a href="#none">업무요청</a></li>
+											<li><a href="#none">자료실</a></li>
+											<li><a href="#none">근태관리</a></li>
+											<li><a href="#none">부서게시판</a></li>
+											<li><a href="#none">관리메뉴</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="box-class selected-list">
+									<h4>선택리스트</h4>
+									<ul>
+										<li><a href="#none" class="del">[X]<span>삭제</span></a> 기획 | 리뉴얼 기획/제안</li>
+										<li><a href="#none" class="del">[X]<span>삭제</span></a> 개발 | 인트라넷</li>
+										<li><a href="#none" class="del">[X]<span>삭제</span></a> 디자인 | 인트라넷</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
-			<div id="layer-popup3" class="layer-popup" style="width:460px;position:absolute;left:20%;top:40%;display:none;">
+			<!-- 업무담당자지정 -->
+			<div id="layer-popup3" class="layer-popup" style="width:460px;position:absolute;left:10%;top:10%;display:block;">
 				<div class="layer-header">
 					<h2>업무 담당자 지정</h2>
 				</div>
 				<div class="layer-conetnt">
-						<div class="layer-request">
-							<div class="box-typ2">
-								<div class="name-list">
-									<div class="tag-list btn-type">
-										<span><button class="btn">전체</button></span>
-										<span><button class="btn">연중행사</button></span>
-										<span><button class="btn">항공요금표</button></span>
-										<span><button class="btn">기획팀 업무관리</button></span>
-										<span><button class="btn">개발팀 업무요청</button></span>
-										<span><button class="btn">경영지원본부</button></span>
-										<span><button class="btn">영업1팀</button></span>
-										<span><button class="btn">고객만족게시판</button></span>
-										<span><button class="btn">환불보상게시판</button></span>
-									</div>
+					<div class="layer-request">
+						<div class="box-typ2">
+							<div class="tag-list btn-type">
+								<span class="selected"><button class="btn">전체</button></span>
+								<span><button class="btn">연중행사</button></span>
+								<span><button class="btn">항공요금표</button></span>
+								<span><button class="btn">기획팀 업무관리</button></span>
+								<span><button class="btn">개발팀 업무요청</button></span>
+								<span><button class="btn">경영지원본부</button></span>
+								<span><button class="btn">영업1팀</button></span>
+								<span><button class="btn">고객만족게시판</button></span>
+								<span><button class="btn">환불보상게시판</button></span>
+							</div>
+							<div class="btn-sort-ty2">
+								<div class="fl">
+									<button class="btn return-ty1">반려</button>
 								</div>
-								<div class="btn-sort-ty2">
-									<div class="fl">
-										<button class="btn return-ty1">반려</button>
-									</div>
-									<div class="fr">
-										<button class="btn apply-ty2">확인</button>
-										<button class="btn cansel-ty1">취소</button>
-									</div>
+								<div class="fr">
+									<button class="btn apply-ty2">확인</button>
+									<button class="btn cansel-ty1">취소</button>
 								</div>
 							</div>
 						</div>

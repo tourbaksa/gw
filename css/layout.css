@@ -8,10 +8,8 @@ header{width:100%; background-color:#3b4d56;}
 .nav_container #gnb li a{display:block;height:37px; padding:22px 25px 0;color:#b2c1c8;font-size:16px;font-weight:800;text-align:center;}
 /*.nav_container #gnb li a span{display:inline-block;height:16px;background:url(/images/bg_gnb_set.png) no-repeat 0 0;text-indent:-9999em;font-size:0;}*/
 
-
 .nav_container #gnb li.on a,
 .nav_container #gnb li a:hover{background-color:#2e434d;color:#5bc9f2;}
-
 
 .nav_container h1,
 .nav_container #gnb{float:left;}
@@ -19,10 +17,10 @@ header{width:100%; background-color:#3b4d56;}
 .nav_container .search.top h2{float:left;width:32px;height:32px; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;background:#fff url(/images/bul_tourbaksa.png) no-repeat 50% 50%;text-indent:-9999em;}
 .nav_container .search .input-search{float:left; margin-left:10px; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; background-color:#fff;}
 .input-search{position:relative; width:240px; height: 32px;}
-.input-search input[type="text"]{width:80%; margin:3px 0 0 0;}
+.input-search input[type="text"]{width:80%; margin:3px 0 0 0;border:0;}
 .input-search .search-ty1{position:absolute; right:3px; top:0;}
 
-#wrap{background:#fcfcfc;color:#5e727b;}
+#wrap{width:100%;background:#fcfcfc;color:#5e727b;}
 #container{position:relative; width:1040px; margin:22px auto 0; padding-left:220px;}
 #container:after{content:'';display:block;clear:both;}
 
@@ -30,7 +28,7 @@ header{width:100%; background-color:#3b4d56;}
 #side-left{position:absolute; left:0; top:0; bottom:0; width:218px;height:100%;min-height:800px;border:1px solid #cad8dc; border-bottom:0; background-color:#e0eaed;}
 #side-left .input-search {position:absolute;left:-1px;top:-1px; z-index:999; width:221px; height:57px;background-color:#fff;}
 #side-left .input-search .input-text{display:block;width:218px;height:34px;border:1px solid #cad8dc;}
-#side-left .input-search .input-text input{width:173px;}
+#side-left .input-search .input-text input{width:173px;border:0;}
 #side-left .input-search .search-ty1{top:1px;}
 #side-left .side-itemWrap{width:218px; margin:56px 0 0 0; }
 #side-left .side-itemWrap > h2{height:34px;padding-top:16px;border-bottom:1px solid #cad8dc; border-top:1px solid #cad8dc; background-color:#e0eaed;text-align:center;}

@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-    sideMenu(".side-menu");
+    sideMenu(".side-dep1");
 
 
 });
@@ -8,29 +8,28 @@ $(document).ready(function(){
 /* left menu */
 function sideMenu(obj){
     var obj = $(obj)
-        ,dep1 = obj.find(" > li")
-        ,submenu = obj.find(" > li > ul")
+        ,dep2 = obj.find(".side-dep2 > li > a");
 
-
-    submenu.css("display","none");
-    dep1.find("a").each(function(){
-        $(this).click(function(e){
-            var isOpen = $(this).parent().hasClass("open")? true : false;
-           dep1.each(function(){
-                $(this).removeClass("open").find("> ul").slideUp("normal");
-            });
-            if(!isOpen){
-                $(this).parent()[isOpen? "removeClass" : "addClass"]("open");
-                $(this).siblings("ul").slideDown("normal");
-            }else{
-                $(this).parent()[isOpen? "removeClass" : "addClass"]("open");
-                $(this).siblings("ul").slideUp("normal");
-            }
-            return false;
-        });
+    obj.find("li:not(.open)").each(function(){
+        $(this).find(">ul").css("display","none");
     });
-
-
+    obj.find(".open ul").css("display","block");
+    var act = function(e){
+        if($(e.target).is("a")){
+            var $ele = $(e.target),
+                 $thisDeps = ($ele.parent().parent().prop("class").replace("side-dep",""))* 1,
+                 isOpen = $ele.parent().hasClass("open")? true : false;
+            $(".side-dep" + $thisDeps).find(".open").removeClass("open").find(">ul").slideUp("normal");
+            if(!isOpen){
+                $ele.parent()[isOpen? "removeClass" : "addClass"]("open");
+                $ele.siblings("ul").slideDown("normal");
+            }else{
+                $ele.parent()[isOpen? "removeClass" : "addClass"]("open");
+                $ele.siblings("ul").slideUp("normal");
+            }
+        }
+    }
+    obj.click( act )
 }
 
 /* tab Menu */

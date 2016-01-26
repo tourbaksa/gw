@@ -1,4 +1,4 @@
-@charset "euc-kr";
+@charset "utf-8";
 
 /*------------------------------------*\
     $RESET
@@ -20,7 +20,7 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
 }
-h1, h2, h3, h4, h5, h6 {padding:0; margin:0; font-size:0;}
+h1, h2, h3, h4, h5, h6 {padding:0; margin:0;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -242,7 +242,7 @@ a:hover {
     text-decoration:none;
 }
 
-/* Å×ÀÌºí Ä¸¼ÇÀ» ¾Èº¸ÀÌ°Ô ÇÑ´Ù. */
+/* í…Œì´ë¸” ìº¡ì…˜ì„ ì•ˆë³´ì´ê²Œ í•œë‹¤. */
 table caption {
     width: 0;
     height: 0;
@@ -250,7 +250,7 @@ table caption {
     line-height: 0;
     overflow: hidden;
     visibility: hidden;
-    display: none; /* ÀÌ ¼Ó¼ºÀ» ³Ö¾úÀ»¶§ ¸®´õ±â¿¡¼­ ÀĞÈ÷´ÂÁö...*/
+    display: none; /* ì´ ì†ì„±ì„ ë„£ì—ˆì„ë•Œ ë¦¬ë”ê¸°ì—ì„œ ì½íˆëŠ”ì§€...*/
 }
 
 /*------------------------------------*\
@@ -288,7 +288,7 @@ html[xmlns] .clear-fix {
     height: 1%;
 }
 
-/* Á¢±Ù¼º (ÇØ´ç ¿ä¼ÒÀÇ ÅØ½ºÆ®¸¦ È­¸é¿¡ º¸ÀÌÁö¾Ê°Ô ÇÑ´Ù. ¸®´õ±â¿¡¼­¸¸ ÀĞ¾îÁØ´Ù.) */
+/* ì ‘ê·¼ì„± (í•´ë‹¹ ìš”ì†Œì˜ í…ìŠ¤íŠ¸ë¥¼ í™”ë©´ì— ë³´ì´ì§€ì•Šê²Œ í•œë‹¤. ë¦¬ë”ê¸°ì—ì„œë§Œ ì½ì–´ì¤€ë‹¤.) */
 .hide-text {
     position: absolute;
     overflow: hidden;
@@ -299,7 +299,7 @@ html[xmlns] .clear-fix {
     text-indent: -9999px;
 }
 
-/* Á¢±Ù¼º (ÇØ´ç ¿ä¼ÒÀÚÃ¼¸¦ È­¸é¿¡ º¸ÀÌÁö¾Ê°Ô ÇÑ´Ù. ¸®´õ±â¿¡¼­¸¸ ÀĞ¾îÁØ´Ù.) */
+/* ì ‘ê·¼ì„± (í•´ë‹¹ ìš”ì†Œìì²´ë¥¼ í™”ë©´ì— ë³´ì´ì§€ì•Šê²Œ í•œë‹¤. ë¦¬ë”ê¸°ì—ì„œë§Œ ì½ì–´ì¤€ë‹¤.) */
 .hide-element {
     display: block;
     overflow: hidden;
@@ -315,7 +315,7 @@ html[xmlns] .clear-fix {
 }
 
 
-/* ¹é±×¶ó¿îµå°¡ ÀÌ¹ÌÁö·Î µÈ ¹öÆ°À» ¸¸µé¾î ÁØ´Ù. */
+/* ë°±ê·¸ë¼ìš´ë“œê°€ ì´ë¯¸ì§€ë¡œ ëœ ë²„íŠ¼ì„ ë§Œë“¤ì–´ ì¤€ë‹¤. */
 .img-btn {
     margin: 0;
     padding: 0;
@@ -327,7 +327,7 @@ html[xmlns] .clear-fix {
     cursor: pointer;
 }
 
-/* ¹é±×¶ó¿îµå°¡ ÀÌ¹ÌÁö·Î µÇ¾îÀÖÁö¸¸ value¼Ó¼º°ªÀ» ¹öÆ° ÅØ½ºÆ®·Î »ç¿ëÇÑ´Ù. */
+/* ë°±ê·¸ë¼ìš´ë“œê°€ ì´ë¯¸ì§€ë¡œ ë˜ì–´ìˆì§€ë§Œ valueì†ì„±ê°’ì„ ë²„íŠ¼ í…ìŠ¤íŠ¸ë¡œ ì‚¬ìš©í•œë‹¤. */
 .txt-btn {
     margin: 0;
     padding: 0;
@@ -346,7 +346,7 @@ html[xmlns] .clear-fix {
 .vat { vertical-align: top !important;}
 
 
-/*ºí·°¿ä¼Ò °¡¿îµ¥ Á¤·Ä  - center ¿ä¼Ò ¾È¿¡ middleÀ» ³Ö¾î¾ß ÇÑ´Ù. */
+/*ë¸”ëŸ­ìš”ì†Œ ê°€ìš´ë° ì •ë ¬  - center ìš”ì†Œ ì•ˆì— middleì„ ë„£ì–´ì•¼ í•œë‹¤. */
 .center { display:table; margin:0 auto; text-align:center;}
 .middle {display:table-cell; vertical-align:middle;}
 

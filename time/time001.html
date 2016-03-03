@@ -76,90 +76,160 @@
 				</form>
 			</div>
 
-			<div class="tbl-list-ty4">
-				<table width="100%" summary="월별 시간외 수당 조회 대한 정보를 제공합니다.">
+			<!--
+			 테이블 셀은 최소 14개가 디폴트입니다.
+
+			 검색결과가 14개 미만이면 셀이 14개 노출
+			 결과가 그이상이면 늘어나도 됩니다.
+		 -->
+			<div class="Time-attendance-wrap">
+				<table width="100%">
 					<colgroup>
-						<col width="14%" />
-						<col width="12%" />
-						<col width="12%" />
-						<col width="12%" />
-						<col width="12%" />
-						<col width="12%" />
-						<col width="12%" />
-						<col width="14%" />
+						<col width="10%" />
+						<col width="*" />
 					</colgroup>
-					<caption>월별 시간외 수당 조회</caption>
 					<thead>
-						<tr>
-							<th scope="col" rowspan="2">2015</th>
-							<th scope="col" colspan="6">12월</th>
-							<th scope="col" rowspan="2">합계</th>
-						</tr>
-						<tr>
-							<th scope="col">1주<br>(12.01~12.01)</th>
-							<th scope="col">2주<br>(12.01~12.01)</th>
-							<th scope="col">3주<br>(12.01~12.01)</th>
-							<th scope="col">4주<br>(12.01~12.01)</th>
-							<th scope="col">5주<br>(12.01~12.01)</th>
-							<th scope="col">6주<br>(12.01~12.01)</th>
-						</tr>
+					<tr>
+						<th>&nbsp;</th>
+						<th>김학성(2472)</th>
+						<th>김&nbsp;학(2472)</th>
+						<th>김학성성(2472)</th>
+						<th>김학성(2472)</th>
+						<th>김학성(2472)</th>
+						<th>김학성(2472)</th>
+						<th>김학성(2472)</th>
+						<th>김학성(2472)</th>
+						<th>김학성(2472)</th>
+						<th>김학성(2472)</th>
+						<th>김학성(2472)</th>
+						<th>김학성(2472)</th>
+						<th>김학성(2472)</th>
+						<th>김학성(2472)</th>
+					</tr>
 					</thead>
 					<tbody>
-						<tr>
-							<th>김학성(1234)</th>
-							<td class="disabled">0</td> 
-							<td class="disabled">0</td> 
-							<td>1</td> 
-							<td class="disabled">0</td> 
-							<td>2</td> 
-							<td class="disabled">0</td> 
-							<td class="disabled">0</td> 
-						</tr>
-						<tr>
-							<th>김학성(1234)</th>
-							<td class="disabled">0</td> 
-							<td class="disabled">0</td> 
-							<td>1</td> 
-							<td class="disabled">0</td> 
-							<td>2</td> 
-							<td class="disabled">0</td> 
-							<td class="disabled">0</td> 
-						</tr>
-						<tr>
-							<th>김학성(1234)</th>
-							<td class="disabled">0</td> 
-							<td class="disabled">0</td> 
-							<td>1</td> 
-							<td class="disabled">0</td> 
-							<td>2</td> 
-							<td class="disabled">0</td> 
-							<td class="disabled">0</td> 
-						</tr>
-						<tr>
-							<th>김학성(1234)</th>
-							<td class="disabled">0</td> 
-							<td class="disabled">0</td> 
-							<td>1</td> 
-							<td class="disabled">0</td> 
-							<td>2</td> 
-							<td class="disabled">0</td> 
-							<td class="disabled">0</td> 
-						</tr>
-						<tr>
-							<th>김학성(1234)</th>
-							<td class="disabled">0</td> 
-							<td class="disabled">0</td> 
-							<td>1</td> 
-							<td class="disabled">0</td> 
-							<td>2</td> 
-							<td class="disabled">0</td> 
-							<td class="disabled">0</td> 
-						</tr>
+					<tr>
+						<th>1주<br>(12.01~12.01)</th>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td>1시간</td>
+						<td class="disabled">0</td>
+						<td>4시간</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+					</tr>
+					<tr>
+						<th>2주<br>(12.01~12.01)</th>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td>1시간</td>
+						<td class="disabled">0</td>
+						<td>4시간</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+					</tr>
+					<tr>
+						<th>3주<br>(12.01~12.01)</th>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td>1시간</td>
+						<td class="disabled">0</td>
+						<td>4시간</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+					</tr>
+					<tr>
+						<th>4주<br>(12.01~12.01)</th>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td>1시간</td>
+						<td class="disabled">0</td>
+						<td>4시간</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+					</tr>
+					<tr>
+						<th>5주<br>(12.01~12.01)</th>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td>1시간</td>
+						<td class="disabled">0</td>
+						<td>4시간</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+					</tr>
+					<tr>
+						<th>6주<br>(12.01~12.01)</th>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td>1시간</td>
+						<td class="disabled">0</td>
+						<td>4시간</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+						<td class="disabled">0</td>
+					</tr>
+					<tr>
+						<th>합계</th>
+						<td>총 20시간</td>
+						<td>총 7시간</td>
+						<td>총 0시간</td>
+						<td>총 0시간</td>
+						<td>총 0시간</td>
+						<td>총 0시간</td>
+						<td>총 0시간</td>
+						<td>총 0시간</td>
+						<td>총 0시간</td>
+						<td>총 0시간</td>
+						<td>총 0시간</td>
+						<td>총 0시간</td>
+						<td>총 0시간</td>
+						<td>총 0시간</td>
+					</tr>
 					</tbody>
 				</table>
-				
 			</div>
-
         </article>
     </section> 
 

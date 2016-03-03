@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>인트라넷</title>
+	<title>근태관리 | 인트라넷</title>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
 	<link rel="stylesheet" type="text/css" href="/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="/css/layout.css">
@@ -38,7 +38,7 @@
 				<h2 class="btn-QnaView"><a href="#none">여행질답 & 맞춤여행</a></h2>
 
 				<div class="pageTitleBox">
-					<h2>출근부</h2>
+					<h2>근태관리</h2>
 				</div>
 
 				<div class="dateHeader">
@@ -76,7 +76,6 @@
 								<th title="목">THU</th>
 								<th title="금">FRI</th>
 								<th class="sat" title="토 ">SAT</th>
-								<th>추가근무</th>
 							</tr>
 							</thead>
 						</table>
@@ -101,7 +100,7 @@
 									tbl-gird영역에 .drag 클래스를 동적으로 삽입해주어야함 (스타일적용)
 								-->
 								<div class="month-row">
-									<table class="tbl-gird" width="100%">
+									<table class="tbl-gird" width="100%" cellpadding="0" cellspacing="0">
 										<tbody>
 										<tr>
 											<td class="sun">&nbsp;</td>
@@ -111,11 +110,10 @@
 											<td></td>
 											<td class="drag"></td>
 											<td class="sat">&nbsp;</td>
-											<td class="overtime">4 시간</td>
 										</tr>
 										</tbody>
 									</table>
-									<table class="tbl-schedule">
+									<table class="tbl-schedule" width="100%" cellpadding="0" cellspacing="0">
 										<tbody>
 										<tr class="date">
 											<td class="disable sun">11/29</td>
@@ -126,33 +124,23 @@
 											<td>4</td>
 											<td class="sat">5</td>
 										</tr>
-										<tr class="inout-time">
-											<td></td>
-											<td></td>
-											<td>08:30 ~ 06:30</td>
-											<td>08:30 ~ 06:30</td>
-											<td>08:30 ~ 06:30</td>
-											<td></td>
-											<td></td>
-										</tr>
 										<tr class="schedule-list">
 											<td></td>
 											<td>
-												<div class="schedule-color1"><a href="#none">오후반차</a></div>
+												<div class="schedule-color1"><a href="#none">오후반차 [홍길동]</a></div>
 											</td>
 											<td></td>
 											<td></td>
 											<td colspan="2">
-												<div class="schedule-color2"><a href="#none">연차</a></div>
+												<div class="schedule-color2"><a href="#none">연차 [홍길동]</a></div>
 											</td>
 											<td></td>
-											<td class="overtime"></td>
 										</tr>
 										</tbody>
 									</table>
 								</div>
 								<div class="month-row">
-									<table class="tbl-gird" width="100%">
+									<table class="tbl-gird" width="100%" cellpadding="0" cellspacing="0">
 										<tbody>
 										<tr>
 											<td class="sun">&nbsp;</td>
@@ -162,11 +150,10 @@
 											<td></td>
 											<td></td>
 											<td class="sat">&nbsp;</td>
-											<td class="overtime">0.5 시간</td>
 										</tr>
 										</tbody>
 									</table>
-									<table class="tbl-schedule">
+									<table class="tbl-schedule" width="100%" cellpadding="0" cellspacing="0">
 										<tbody>
 										<tr class="date">
 											<td class="sun">6</td>
@@ -176,28 +163,19 @@
 											<td>10</td>
 											<td>11</td>
 											<td class="sat">12</td>
-											<td></td>
-										</tr>
-										<tr class="inout-time">
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
 										</tr>
 										<tr class="schedule-list">
-											<td></td>
-											<td><div class="schedule-color3"><a href="#none">시간연차</a></div></td>
-											<td colspan="2"><div class="schedule-color4"><a href="#none">교육[외부]</a></div></td>
-											<td colspan="2"><div class="schedule-color5"><a href="#none">출장</a></div></td>
+											<td><div class="schedule-color6"><a href="#none">휴직 [홍길동]</a></div></td>
+											<td><div class="schedule-color3"><a href="#none">시간연차 [홍길동]</a></div></td>
+											<td colspan="2"><div class="schedule-color4"><a href="#none">교육[외부][홍길동]</a></div></td>
+											<td colspan="2"><div class="schedule-color5"><a href="#none">출장[홍길동]</a></div></td>
+											<td><div class="schedule-color6"><a href="#none">휴직 [홍길동]</a></div></td>
 										</tr>
 										</tbody>
 									</table>
 								</div>
 								<div class="month-row">
-									<table class="tbl-gird" width="100%">
+									<table class="tbl-gird" width="100%" cellpadding="0" cellspacing="0">
 										<tbody>
 										<tr>
 											<td class="sun">&nbsp;</td>
@@ -207,11 +185,10 @@
 											<td></td>
 											<td></td>
 											<td class="sat">&nbsp;</td>
-											<td class="overtime">0 시간</td>
 										</tr>
 										</tbody>
 									</table>
-									<table class="tbl-schedule">
+									<table class="tbl-schedule" width="100%" cellpadding="0" cellspacing="0">
 										<tbody>
 										<tr class="date">
 											<td class="sun">13</td>
@@ -221,30 +198,21 @@
 											<td>17</td>
 											<td>18</td>
 											<td class="sat">19</td>
-											<td></td>
-										</tr>
-										<tr class="inout-time">
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
 										</tr>
 										<tr class="schedule-list">
 											<td></td>
-											<td><div class="schedule-color6"><a href="#none">휴직</a></div></td>
-											<td><div class="schedule-color7"><a href="#none">휴가</a></div></td>
-											<td><div class="schedule-color8"><a href="#none">당대휴무</a></div></td>
-											<td><div class="schedule-color9"><a href="#none">외근</a></div></td>
+											<td><div class="schedule-color6"><a href="#none">휴직 [홍길동]</a></div></td>
+											<td><div class="schedule-color7"><a href="#none">휴가 [홍길동]</a></div></td>
+											<td><div class="schedule-color8"><a href="#none">당대휴무 [홍길동]</a></div></td>
+											<td><div class="schedule-color9"><a href="#none">외근 [홍길동]</a></div></td>
+											<td></td>
 											<td></td>
 										</tr>
 										</tbody>
 									</table>
 								</div>
 								<div class="month-row">
-									<table class="tbl-gird" width="100%">
+									<table class="tbl-gird" width="100%" cellpadding="0" cellspacing="0">
 										<tbody>
 										<tr>
 											<td class="sun">&nbsp;</td>
@@ -254,11 +222,10 @@
 											<td></td>
 											<td></td>
 											<td class="sat">&nbsp;</td>
-											<td class="overtime">1 시간</td>
 										</tr>
 										</tbody>
 									</table>
-									<table class="tbl-schedule">
+									<table class="tbl-schedule" width="100%" cellpadding="0" cellspacing="0">
 										<tbody>
 										<tr class="date">
 											<td class="sun">20</td>
@@ -268,11 +235,10 @@
 											<td>24</td>
 											<td>25</td>
 											<td class="sat">26</td>
-											<td></td>
 										</tr>
 										<tr class="schedule-list">
 											<td></td>
-											<td><div class="schedule-color4"><a href="#none">오후반차</a></div></td>
+											<td><div class="schedule-color4"><a href="#none">오후반차 [홍길동]</a></div></td>
 											<td></td>
 											<td></td>
 											<td></td>
@@ -283,7 +249,7 @@
 									</table>
 								</div>
 								<div class="month-row">
-									<table class="tbl-gird" width="100%">
+									<table class="tbl-gird" width="100%" cellpadding="0" cellspacing="0">
 										<tbody>
 										<tr>
 											<td class="sun">&nbsp;</td>
@@ -293,11 +259,10 @@
 											<td></td>
 											<td></td>
 											<td class="sat">&nbsp;</td>
-											<td class="overtime">0 시간</td>
 										</tr>
 										</tbody>
 									</table>
-									<table class="tbl-schedule">
+									<table class="tbl-schedule" width="100%" cellpadding="0" cellspacing="0">
 										<tbody>
 										<tr class="date">
 											<td class="sun">27</td>
@@ -307,20 +272,10 @@
 											<td>31</td>
 											<td class="disable">1/1</td>
 											<td class="sat disable">1/2</td>
-											<td></td>
-										</tr>
-										<tr class="inout-time">
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
-											<td></td>
 										</tr>
 										<tr class="schedule-list">
 											<td></td>
-											<td><div class="schedule-color4"><a href="#none">오후반차</a></div></td>
+											<td><div class="schedule-color4"><a href="#none">오후반차 [홍길동]</a></div></td>
 											<td></td>
 											<td></td>
 											<td></td>
@@ -332,12 +287,61 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
+			</div>
 		</article>
 	</section>
-
+	<div id="layer-popup1" class="layer-popup" style="width:560px;position:absolute;left:20%; top:50%;">
+		<div class="layer-header">
+			<h2>[2016.01.27]</h2>
+		</div>
+		<div class="layer-content">
+			<div class="tbl-list-ty4 time-detail">
+				<table width="100%" summary="일별 근태 상세내역정보제공">
+					<caption>근태상세내역</caption>
+					<colgroup>
+						<col width="15%">
+						<col width="15%">
+						<col width="20%">
+						<col width="20%">
+						<col width="*">
+					</colgroup>
+					<thead>
+					<tr>
+						<th scope="col">직원명</th>
+						<th scope="col">사용일자</th>
+						<th scope="col">근태구분</th>
+						<th scope="col">세부유형</th>
+						<th scope="col">상세내역</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>홍길동</td>
+						<td>11/27~11/03</td>
+						<td>교육</td>
+						<td>외부업체교육</td>
+						<td>웹/모바일 컨퍼런스 참여</td>
+					</tr>
+					<tr>
+						<td>홍길동</td>
+						<td>11/27~11/03</td>
+						<td>교육</td>
+						<td>외부업체교육</td>
+						<td>웹/모바일 컨퍼런스 참여</td>
+					</tr>					<tr>
+						<td>홍길동</td>
+						<td>11/27~11/03</td>
+						<td>교육</td>
+						<td>외부업체교육</td>
+						<td>웹/모바일 컨퍼런스 참여</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
 	<!-- footer -->
 	<footer id="footer">
 		<div class="footer-container">

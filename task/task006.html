@@ -57,11 +57,11 @@
 				</div>
 			</div>
 
-			<div id="layer-popup2" class="layer-popup" style="width:910px;">
+			<div id="layer-popup2" class="layer-popup" style="width:910px;position:absolute;left:0;top:0px;width: 910px;top: -23px;left:50%;margin-left:-450px;">
 				<div class="layer-header">
 					<h2>신규 업무 요청</h2>
 				</div>
-				<div class="layer-conetnt">
+				<div class="layer-content">
 					<div class="layer-new-work">
 						<table width="100%" summary="신규업무 요청, 유형, 업무, 제목, 내용에 대한 정보를 제공합니다.">
 							<caption>신규업무요청</caption>
@@ -87,7 +87,7 @@
 											</ul>
 										</div>
 										<div class="box-typ2">
-											<div class="box-class-wrap">
+											<div class="box-class-wrap first">
 												<div class="box-class">
 													<h4>1차 분류</h4>
 													<ul>
@@ -121,24 +121,23 @@
 														<li><a href="#none">관리메뉴</a></li>
 													</ul>
 												</div>
-												<div class="box-class">
-													<h4>4차 분류</h4>
-													<ul>
-														<li><a href="#none">게시판</a></li>
-														<li><a href="#none">업무요청</a></li>
-														<li><a href="#none">자료실</a></li>
-														<li><a href="#none">근태관리</a></li>
-														<li><a href="#none">부서게시판</a></li>
-														<li><a href="#none">관리메뉴</a></li>
-													</ul>
-												</div>
-												<div class="btn-sort-ty2">
-													<button id="$dialog_select_category_button" class="btn btn-orange30" onclick="addDialogCategory()">추가</button>
-												</div>
+												<!--<div class="box-class">-->
+													<!--<h4>4차 분류</h4>-->
+													<!--<ul>-->
+														<!--<li><a href="#none">게시판</a></li>-->
+														<!--<li><a href="#none">업무요청</a></li>-->
+														<!--<li><a href="#none">자료실</a></li>-->
+														<!--<li><a href="#none">근태관리</a></li>-->
+														<!--<li><a href="#none">부서게시판</a></li>-->
+														<!--<li><a href="#none">관리메뉴</a></li>-->
+													<!--</ul>-->
+												<!--</div>-->
+
+												<span class="category-insert"><button id="$dialog_select_category_button" class="btn btn-orange30" onclick="addDialogCategory()">추가</button></span>
 											</div>
 
 											<!-- 신규업무요청찾기 -->
-											<div class="new-work-search" style="margin-top:10px;">
+											<div class="new-work-search" style="display:none;margin-top:10px;">
 												<div class="input-search">
 													<span class="input-text"><input type="text" value="검색"></span>
 													<button class="btn search-ty1"><span class="img-btn">검색</span></button>
@@ -185,13 +184,19 @@
 								<tr>
 									<th> 내용</th>
 									<td>
-										<textarea cols="30" rows="10"></textarea>
+										<textarea cols="30" rows="12"></textarea>
 									</td>
 								</tr>
 								<tr>
 									<th>파일첨부</th>
 									<td>
 										<button class="btn apply-ty1">파일선택</button>
+										<div class="drag-file-upload">
+											<span class="upload-guide">
+												<svg class="box__icon" xmlns="http://www.w3.org/2000/svg" width="50" height="43" viewBox="0 0 50 43"><path d="M48.4 26.5c-.9 0-1.7.7-1.7 1.7v11.6h-43.3v-11.6c0-.9-.7-1.7-1.7-1.7s-1.7.7-1.7 1.7v13.2c0 .9.7 1.7 1.7 1.7h46.7c.9 0 1.7-.7 1.7-1.7v-13.2c0-1-.7-1.7-1.7-1.7zm-24.5 6.1c.3.3.8.5 1.2.5.4 0 .9-.2 1.2-.5l10-11.6c.7-.7.7-1.7 0-2.4s-1.7-.7-2.4 0l-7.1 8.3v-25.3c0-.9-.7-1.7-1.7-1.7s-1.7.7-1.7 1.7v25.3l-7.1-8.3c-.7-.7-1.7-.7-2.4 0s-.7 1.7 0 2.4l10 11.6z"></path></svg>
+												<strong> 마우스로 원하는 파일을 넣어주세요. </strong>
+											</span>
+										</div>
 									</td>
 								</tr>
 								<tr>

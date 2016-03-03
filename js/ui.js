@@ -11,9 +11,9 @@ function sideMenu(obj){
         ,dep2 = obj.find(".side-dep2 > li > a");
 
     obj.find("li:not(.open)").each(function(){
-        $(this).find(">ul").css("display","none");
+        $(this).find(">ul, >div").css("display","none");
     });
-    obj.find(".open ul").css("display","block");
+    obj.find(".open ul, .open div").css("display","block");
     var act = function(e){
         if($(e.target).is("a")){
             var $ele = $(e.target),

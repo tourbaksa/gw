@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body{background:#fcfcfc;}
+body{background:#fafafa;}
 header{width:100%; background-color:#3b4d56;}
 .nav_container{overflow:hidden;width:1260px; margin:0 auto;}
 .nav_container h1{width:142px; padding:20px 0 0 0;}
@@ -19,7 +19,7 @@ header{width:100%; background-color:#3b4d56;}
 .nav_container .search.top h2{float:left;width:32px;height:32px; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;background:#fff url(/images/bul_tourbaksa.png) no-repeat 50% 50%;text-indent:-9999em;}
 .nav_container .search .input-search{float:left; margin-left:10px; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; background-color:#fff;}
 .input-search{position:relative; width:240px; height: 32px;}
-.input-search input[type="text"]{width:80%; margin:3px 0 0 0;border:0;}
+.input-search input[type="text"]{width:72%; margin:3px 0 0 0;border:0;}
 .input-search .search-ty1{position:absolute; right:3px; top:0;}
 
 #wrap{width:100%;color:#5e727b;}
@@ -28,7 +28,7 @@ header{width:100%; background-color:#3b4d56;}
 
 /* 좌 컨텐츠 */
 #side-left{display:table-cell;vertical-align:top;border:1px solid #cad8dc; border-bottom:0; background-color:#e0eaed;}
-#side-left .input-search {position:absolute;left:-1px;top:-1px; z-index:7; width:221px; height:57px;background-color:#fff;}
+#side-left .input-search {position:absolute;left:-1px;top:-1px; z-index:7; width:221px; height:57px;background-color:#fcfcfc;}
 #side-left .input-search .input-text{display:block;width:218px;height:34px;border:1px solid #cad8dc;}
 #side-left .input-search .input-text input{width:173px;border:0;}
 #side-left .input-search .search-ty1{top:1px;}
@@ -70,7 +70,10 @@ header{width:100%; background-color:#3b4d56;}
 .side-dep1 .side-dep2 .side-dep3 > li.selected > a,
 .side-dep1 .side-dep2 .side-dep3 > li > a:hover{color:#2cbcf2;font-size:12px;font-weight:600;}
 .side-dep1 .side-dep2 > li > .btn{margin:10px 0 0 0;width:100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-#content{display:table-cell;float:left; min-height:800px; padding:0 0 40px 15px;width:1025px;}
+article#content{display:table-cell;float:left; min-height:800px; padding:0 0 40px 20px;width:1020px;}
+#side-left .old-intra-go{padding:20px 0 0 0;text-align:center;}
+#side-left .old-intra-go a{color:#000;font-weight:600;}
+
 
 /* 여행질답 &nbsp; 맞춤여행 */
 .page-top-content{position:relative; margin-bottom:20px;}

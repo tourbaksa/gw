@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" serverName="인트라넷">
     <serverData>
+      <paths name="여행박사-실서버">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="D:/_dev" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="인트라넷">
         <serverdata>
           <mappings>

@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>신규업무요청 | 인트라넷</title>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+	<link rel="stylesheet" type="text/css" href="/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="/css/layout.css">
 	<link rel="stylesheet" type="text/css" href="/css/content.css">
@@ -24,7 +25,7 @@
 		<aside id="side-left">
 			<div class="input-search">
 				<span class="input-text"><input type="text" value="Search"></span>
-				<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+				<button type="button" class="btn search-ty1"><span class="img-btn">검색</span></button>
 			</div>
 			<div class="side-itemWrap">
 				<img src="/images/@side.gif" alt="">
@@ -39,7 +40,7 @@
 			<div class="pageTitleBox">
 				<h2>업무요청</h2>
 				<div>
-					<button class="btn more-ty2">+ 신규업무요청</button>
+					<button type="button" class="btn more-ty2">+ 신규업무요청</button>
 					<div class="tag-search">
 						<ul class="btn-radio-list btn-radio-ty2">
 							<li>
@@ -51,7 +52,7 @@
 						</ul>
 						<div class="input-search">
 							<input type="text" value="검색" name="" id="">
-							<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+							<button type="button" class="btn search-ty1"><span class="img-btn">검색</span></button>
 						</div>
 					</div>
 				</div>
@@ -133,22 +134,22 @@
 													<!--</ul>-->
 												<!--</div>-->
 
-												<span class="category-insert"><button id="$dialog_select_category_button" class="btn btn-orange30" onclick="addDialogCategory()">추가</button></span>
+												<a href="#none" class="category-insert"><em>선택(추가)</em></a>
 											</div>
 
 											<!-- 신규업무요청찾기 -->
 											<div class="new-work-search" style="display:none;margin-top:10px;">
 												<div class="input-search">
 													<span class="input-text"><input type="text" value="검색"></span>
-													<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+													<button type="button" class="btn search-ty1"><span class="img-btn">검색</span></button>
 												</div>
 
 												<ul class="tag-check">
 													<li>
-														<input type="radio" id="ra1" name="ra" checked="checked"><label for="ra1">디자인 &gt; 서울 &gt; 디자인</label><button class="btn btn-ty3">태그 등록</button>
+														<input type="radio" id="ra1" name="ra" checked="checked"><label for="ra1">디자인 &gt; 서울 &gt; 디자인</label><button type="button" class="btn btn-ty3">태그 등록</button>
 													</li>
 													<li>
-														<input type="radio" id="ra2" name="ra"><label for="ra2">디자인 &gt; 부산 &gt; 디자인</label><button class="btn btn-ty3">태그 등록</button>
+														<input type="radio" id="ra2" name="ra"><label for="ra2">디자인 &gt; 부산 &gt; 디자인</label><button type="button" class="btn btn-ty3">태그 등록</button>
 														<ul class="s-box-ty1">
 															<li>
 																<input type="radio" id="s-ra1" name="s-ra"><label for="s-ra1">프로모션&amp;이벤트</label>
@@ -190,7 +191,7 @@
 								<tr>
 									<th>파일첨부</th>
 									<td>
-										<button class="btn apply-ty1">파일선택</button>
+										<button type="button" class="btn apply-ty1">파일선택</button>
 										<div class="drag-file-upload">
 											<span class="upload-guide">
 												<svg class="box__icon" xmlns="http://www.w3.org/2000/svg" width="50" height="43" viewBox="0 0 50 43"><path d="M48.4 26.5c-.9 0-1.7.7-1.7 1.7v11.6h-43.3v-11.6c0-.9-.7-1.7-1.7-1.7s-1.7.7-1.7 1.7v13.2c0 .9.7 1.7 1.7 1.7h46.7c.9 0 1.7-.7 1.7-1.7v-13.2c0-1-.7-1.7-1.7-1.7zm-24.5 6.1c.3.3.8.5 1.2.5.4 0 .9-.2 1.2-.5l10-11.6c.7-.7.7-1.7 0-2.4s-1.7-.7-2.4 0l-7.1 8.3v-25.3c0-.9-.7-1.7-1.7-1.7s-1.7.7-1.7 1.7v25.3l-7.1-8.3c-.7-.7-1.7-.7-2.4 0s-.7 1.7 0 2.4l10 11.6z"></path></svg>
@@ -209,12 +210,12 @@
 											ex> <div class="tag-list btn-type">
 										-->
 										<div class="tag-list">
-											<span><button class="btn">설 디자인</button><button class="Del">[X]</button></span>
-											<span><button class="btn">설 디자인</button><button class="Del">[X]</button></span>
-											<span><button class="btn">설 디자인</button><button class="Del">[X]</button></span>
-											<span><button class="btn">설 디자인</button><button class="Del">[X]</button></span>
-											<span><button class="btn">설 디자인</button><button class="Del">[X]</button></span>
-											<span><button class="btn">설 디자인</button><button class="Del">[X]</button></span>
+											<span><button type="button" class="btn">설 디자인</button><button type="button" class="Del">[X]</button></span>
+											<span><button type="button" class="btn">설 디자인</button><button type="button" class="Del">[X]</button></span>
+											<span><button type="button" class="btn">설 디자인</button><button type="button" class="Del">[X]</button></span>
+											<span><button type="button" class="btn">설 디자인</button><button type="button" class="Del">[X]</button></span>
+											<span><button type="button" class="btn">설 디자인</button><button type="button" class="Del">[X]</button></span>
+											<span><button type="button" class="btn">설 디자인</button><button type="button" class="Del">[X]</button></span>
 										</div>
 									</td>
 								</tr>
@@ -223,8 +224,8 @@
 
 					</div>
 					<div class="btn-sort-ty2">
-						<button class="btn apply-ty2">업무요청</button>
-						<button class="btn cansel-ty1">취소</button>
+						<button type="button" class="btn apply-ty2">업무요청</button>
+						<button type="button" class="btn cansel-ty1">취소</button>
 					</div>
 					<a href="#none" class="close"><img src="/images/btn_pop_close1.gif" alt="닫기"></a>
 				</div>
@@ -234,8 +235,8 @@
 				<div class="confirm-layer">
 					<p>해당업무를 요청하시겠습니까?</p>
 					<div class="btn-sort-ty2">
-						<button class="btn apply-ty2">확인</button>
-						<button class="btn cansel-ty1">취소</button>
+						<button type="button" class="btn apply-ty2">확인</button>
+						<button type="button" class="btn cansel-ty1">취소</button>
 					</div>
 					<a href="#none" class="close"><img src="/images/btn_pop_close.gif" alt="닫기"></a>
 				</div>
@@ -249,8 +250,8 @@
 				<div class="layer-conetnt">
 					<div class="layer-new-work">
 						<div class="btn-sort-ty2">
-							<button class="btn apply-ty2">업무요청</button>
-							<button class="btn cansel-ty1">취소</button>
+							<button type="button" class="btn apply-ty2">업무요청</button>
+							<button type="button" class="btn cansel-ty1">취소</button>
 						</div>
 						<a href="#none" class="close"><img src="/images/btn_pop_close1.gif" alt="닫기"></a>
 					</div>

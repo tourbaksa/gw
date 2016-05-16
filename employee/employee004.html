@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>사용이력보기 | 인트라넷</title>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+	<link rel="stylesheet" type="text/css" href="/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="/css/layout.css">
 	<link rel="stylesheet" type="text/css" href="/css/content.css">
@@ -26,7 +27,7 @@
 		<aside id="side-left">
 			<div class="input-search">
 				<span class="input-text"><input type="text" value="Search"></span>
-				<button class="btn search-ty1"><span class="img-btn">검색</span></button>
+				<button type="button" class="btn search-ty1"><span class="img-btn">검색</span></button>
 			</div>
 			<div class="side-itemWrap">
 				<img src="/images/@side.gif" alt="">
@@ -70,14 +71,177 @@
 				<form id="" method="post" action="/">
 					<fieldset>
 						<legend>직원 사용이력입력</legend>
+
+						<!-- 연차 -->
 						<div class="form-date">
+							<strong>[연차입력]</strong>
 							<span class="calendar-wrap">
-								<a href="#none" class="calendar"><span>달력</span></a><input
-									type="text" class="cal-int" style="width:100px"> ~
-								<a href="#none" class="calendar"><span>달력</span></a><input type="text" class="cal-int"
-																						   style="width:100px">
+								<a href="#none" class="calendar"><span>달력</span></a><input type="text" class="cal-int" style="width:100px"> ~
+								<a href="#none" class="calendar"><span>달력</span></a><input type="text" class="cal-int" style="width:100px">
+							</span>&nbsp;&nbsp;(잔여일 : 0 )
+							<input type="text">
+							<a href="#none" class="color-orange">[입력]</a>
+							<a href="#none" class="color-blue-green">[닫기]</a>
+						</div>
+
+						<!-- 반차 -->
+						<div class="form-date">
+							<strong>[반차입력]</strong>
+							<span class="radio-form">
+								<input type="radio" id="b1"><label for="b1">오전</label>
+								<input type="radio" id="b2"><label for="b2">오후</label>
+							</span>&nbsp;&nbsp;(잔여일 : 0 )
+							<input type="text">
+							<a href="#none" class="color-orange">[입력]</a>
+							<a href="#none" class="color-blue-green">[닫기]</a>
+						</div>
+
+						<!-- 시간연차 -->
+						<div class="form-date">
+							<strong>[시간 연차 입력]</strong>
+							<label for="s1">시작시간</label>
+							<select id="s1" title="시">
+								<option>선택</option>
+								<option>7</option>
+							</select>
+							&nbsp;:&nbsp;
+							<select title="분">
+								<option value="">선택</option>
+								<option>00</option>
+								<option>30</option>
+							</select>
+							<label for="s3">부터</label>
+							<select id="s3" title="사용시간">
+								<option value="">선택</option>
+								<option>00</option>
+								<option>30</option>
+							</select>
+							&nbsp;&nbsp;시간사용 - 잔여시간 : 0일 / 74시간
+							<a href="#none" class="color-orange">[입력]</a>
+							<a href="#none" class="color-blue-green">[닫기]</a>
+						</div>
+						<!-- 교육 -->
+						<div class="form-date">
+							<strong>[교육입력]</strong>
+							<input name="sdate" id="sdate" type="hidden" value="2016-03-22">
+							장소: <input name="area" title="교육장소" type="text" size="15">
+							<span class="radio-form">
+								<input type="radio" name="etc" id="b3"><label for="b3">외부업체교육</label>
+								<input type="radio" name="etc" id="b4"><label for="b4">예비군(민방위)교육</label>
 							</span>
-							(잔여일 : 0 )
+
+							시간:
+							<select name="ho1" title="시작 시간(시)">
+								<option value="">선택시간시간시간</option>
+								<option value="18">18</option>
+							</select> :
+							<select name="mi1" title="시작 시간(분)">
+								<option value="">선택</option>
+								<option value="00">00</option>
+								<option value="30">30</option>
+							</select> ~
+							<select name="ho2" title="끝나는 시간(시)">
+								<option value="">선택</option>
+								<option value="20">20</option>
+							</select> :
+							<select name="mi2" title="끝나는 시간(분)">
+								<option value="">선택</option>
+								<option value="00">00</option>
+								<option value="30">30</option>
+							</select>&nbsp;&nbsp;
+							<input type="text">
+							<a href="#none" class="color-orange">[입력]</a>
+							<a href="#none" class="color-blue-green">[닫기]</a>
+						</div>
+						<!-- 출장 -->
+						<div class="form-date">
+							<strong>[출장 입력]</strong>
+							<span class="calendar-wrap">
+								<a href="#none" class="calendar"><span>달력</span></a><input type="text" class="cal-int" style="width:100px"> ~
+								<a href="#none" class="calendar"><span>달력</span></a><input type="text" class="cal-int" style="width:100px">
+							</span>
+							<span class="radio-form">
+								<input type="radio" name="etc" id="b5"><label for="b5">T/C</label>
+								<input type="radio" name="etc" id="b6"><label for="b6">국내출장</label>
+								<input type="radio" name="etc" id="b7"><label for="b7">답사</label>
+								<input type="radio" name="etc" id="b8"><label for="b8">팸투어</label>
+							</span>
+							<input type="text">
+							<a href="#none" class="color-orange">[입력]</a>
+							<a href="#none" class="color-blue-green">[닫기]</a>
+						</div>
+						<!-- 교육 -->
+						<div class="form-date">
+							<strong>[외근 내용 입력]</strong>
+							<input name="sdate" id="sdate" type="hidden" value="2016-03-22">
+							장소: <input name="area" title="교육장소" type="text" size="15">
+
+							기간(시간):
+							<select name="ho1" title="시작 시간(시)">
+								<option value="">선택</option>
+								<option value="18">18</option>
+							</select> :
+							<select name="mi1" title="시작 시간(분)">
+								<option value="">선택</option>
+								<option value="00">00</option>
+								<option value="30">30</option>
+							</select> ~
+							<select name="ho2" title="끝나는 시간(시)">
+								<option value="">선택</option>
+								<option value="20">20</option>
+							</select> :
+							<select name="mi2" title="끝나는 시간(분)">
+								<option value="">선택</option>
+								<option value="00">00</option>
+								<option value="30">30</option>
+							</select>&nbsp;&nbsp;
+							<input type="text">
+							<a href="#none" class="color-orange">[입력]</a>
+							<a href="#none" class="color-blue-green">[닫기]</a>
+						</div>
+
+						<!-- 당대휴무 -->
+						<div class="form-date">
+							<strong>[당직 대체 휴무 입력]</strong>
+
+							당직 근무일자 선택
+							<select>
+								<option value="">당직 근무 없음</option>
+								<option value="18">18</option>
+							</select>
+							<a href="#none" class="color-blue-green">[닫기]</a>
+						</div>
+
+						<!-- 휴가 -->
+						<div class="form-date">
+							<strong>[기타휴가]</strong>
+							<span class="calendar-wrap">
+								<a href="#none" class="calendar"><span>달력</span></a><input type="text" class="cal-int" style="width:100px"> ~
+								<a href="#none" class="calendar"><span>달력</span></a><input type="text" class="cal-int" style="width:100px">
+							</span>
+							<span class="radio-form">
+								<input type="radio" name="etc" id="b9"><label for="b9">경조휴가</label>
+								<input type="radio" name="etc" id="b10"><label for="b10">무급휴가</label>
+								<input type="radio" name="etc" id="b11"><label for="b11">포상휴가</label>
+								<input type="radio" name="etc" id="b12"><label for="b12">대체휴가</label>
+								<input type="radio" name="etc" id="b13"><label for="b13">출산전후휴가</label>
+							</span>
+							<input type="text">
+							<a href="#none" class="color-orange">[입력]</a>
+							<a href="#none" class="color-blue-green">[닫기]</a>
+						</div>
+
+						<!-- 휴직 -->
+						<div class="form-date">
+							<strong>[휴직 입력]</strong>
+							<span class="calendar-wrap">
+								<a href="#none" class="calendar"><span>달력</span></a><input type="text" class="cal-int" style="width:100px"> ~
+								<a href="#none" class="calendar"><span>달력</span></a><input type="text" class="cal-int" style="width:100px">
+							</span>
+							<span class="radio-form">
+								<input type="radio" name="etc" id="b14"><label for="b14">무급휴직</label>
+								<input type="radio" name="etc" id="b15"><label for="b15">육아휴직</label>
+							</span>
 							<input type="text">
 							<a href="#none" class="color-orange">[입력]</a>
 							<a href="#none" class="color-blue-green">[닫기]</a>
@@ -112,7 +276,7 @@
 							<td>2015/12/24 14:11:11</td>
 							<td>부산출장</td>
 							<td>
-								<button class="btn btn-s-ty1">삭제</button>
+								<button type="button" class="btn btn-s-ty1">삭제</button>
 							</td>
 						</tr>
 						<tr>
@@ -121,7 +285,7 @@
 							<td>2015/12/24 14:11:11</td>
 							<td>부산출장</td>
 							<td>
-								<button class="btn btn-s-ty1">삭제</button>
+								<button type="button" class="btn btn-s-ty1">삭제</button>
 							</td>
 						</tr>
 						<tr>
@@ -130,7 +294,7 @@
 							<td>2015/12/24 14:11:11</td>
 							<td>부산출장</td>
 							<td>
-								<button class="btn btn-s-ty1">삭제</button>
+								<button type="button" class="btn btn-s-ty1">삭제</button>
 							</td>
 						</tr>
 						<tr>
@@ -139,7 +303,7 @@
 							<td>2015/12/24 14:11:11</td>
 							<td>부산출장</td>
 							<td>
-								<button class="btn btn-s-ty1">삭제</button>
+								<button type="button" class="btn btn-s-ty1">삭제</button>
 							</td>
 						</tr>
 						<tr>
@@ -148,7 +312,7 @@
 							<td>2015/12/24 14:11:11</td>
 							<td>부산출장</td>
 							<td>
-								<button class="btn btn-s-ty1">삭제</button>
+								<button type="button" class="btn btn-s-ty1">삭제</button>
 							</td>
 						</tr>
 						<tr>
@@ -157,7 +321,7 @@
 							<td>2015/12/24 14:11:11</td>
 							<td>부산출장</td>
 							<td>
-								<button class="btn btn-s-ty1">삭제</button>
+								<button type="button" class="btn btn-s-ty1">삭제</button>
 							</td>
 						</tr>
 						<tr>

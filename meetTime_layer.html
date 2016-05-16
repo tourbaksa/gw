@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>레이어팝업</title>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+	<link rel="stylesheet" type="text/css" href="/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="/css/content.css">
+</head>
+<body>
+
+<!-- wrap -->
+<div id="wrap">
+	<!-- header -->
+	<header id="header">
+		<div class="nav_container">
+			<img src="/images/@header.gif" alt="">
+		</div>
+	</header>
+	<!-- //header -->
+	<section id="container">
+		<aside id="side-left">
+			<div class="input-search">
+				<span class="input-text"><input type="text" value="Search"></span>
+				<button type="button" class="btn search-ty1"><span class="img-btn">검색</span></button>
+			</div>
+			<div class="side-itemWrap">
+				<img src="/images/@side.gif" alt="">
+			</div>
+		</aside>
+		<article id="content">
+			<div class="page-top-content">
+				<div class="page-Location">오피스 &gt; 질문과 답변</div>
+				<h2 class="btn-QnaView"><a href="#none">여행질답 & 맞춤여행</a></h2>
+			</div>
+			<div class="layer-popup" style="width:950px;">
+				<div class="layer-header">
+					<h2>회의실예약</h2>
+				</div>
+				<div class="layer-content">
+					<div class="layout__ty2 meetTime__wrap">
+						<ul class="meet__Leftmenu">
+							<li><a href="#none" class="selected">8층 회의실</a></li>
+							<li><a href="#none">7층 회의실</a></li>
+							<li><a href="#none">6층 1회의실</a></li>
+							<li><a href="#none">6층 2회의실</a></li>
+						</ul>
+						<div class="dateHeader">
+							<div>
+								<a href="#none" class="prev"><span>이전</span></a>
+								<span class="date">2015.06.08 ~ 2015.06.14</span>
+								<a href="#none" class="next"><span>다음</span></a>
+							</div>
+						</div>
+						<div class="meetTime__header">
+							<table width="100%">
+								<thead>
+								<tr>
+									<th>TIME</th>
+									<th><span class="date">2015.06.08</span>Mon</th>
+									<th><span class="date">2015.06.09</span>Tue</th>
+									<th><span class="date">2015.06.10</span>Wed</th>
+									<th><span class="date">2015.06.11</span>Thu</th>
+									<th><span class="date">2015.06.12</span>Fri</th>
+									<th class="sat"><span class="date">2015.06.13</span>Sat</th>
+									<th class="sun"><span class="date">2015.06.14</span>Sun</th>
+								</tr>
+								</thead>
+							</table>
+						</div>
+						<div class="meetTime__body">
+							<table width="100%">
+								<tbody>
+								<!--
+								 	am셀은 제목셀포함 디폴트 8줄
+									pm셀은 디폴트 7줄
+								-->
+
+
+									<tr class="am">
+										<th rowspan="2">08:00</th>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="pm">
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="am">
+										<th rowspan="2">09:00</th>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="pm">
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="am">
+										<th rowspan="2">10:00</th>
+										<td></td>
+										<td class="on" rowspan="2"><a href="#none">마케팅본부</a></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="pm">
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="am">
+										<th rowspan="2">11:00</th>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="pm">
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="am">
+										<th rowspan="2">12:00</th>
+										<td class="on" rowspan="3"><a href="#none">IT기획팀</a></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="pm">
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="am">
+										<th rowspan="2">14:00</th>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="pm">
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="am">
+										<th rowspan="2">15:00</th>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="pm">
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="am">
+										<th rowspan="2">16:00</th>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="pm">
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="am">
+										<th rowspan="2">17:00</th>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="pm">
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="am">
+										<th rowspan="2">18:00</th>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="pm">
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="am">
+										<th rowspan="2">19:00</th>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr class="pm">
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="today"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="meetLayer" style="width:115px;left:164px;top:230px;">
+								<div class="meetLayer__inner">
+									<div class="reserve">
+										<span class="reserve_Time">10:00~11:30</span>
+										<div class="subscription">
+											<span>IT기획팀</span>
+											<strong>김학성(2472)</strong>
+										</div>
+									</div>
+									<button type="button" class="btn meet__cencel">취소</button>
+								</div>
+							</div>
+
+							<div class="grid_Layer" style="width:95px;left:300px;top:230px;">
+								<div class="grid_Layer__inner">
+									<a href="#none">IT기획팀</a>
+								</div>
+							</div>
+
+
+							<div class="meetLayer" style="width:155px;left:500px;top:230px;">
+								<div class="meetLayer__inner">
+									<div class="reserve_write">
+										<strong class="today-info"> 2015.06.11 (Thu)</strong>
+										 <div class="reserve_Time_setting">
+											 <span>
+												 <strong>시작시간 : 10:00</strong>
+												 <button type="button" class="btn">+</button>
+												 <button type="button" class="btn">-</button>
+											 </span>
+											 <span>
+												 <strong>종료시간 : 10:00</strong>
+												 <button type="button" class="btn">+</button>
+												 <button type="button" class="btn">-</button>
+											 </span>
+										 </div>
+										<div class="subscription">
+											<span>IT기획팀</span>
+											<strong>김학성(2472)</strong>
+										</div>
+									</div>
+
+									<div class="btn-sort-ty2 tar">
+										<button type="button" class="btn apply-ty2">등록</button>
+										<button type="button" class="btn cansel-ty2">취소</button>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+
+	<!-- footer -->
+	<footer id="footer">
+		<div class="footer-container">
+			<img src="/images/@footer.gif" alt="">
+		</div>
+	</footer>
+	<!-- //footer -->
+</div>
+<!-- //wrap -->
+
+<!-- old IE -->
+<!--[if lt IE 9]>
+<script src="/js/lib/html5shiv.js"></script>
+<![endif]-->
+<!--// old IE -->
+<script src="/js/lib/jquery-1.10.2.min.js"></script>
+<script src="/js/ui.js"></script>
+</body>
+</html>

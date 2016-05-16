@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>인트라넷</title>
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+	<link rel="stylesheet" type="text/css" href="/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="/css/content.css">
+</head>
+<body>
+
+<!-- wrap -->
+<div id="wrap">
+	<!-- header -->
+	<header id="header">
+		<div class="nav_container">
+			<img src="/images/@header.gif" alt="">
+		</div>
+	</header>
+	<!-- //header -->
+
+	<section id="container">
+
+		<aside id="side-left">
+			<div class="input-search">
+				<span class="input-text"><input type="text" value="Search"></span>
+				<button type="button" class="btn search-ty1"><span class="img-btn">검색</span></button>
+			</div>
+			<div class="side-itemWrap">
+				<img src="/images/@side.gif" alt="">
+			</div>
+		</aside>
+		<article id="content">
+
+			<div class="layer-popup" style="width:500px; z-index:9999;">
+				<div class="layer-header">
+					<h2>만나이계산기</h2>
+				</div>
+				<div class="layer-content">
+					<div class="layout__ty1">
+						<div class="big-search-box type__2">
+							<table class="tbl-list-ty5 list-ty1" width="100%">
+								<colgroup>
+									<col width="20%">
+									<col width="*">
+								</colgroup>
+								<tbody>
+									<tr>
+										<th>계산기준일</th>
+										<td></td>
+									</tr>
+									<tr>
+										<th>본인생일</th>
+										<td></td>
+									</tr>
+									<tr>
+										<th>결과</th>
+										<td></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="btn-sort-ty2">k
+							<button type="button" type="button" class="btn apply-ty1 fr">계산</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+			<!-- 팝업시작 -->
+			<div id="$dialog_box_3baljcw42" class="$dialog_box layer-popup ui-draggable" style="width: 800px; top: 200px; left: 400.5px;">
+				<div class="layer-header ui-draggable-handle">
+					<h2 class="$dialog_box_title">엠클릭등록</h2>
+				</div>
+				<a href="javascript:void(0)" class="close"><img src="/images/btn_pop_close1.gif" alt="닫기"></a>
+				<div class="$dialog_box_content layer-content" style="height: 800px;">
+					<!-- 실제컨텐츠영역 S-->
+					<div class="layout__ty1">
+						<div class="pageTitleBox">
+							<h2>상품코드등록 </h2>
+							<div class="title-search">
+							</div>
+						</div>
+						<div class="listwrap">
+							<div class="big-search-box type__2">
+								<form name="frm" id="frm">
+									<table class="tbl-list-ty5 list-ty1" width="100%">
+										<colgroup>
+											<col width="10%">
+											<col width="*">
+											<col width="10%">
+											<col width="*">
+											<col width="10%">
+											<col width="15%">
+										</colgroup>
+										<tbody>
+
+										<tr>
+											<th>행사코드</th>
+											<td><input type="text" id="ProductCode" name="ProductCode" class="$page_param cal-int" style="width:100px" value="EEKEZZ"></td>
+											<th>기간</th>
+											<td><a href="javascript:void(0)" class="calendar"><span>달력</span></a><input type="text" id="depDate" name="depDate" class="$page_param cal-int" style="width:80px" value="2016-02-04" data-group="rehyxcyf2">~
+												<a href="javascript:void(0)" class="calendar"><span>달력</span></a><input type="text" id="arrDate" name="arrDate" class="$page_param cal-int" style="width:80px" value="2016-03-04" data-group="rehyxcyf2"></td>
+											<th>담당자</th>
+											<td><input type="text" id="EmplyName" name="EmplyName" class="$page_param cal-int" style="width:100px" value=""></td>
+										</tr>
+										<tr>
+											<th>지역</th>
+											<td>
+												<select id="Region" name="Region" class="$page_param select" style="width:120px;">
+													<option value="">===상태===</option>                                <option value="AE">아시아-기타지역</option>
+													<option value="AI">아시아-인도네시아</option>
+													<option value="AK">아시아-푸켓/사무이</option>
+													<option value="AM">아시아-말레이시아</option>
+													<option value="AN">아시아-인도</option>
+													<option value="AP">아시아-필리핀</option>
+													<option value="AS">아시아-싱가포르</option>
+													<option value="AT">아시아-태국</option>
+													<option value="AV">아시아-베트남</option>
+													<option value="CA">중국-황산</option>
+													<option value="CB">중국-백두산</option>
+													<option value="CD">아시아-대만</option>
+													<option value="CE">중국-서안</option>
+													<option value="CF">중국-청도</option>
+													<option value="CG">중국-대련</option>
+													<option value="CH">중국-홍콩</option>
+													<option value="CI">중국-몽골</option>
+													<option value="CJ">중국-일본</option>
+													<option value="CK">중국-성도/구채구</option>
+													<option value="CL">중국-실크로드/티벳</option>
+													<option value="CM">중국-마카오</option>
+													<option value="CN">중국-하이난</option>
+													<option value="CO">중국-곤명</option>
+													<option value="CP">중국-북경</option>
+													<option value="CQ">중국-정주/태항산</option>
+													<option value="CR">중국-광저우</option>
+													<option value="CS">중국-상하이</option>
+													<option value="CT">중국-푸저우</option>
+													<option value="CU">중국-무한</option>
+													<option value="CV">중국-계림</option>
+													<option value="CW">중국-하문</option>
+													<option value="CY">중국-기타</option>
+													<option value="CZ">중국-장가계</option>
+													<option value="EE">기타</option>
+													<option value="IC">미주-캐나다</option>
+													<option value="IE">미주-미동부</option>
+													<option value="IH">미주-하와이</option>
+													<option value="IM">미주-중남미</option>
+													<option value="IW">미주-미서부</option>
+													<option value="IX">미주-멕시코</option>
+													<option value="JA">일본-전국</option>
+													<option value="JB">일본-홋카이도</option>
+													<option value="JD">일본-도호쿠</option>
+													<option value="JH">일본-호쿠리쿠</option>
+													<option value="JJ">일본-츄부</option>
+													<option value="JK">일본-큐슈</option>
+													<option value="JM">일본-대마도</option>
+													<option value="JN">일본-추고쿠</option>
+													<option value="JO">일본-오사카/긴키</option>
+													<option value="JS">일본-시코쿠</option>
+													<option value="JT">일본-도쿄/간토</option>
+													<option value="JW">일본-오키나와</option>
+													<option value="PE">대양주-팔라우</option>
+													<option value="PG">대양주-괌</option>
+													<option value="PN">대양주-뉴질랜드</option>
+													<option value="PP">대양주-호주</option>
+													<option value="PS">대양주-사이판</option>
+													<option value="PZ">대양주-피지</option>
+													<option value="UA">유럽-아테네/산토리니</option>
+													<option value="UB">유럽-스페인</option>
+													<option value="UE">유럽-동유럽</option>
+													<option value="UF">유럽-체코</option>
+													<option value="UG">유럽-독일</option>
+													<option value="UI">유럽-이집트</option>
+													<option value="UJ">유럽-아프리카</option>
+													<option value="UL">유럽-영국</option>
+													<option value="UM">유럽-지중해</option>
+													<option value="UN">유럽-북유럽</option>
+													<option value="UP">유럽-프랑스</option>
+													<option value="UR">유럽-이탈리아</option>
+													<option value="US">유럽-스위스</option>
+													<option value="UT">유럽-터키</option>
+													<option value="UU">유럽-기타</option>
+													<option value="UV">유럽-오스트리아</option>
+													<option value="UW">유럽-서유럽</option>
+													<option value="XX">한국</option>
+													<option value="UX">유럽-중동</option>
+													<option value="JZ">일본-시즈오카</option>
+													<option value="CX">중국-중경</option>
+													<option value="C0">중국-남창</option>
+													<option value="JC">일본-혼슈</option>
+													<option value="AC">아시아-캄보디아</option>
+													<option value="JI">일본-남큐슈</option>
+													<option value="UC">유럽-발칸</option>
+													<option value="IY">미주-기타</option>
+													<option value="PC">대양주-뉴칼레도니아</option>
+													<option value="XW">국내-걷기여행</option>
+													<option value="XJ">국내-제주도</option>
+													<option value="XH">국내-기차</option>
+													<option value="XE">국내-버스</option>
+													<option value="AW">아시아-한중일</option>
+													<option value="IR">미주-알래스카</option>
+													<option value="IK">미주-카리브해</option>
+													<option value="XS">국내-섬여행</option>
+													<option value="PM">대양주-몰디브</option>
+													<option value="SA">전문몰-통합</option>
+													<option value="SS">인도양-세이셸</option>
+													<option value="AL">아시아-라오스/미얀마</option>
+													<option value="AF">아시아-인도차이나</option>
+													<option value="AH">아시아-한중</option>
+													<option value="AJ">아시아-한일</option>
+													<option value="IN">미주-남미</option>
+													<option value="AO">아시아-동남아</option>
+													<option value="SM">인도양-몰디브</option>
+													<option value="ST">인도양-모리셔스</option>
+													<option value="XT">국내-기타</option>
+													<option value="XD">국내-대마도</option>
+													<option value="PT">대양주-티니안</option>
+													<option value="PH">대양주-호주/뉴질랜드</option>
+												</select>
+											</td>
+											<th>구분</th>
+											<td>
+												<select id="PkgType" name="PkgType" class="$page_param select" style="width:120px;">
+													<option value="">===상태===</option>                                <option value="0">당일여행</option>
+													<option value="1">항공정산용</option>
+													<option value="3">체험학습</option>
+													<option value="5">인바운드</option>
+													<option value="6">실시간항공</option>
+													<option value="9">쌤쌤이</option>
+													<option value="A">개별항공</option>
+													<option value="B">배낭/자유여행</option>
+													<option value="C">스키/레저</option>
+													<option value="D">단체항공</option>
+													<option value="E">기타</option>
+													<option value="F">FIT</option>
+													<option value="G">골프</option>
+													<option value="H">허니문</option>
+													<option value="I">온니세븐데이즈</option>
+													<option value="J">단체선박</option>
+													<option value="K">패스/티켓</option>
+													<option value="L">랜드</option>
+													<option value="M">세미패키지</option>
+													<option value="N">키즈투어</option>
+													<option value="P">패키지</option>
+													<option value="Q">호텔</option>
+													<option value="R">렌터카</option>
+													<option value="S">에어텔</option>
+													<option value="T">단체(비지니스)</option>
+													<option value="U">버스투어</option>
+													<option value="V">여권/비자</option>
+													<option value="W">크루즈</option>
+													<option value="X">클럽메드</option>
+													<option value="Y">프리미엄</option>
+													<option value="Z">인센티브</option>
+													<option value="7">졸업/수학</option>
+												</select>
+											</td>
+											<th>교통</th>
+											<td>
+												<select id="D60" name="D60" class="$page_param select" style="width:120px;">
+													<option value="">===상태===</option>                                <option value="10">전용버스</option>
+													<option value="20">현지교통</option>
+													<option value="30">전용벤</option>
+													<option value="40">송영차량</option>
+													<option value="50">렌트카</option>
+													<option value="60">기차</option>
+												</select>
+											</td>
+										</tr>
+										</tbody>
+									</table>
+								</form>
+							</div>
+							<div class="btn-sort-ty2">
+								<button type="button" type="button" class="btn apply-ty1 fr" onclick="gridList()">검색</button>
+							</div>
+							<div id="commonMemoBoxListDiv" class="tbl-list-ty2">
+
+								<div class="tbl-list-ty2 hover">
+									<form>
+										<table width="100%">
+											<caption>엠클릭 행사리스트</caption>
+											<colgroup>
+												<col width="15%">
+												<col width="*">
+												<col width="15%">
+												<col width="15%">
+												<col width="15%">
+											</colgroup>
+											<thead>
+											<tr>
+												<th> 행사코드</th>
+												<th> 행사명</th>
+												<th> 출발일</th>
+												<th> 요금</th>
+												<th> 선택</th>
+											</tr>
+											</thead>
+											<tbody>
+											<tr>
+												<td>EEKEZZ-6284</td>
+												<td><span class="ellipsis" style="max-width:300px">익스5:반드시 홈피예약후 메신</span></td>
+												<td>20160304</td>
+												<td>0</td>
+												<td><input type="radio" name="sel" style="position:unset" onclick="sendit('EEKEZZ','6284','8','ZZ')">
+
+												</td>
+											</tr>
+											<tr>
+												<td>EEKEZZ-6613</td>
+												<td><span class="ellipsis" style="max-width:300px">이벤트용</span></td>
+												<td>20160304</td>
+												<td>0</td>
+												<td><input type="radio" class="is__only" name="sel" style="position:unset" onclick="sendit('EEKEZZ','6613','3','ZZ')">
+
+												</td>
+											</tr>
+											<tr>
+												<td>EEKEZZ-6808</td>
+												<td><span class="ellipsis" style="max-width:300px">** 서울지점 패스/티켓 (택배) **</span></td>
+												<td>20160304</td>
+												<td>0</td>
+												<td><input type="radio" name="sel" style="position:unset" onclick="sendit('EEKEZZ','6808','1','ZZ')">
+
+												</td>
+											</tr>
+											<tr>
+												<td>EEKEZZ-7169</td>
+												<td><span class="ellipsis" style="max-width:300px">** 서울지점 패스/티켓 (센딩) **</span></td>
+												<td>20160304</td>
+												<td>0</td>
+												<td><input type="radio" name="sel" style="position:unset" onclick="sendit('EEKEZZ','7169','4','ZZ')">
+
+												</td>
+											</tr>
+											<tr>
+												<td>EEKEZZ-7530</td>
+												<td><span class="ellipsis" style="max-width:300px">** 서울지점 패스/티켓 (방문) **</span></td>
+												<td>20160304</td>
+												<td>0</td>
+												<td><input type="radio" name="sel" style="position:unset" onclick="sendit('EEKEZZ','7530','5','ZZ')">
+
+												</td>
+											</tr>
+											<tr>
+												<td>EEKEZZ-7529</td>
+												<td><span class="ellipsis" style="max-width:300px">** 서울지점 패스/티켓 (방문) **</span></td>
+												<td>20160303</td>
+												<td>0</td>
+												<td><input type="radio" name="sel" style="position:unset" onclick="sendit('EEKEZZ','7529','5','ZZ')">
+
+												</td>
+											</tr>
+											<tr>
+												<td>EEKEZZ-7168</td>
+												<td><span class="ellipsis" style="max-width:300px">** 서울지점 패스/티켓 (센딩) **</span></td>
+												<td>20160303</td>
+												<td>0</td>
+												<td><input type="radio" name="sel" style="position:unset" onclick="sendit('EEKEZZ','7168','4','ZZ')">
+
+												</td>
+											</tr>
+											<tr>
+												<td>EEKEZZ-6807</td>
+												<td><span class="ellipsis" style="max-width:300px">** 서울지점 패스/티켓 (택배) **</span></td>
+												<td>20160303</td>
+												<td>0</td>
+												<td><input type="radio" name="sel" style="position:unset" onclick="sendit('EEKEZZ','6807','1','ZZ')">
+
+												</td>
+											</tr>
+											<tr>
+												<td>EEKEZZ-6612</td>
+												<td><span class="ellipsis" style="max-width:300px">이벤트용</span></td>
+												<td>20160303</td>
+												<td>0</td>
+												<td><input type="radio" name="sel" style="position:unset" onclick="sendit('EEKEZZ','6612','3','ZZ')">
+
+												</td>
+											</tr>
+											<tr>
+												<td>EEKEZZ-6283</td>
+												<td><span class="ellipsis" style="max-width:300px">익스5:반드시 홈피예약후 메신</span></td>
+												<td>20160303</td>
+												<td>0</td>
+												<td><input type="radio" name="sel" style="position:unset" onclick="sendit('EEKEZZ','6283','8','ZZ')">
+
+												</td>
+											</tr>
+											</tbody>
+										</table>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 실제컨텐츠영역 E -->
+				</div>
+			</div>
+			<!-- 팝업끝 -->
+		</article>
+	</section>
+
+	<!-- footer -->
+	<footer id="footer">
+		<div class="footer-container">
+			<img src="/images/@footer.gif" alt="">
+		</div>
+	</footer>
+	<!-- //footer -->
+</div>
+<!-- //wrap -->
+
+<!-- old IE -->
+<!--[if lt IE 9]>
+<script src="/js/lib/html5shiv.js"></script>
+<![endif]-->
+<!--// old IE -->
+<script src="/js/lib/jquery-1.10.2.min.js"></script>
+<script src="/js/ui.js"></script>
+</body>
+</html>

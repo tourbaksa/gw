@@ -993,6 +993,7 @@ progress[aria-valuenow]:before  {
 .dateContent .leave-option-wrap .reason .start li{font-weight:600;}
 .dateContent .leave-option-wrap .reason .start li + li{margin-top:5px;}
 .dateContent .leave-option-wrap .reason .start li .calendar{margin-left:5px;}
+.dateContent .leave-option-wrap .reason .start li .startDate.cal-int{margin-right:0px;}
 .dateContent .leave-option-wrap > div > h3,
 .dateContent .leave-option-wrap .reason h3{margin-bottom:10px;}
 .dateContent .leave-option-wrap .btn-radio-list label{color:#fff; font-weight:400;}

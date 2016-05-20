@@ -5,8 +5,8 @@
       <webServer id="ebce2abf-ab5b-4e63-917b-868f0a128b60" name="인트라넷" url="http://localhost">
         <fileTransfer mountedRoot="C:\inetpub\wwwroot" accessType="MOUNT" />
       </webServer>
-      <webServer id="351e28d7-36aa-4a42-9484-3fb2fc2e46e6" name="여행박사-실서버" url="ftp.tourbaksa.com">
-        <fileTransfer host="ftp.tourbaksa.com" port="2121" password="dfdddfdddfdddf99df8edf99df98df9b" username="www3">
+      <webServer id="351e28d7-36aa-4a42-9484-3fb2fc2e46e6" name="여행박사-실서버" url="http://112.175.92.181">
+        <fileTransfer host="112.175.92.181" port="2121" password="dfdddfdddfdddf99df8edf99df98df9b" username="www3">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
